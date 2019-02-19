@@ -1,0 +1,12 @@
+[submodule "Contracts"]
+	path = packages/contracts
+	url = https://github.com/GoodDollar/GoodContracts.git
+	branch = master
+[submodule "Server"]
+	path = packages/server
+	url = https://github.com/GoodDollar/GoodServer.git
+	branch = master
+[submodule "DApp"]
+	path = packages/dapp
+	url = https://github.com/GoodDollar/GoodDAPP.git
+	branch = master
