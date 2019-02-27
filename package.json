@@ -12,6 +12,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap --no-ci --concurrency 3",
     "postinstall": "npm run bootstrap",
+    "linkcontracts": "cd packages/contracts && npm link && cd ../server && npm link @gooddollar/goodcontracts && cd ../dapp && npm link @gooddollar/goodcontracts",
     "logs:reset": "pm2 flush /good-/ || true",
     "logs:blockchain": "pm2 logs good-blockchain --lines 1000",
     "logs:dapp": "pm2 logs good-dapp --lines 1000",
@@ -21,19 +22,20 @@
     "info:dapp": "pm2 describe good-dapp",
     "info:server": "pm2 describe good-server",
     "status": "pm2 list /good-/",
-    "start": "pm2 start || true",
+    "start": "npm run linkcontracts && pm2 start || true",
     "start:all": "run-p start:blockchain start:dapp start:server",
     "start:blockchain": "lerna run start --scope @gooddollar/goodcontracts --stream",
     "start:dapp": "lerna run web --scope @gooddollar/gooddapp --stream",
     "start:server": "lerna run start --scope @gooddollar/goodserver --stream",
-    "poststart": "lerna run deploy --scope @gooddollar/goodcontracts --stream",
+    "Xpoststart": "lerna run deploy --scope @gooddollar/goodcontracts --stream",
     "stop": "pm2 stop /good-/ --silent || true",
     "stop:blockchain": "pm2 stop good-blockchain || true",
     "stop:dapp": "pm2 stop good-dapp || true",
     "stop:server": "pm2 stop good-server || true",
-    "restart": "pm2 restart /good-/ || true",
+    "restart": "npm run linkcontracts && pm2 restart /good-/ || true",
     "reset": "npm run logs:reset && pm2 delete /good-/ || true",
-    "update-submodules": "git submodule update --remote --merge"
+    "update-submodules": "git submodule update --remote --merge",
+    "master-submodules": "git submodule foreach --recursive git checkout master"
   },
   "dependencies": {
     "dotenv": "^6.2.0",
