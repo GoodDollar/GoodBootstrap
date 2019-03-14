@@ -1,6 +1,9 @@
 # GoodBootstrap
 ## Fast bootstrap dev environment
-- install truffle 5
+- install truffle 5.0.2
+- MS build tools/linux build tools (npm i -g --production windows-build-tols)
+- python 2.7.*
+- install global ganache-cli
 - clone the repo
 - `npm i`
 - `npm start` (alternatively `npm run start:all` )*
