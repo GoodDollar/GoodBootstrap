@@ -1,6 +1,6 @@
 # GoodBootstrap
 ## Fast bootstrap dev environment
-
+- install truffle 5
 - clone the repo
 - `npm i`
 - `npm start` (alternatively `npm run start:all` )*
