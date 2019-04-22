@@ -26,7 +26,7 @@
     "start:all": "run-p start:blockchain start:dapp start:server",
     "start:blockchain": "lerna run start --scope @gooddollar/goodcontracts --stream",
     "start:dapp": "lerna run web --scope @gooddollar/gooddapp --stream",
-    "start:server": "lerna run start --scope @gooddollar/goodserver --stream",
+    "start:server": "lerna run dev --scope @gooddollar/goodserver --stream",
     "Xpoststart": "lerna run deploy --scope @gooddollar/goodcontracts --stream",
     "stop": "pm2 stop /good-/ --silent || true",
     "stop:blockchain": "pm2 stop good-blockchain || true",
