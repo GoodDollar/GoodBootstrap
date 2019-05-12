@@ -7,9 +7,8 @@ module.exports = {
     script: 'npm',
     args: 'run start:blockchain',
     env: {
-      ...readEnv('packages/contracts/.env.example'),
+      ...readEnv('packages/contracts/.env.dev'),
       ...readEnv('packages/contracts/.env'),
-      ...readEnv('packages/contracts/.env.dev')
     },
     merge_logs: true,
     out_file: 'logs/blockchain.out.log',
@@ -20,9 +19,8 @@ module.exports = {
     script: 'npm',
     args: 'run start:server',
     env: {
-      ...readEnv('packages/server/.env.example'),
+      ...readEnv('packages/server/.env.dev'),
       ...readEnv('packages/server/.env'),
-      ...readEnv('packages/server/.env.dev')
     },
     merge_logs: true,
     out_file: 'logs/server.out.log',
@@ -33,9 +31,8 @@ module.exports = {
     script: 'npm',
     args: 'run start:dapp',
     env: {
-      ...readEnv('packages/dapp/.env.example'),
+      ...readEnv('packages/dapp/.env.dev'),
       ...readEnv('packages/dapp/.env'),
-      ...readEnv('packages/dapp/.env.dev')
     },
     merge_logs: true,
     out_file: 'logs/dapp.out.log',
