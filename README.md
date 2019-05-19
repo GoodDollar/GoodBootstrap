@@ -1,23 +1,27 @@
 # GoodBootstrap
+
 ## Fast bootstrap dev environment
+
 - install truffle
 - MS build tools/linux build tools (npm i -g --production windows-build-tols)
-- python 2.7.*
+- python 2.7.\*
 - install global ganache-cli (npm i -g ganache-cli)
 - clone the repo
 - `npm i`
-- `npx pm2 start 0` (alternatively `npm run start:blockchain` )*
+- start local blockchain `npx pm2 start ecosystem.config.js --only good-blockchain` (alternatively `npm run start:blockchain` )\*
 - wait for contracts to be deployed (`npx pm2 logs 0`)
-- `npm start` (alternatively `npm run start:all` )*
+- `npx pm2 start` (alternatively `npm run start:all` )\*
 
-\* If you are on windows pm2 might not be working. you can use npm run start:all as a bypass. you won't get all the goodies of pm2 but then again 
+\* If you are on windows pm2 might not be working. you can use npm run start:all as a bypass. you won't get all the goodies of pm2 but then again
 you chose windows:)
-  - copy .env.dev to .env in packages/server and packages/dapp
+
+- copy .env.dev to .env in packages/server and packages/dapp
 
 ## Using a different blockchain network
-  - contracts: add network in truffle-config.js and modify $NETWORK in .env.dev
-  - dapp: add network in src/config/config.js and modify $NETWORK_ID in .env.dev
-  - server: add network in src/server/networks.js and modify $NETWORK in .env.dev
+
+- contracts: add network in truffle-config.js and modify \$NETWORK in .env.dev
+- dapp: add network in src/config/config.js and modify \$NETWORK_ID in .env.dev
+- server: add network in src/server/networks.js and modify \$NETWORK in .env.dev
 
 <!---
 ## Decentralized network
