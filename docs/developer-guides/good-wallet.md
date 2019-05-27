@@ -1,7 +1,5 @@
 # Good Wallet
 
-
-
 ### High level description
 
 The GoodWallet module is the main module which encapsulates all required wallet actions across the application, which can be grouped to the following concerns: Token actions \(like Send / Receive / Claim GoodDollars, etc.\), Identity concerns \(is the user verified? is the user a citizen?, etc.\), Blockchain status & events concerns \(subscribe to events, unsubscribe, etc.\) and Link payments concerns \(generating a _one-time-payment_ \(OTP\) link, withdraw link, etc.\).
@@ -26,7 +24,7 @@ The addresses are generated based on the entered or generated mnemonic sent to t
 
 ### Wallet Initialization
 
-The wallet is first initialized when `/src/index.js` is loaded. Index.js loads `/src/init.js` object, which is responsible for loading the 2 main infrastructure components of the client: \(1\) [User Storage](../user-storage.md) module and \(2\) GoodWallet module, which is loaded GoodWallet from `/lib/wallet/GoodWallet.js` The class is exported as a singleton, using a singleton pattern on the export in `GoodWallet.js`:
+The wallet is first initialized when `/src/index.js` is loaded. Index.js loads `/src/init.js` object, which is responsible for loading the 2 main infrastructure components of the client: \(1\) [User Storage](https://github.com/GoodDollar/GoodBootstrap/tree/476866693c9280580dd32781bb88007a8347ed63/docs/user-storage.md) module and \(2\) GoodWallet module, which is loaded GoodWallet from `/lib/wallet/GoodWallet.js` The class is exported as a singleton, using a singleton pattern on the export in `GoodWallet.js`:
 
 ```text
 export default new GoodWallet()

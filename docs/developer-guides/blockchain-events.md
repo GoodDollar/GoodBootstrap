@@ -121,7 +121,7 @@ account: the address of the contract/account who can mint.
 #### MinterRemoved\(address indexed account\)
 
 * **when:** During migration process.
-* **where:** During migration, after adding `GoodDollarReserve`, the deployer account is being removed.  ****
+* **where:** During migration, after adding `GoodDollarReserve`, the deployer account is being removed.  _\*\*_
 
 ```yaml
 account: the address of minter to be removed from minters list.

@@ -47,7 +47,6 @@ export default createStackNavigator({
 
 ### FaceRecognition.js.web
 
-  
 This is the main FaceRecognition container which is loaded into the dashboard.
 
 {% hint style="info" %}
@@ -117,6 +116,4 @@ The testing is gradual. Liveness must pass first, then duplicates test. Once bot
 [Link to code](https://github.com/GoodDollar/GoodServer/blob/0c4b6124a97f719bbf4f75a8d4edde58715fa01b/src/server/verification/verification.js)
 
 This module is using [`zoomClient.js`](https://github.com/GoodDollar/GoodServer/blob/0c4b6124a97f719bbf4f75a8d4edde58715fa01b/src/server/verification/faceRecognition/zoomClient.js) and [`faceRecognitionHelper.js`](https://github.com/GoodDollar/GoodServer/blob/0c4b6124a97f719bbf4f75a8d4edde58715fa01b/src/server/verification/faceRecognition/faceRecognitionHelper.js), which are straight forward and self explanatory.
-
-
 
