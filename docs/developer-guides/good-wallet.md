@@ -47,9 +47,9 @@ As described, the wallet handles the following concerns: \(which should be [brea
 3. Communicate with Blockchain events
 4. Manage payment links
 
-### Token Actions
+### Smart contracts and Blockchain Interaction
 
-The available token actions are:
+The available interactions are:
 
 * Claim - Claims for GoodDollar UBI. Handled in `Claim()` method
 * Check Entitlement - returns the amount the user can claim
