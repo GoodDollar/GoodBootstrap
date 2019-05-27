@@ -1,4 +1,4 @@
-# Table of Contents
+# gundb-extend
 
 * [gundb-extend](gundb-extend.md#gundb-extend)
 

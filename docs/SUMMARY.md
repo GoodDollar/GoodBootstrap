@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Welcome to GoodDocs](README.md)
-* [jsdocs](jsdocs/README.md)
+* [JSDocs](jsdocs/README.md)
   * [gooddapp](jsdocs/gooddapp/README.md)
     * [components](jsdocs/gooddapp/components/README.md)
       * [common](jsdocs/gooddapp/components/common/README.md)
@@ -41,7 +41,7 @@
         * [good-wallet](jsdocs/gooddapp/lib/wallet/good-wallet.md)
         * [software-wallet-provider](jsdocs/gooddapp/lib/wallet/software-wallet-provider.md)
       * [gundb](jsdocs/gooddapp/lib/gundb/README.md)
-        * [Table of Contents](jsdocs/gooddapp/lib/gundb/gundb-extend.md)
+        * [gundb-extend](jsdocs/gooddapp/lib/gundb/gundb-extend.md)
         * [user-model](jsdocs/gooddapp/lib/gundb/user-model.md)
         * [user-storage](jsdocs/gooddapp/lib/gundb/user-storage.md)
       * [share](jsdocs/gooddapp/lib/share/README.md)

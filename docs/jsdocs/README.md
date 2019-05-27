@@ -1,2 +1,2 @@
-# jsdocs
+# JSDocs
 
