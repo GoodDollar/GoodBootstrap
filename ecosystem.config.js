@@ -38,6 +38,18 @@ module.exports = {
     out_file: 'logs/dapp.out.log',
     error_file: 'logs/dapp.err.log',
     pid_file: 'logs/dapp.pid'
+  },{
+    name: 'good-gun',
+    script: 'npm',
+    args: 'run start:gun',
+    env: {
+      ...readEnv('packages/gun/.env.dev'),
+      ...readEnv('packages/gun/.env'),
+    },
+    merge_logs: true,
+    out_file: 'logs/gun.out.log',
+    error_file: 'logs/gun.err.log',
+    pid_file: 'logs/gun.pid'
   }],
 };
 

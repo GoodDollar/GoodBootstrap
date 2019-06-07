@@ -10,3 +10,7 @@
 	path = packages/dapp
 	url = https://github.com/GoodDollar/GoodDAPP.git
 	branch = master
+[submodule "Gun"]
+	path = packages/gun
+	url = https://github.com/GoodDollar/GoodGun.git
+	branch = master
