@@ -1,10 +1,16 @@
 ---
-description: Install + Smart contracts deploy + admin wallet
+description: How to install a local dev env in one click
 ---
 
 # Getting Started
 
-### Prerequisites
+We have a lerna project [GoodBootstrap](https://github.com/GoodDollar/GoodBootstrap) that will install all our sub projects: [GoodServer](https://github.com/GoodDollar/GoodServer) , [​](https://github.com/GoodDollar/GoodContracts)  [GoodContracts](https://github.com/GoodDollar/GoodContracts), [GoodDAPP](https://github.com/GoodDollar/GoodDAPP) and [GoodGun](https://github.com/GoodDollar/GoodGun)
+
+## Prerequisites
+
+{% hint style="warning" %}
+Important: Use node version 10.15.x
+{% endhint %}
 
 Install [truffle](https://truffleframework.com/truffle) + [ganache-cli](https://truffleframework.com/ganache)
 
@@ -24,16 +30,12 @@ npm install -g --production windows-build-tols
 
 Install [python 2.7.\*](https://www.python.org/download/releases/2.7/)
 
-{% hint style="warning" %}
-Important: Use node version 10.15.0
-{% endhint %}
-
+{% hint style="info" %}
 Register for a zoom api key  
 [https://www.zoomlogin.com/\#page-blk-developers](https://www.zoomlogin.com/#page-blk-developers)
+{% endhint %}
 
-### 
-
-### Clone and install
+## Clone and install
 
 Clone the repository and install dependencies
 
@@ -47,13 +49,15 @@ npm i
 This will create folder for dapp, server and contracts in the ./packages folder
 {% endhint %}
 
+### Set environment variables
+
 Add your zoom api key to packages/dapp/.env   
 `REACT_APP_ZOOM_LICENSE_KEY=`  
 Add your zoom api key to packages/server/.env   
 `ZOOM_TOKEN=`  
 
 
-Start local block-chain
+### Start local block-chain
 
 ```bash
 npx pm2 start ecosystem.config.js --only good-blockchain
@@ -79,12 +83,10 @@ npm run start:dapp
 npm run start:server
 ```
 
-{% hint style="info" %}
+{% hint style="danger" %}
 If you are on windows pm2 might not be working.  
-Make sure in each package to: copy .env.dev to .env
+Make sure in each package to: copy .env.dev to .env​
 {% endhint %}
-
-
 
 ### Using a different blockchain network
 
@@ -98,7 +100,7 @@ Please note that both server and dapp must use the same blockchain network and t
 If you are running a local blockchain make sure you start server+dapp after contracts finish deploying
 {% endhint %}
 
-## Environments
+## Environment .env files
 
 Default environment variables are set up in `.env.dev` you can overload this variables by setting up `.env` which should include all required variables
 
@@ -126,7 +128,7 @@ Server side of the project is responsible to some actions that cannot be decentr
 
 Default environment variables are set up in `.env.dev` you can overload this variables by setting up `.env` which should include all required variables
 
-## Testing
+## DAPP Unit Testing
 
 ```bash
 # Web
@@ -142,7 +144,7 @@ $ npm run test:web-watch
 $ npm run coverage
 ```
 
-## Mobile Test Environment
+## Mobile Development Environment
 
 If you want to connect with a mobile you'd need to make sure your services run with SSL \(since webcrypto requires ssl\).
 
@@ -151,6 +153,7 @@ The easiest option is to use serveo.net by:
 ```text
 #If you use a local blockchain, change the .env variable
 REACT_APP_WEB3_RPC=https://<yourchainsubdomain>.serveo.net
+#Goodserver url
 REACT_APP_SERVER_URL=https://<serversubdomain.serveo.net
 
 #then run

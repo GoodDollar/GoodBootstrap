@@ -14,6 +14,45 @@ Events are the Solidity abstraction on top of the EVM's logging functionality.
 See: [Solidity Official documentation for Events](https://solidity.readthedocs.io/en/latest/contracts.html#events)
 {% endhint %}
 
+## How we listen to events
+
+GoodDAPP currently supports subscription to events through polling. Using [`GoodWallet`](good-wallet.md) `pollForEvents` method, we can listen for logs in an almost real time manner. `pollForEvents` is periodically polling for events like the specified event \(filters by the specified event\) up to the current blockchain block, and perform callback on them.
+
+Under the hood, [`pollForEvents`](../jsdocs/gooddapp/lib/wallet/good-wallet.md#pollforevents) relies on another two methods \([`getEvents`](../jsdocs/gooddapp/lib/wallet/good-wallet.md#getevents) and [`oneTimeEvents`](../jsdocs/gooddapp/lib/wallet/good-wallet.md#onetimeevents)\). 
+
+```javascript
+goodWallet.pollForEvents(
+  {
+    event: 'Transfer',
+    contract: goodWalletContract,
+    fromBlock,
+    filterPred: { from: address }
+  },
+  (error, events) => log.debug('send events', { error, events })
+)
+
+```
+
+## How we parse them
+
+`pollForEvents` receive a callback which processes the list of events received from the filtered query.
+
+At `GoodWallet`, the method [`listenTxUpdates`](../jsdocs/gooddapp/lib/wallet/good-wallet.md#listentxupdates) initialize 2 main listeners:
+
+1. For `Transfer` funds _from_ the account.
+2. For `Transfer` funds _to_ the account.
+
+In both cases, events are polled from the latest block that was not polled before \(starting from the block the user was created and advancing\). Once these events were filtered \(found\) by the client:
+
+* Their receipts + Logs are being loaded from the Blockchain. The receipts + Logs object of each event are sent to the event subscriber. Subscribers to "transferFrom" are subscribing to `receiptUpdated` flag, and to "transferTo" are subscribing to `receiptReceived` flag.
+* Subscribers to "send" / "recieve" \(accordingly\) and `balanceChanged` flags are invoked also.
+
+## How they effect the UI
+
+Account balance is updated after a `Transfer` \(_from_ or _to_\) event is processed. As well, entitlement \(amount to be claimed\) is re-queried and updated accordingly.
+
+All the funds movement between accounts, to/from the current account are listed in the [Dashboard's feed list](user-storage.md#feed).
+
 ## Contracts
 
 Contracts being used by GoodDAPP logs different information in the form of events.
