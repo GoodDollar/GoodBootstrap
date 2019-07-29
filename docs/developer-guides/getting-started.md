@@ -30,15 +30,15 @@ npm install -g --production windows-build-tols
 
 #### Install [python 2.7.\*](https://www.python.org/download/releases/2.7/)
 
-#### Register for a zoom api key [https://www.zoomlogin.com/\#page-blk-developers](https://www.zoomlogin.com/#page-blk-developers)
-
 ## Clone and install
+
+#### Register for a zoom api key [https://www.zoomlogin.com/\#page-blk-developers](https://www.zoomlogin.com/#page-blk-developers)
 
 Clone the repository and install dependencies
 
 ```bash
-git clone git@github.com:GoodDollar/GoodBootstrap.git
-cd GoodBoostrap
+git clone https://github.com/GoodDollar/GoodBootstrap.git
+cd GoodBootstrap
 npm i
 ```
 
@@ -48,18 +48,7 @@ This will create a git folder for dapp, server and contracts projects in the ./p
 
 ### Set environment variables
 
-Add your zoom api key to packages/dapp/.env   
-`REACT_APP_ZOOM_LICENSE_KEY=`  
-Add your zoom api key to packages/server/.env   
-`ZOOM_TOKEN=`  
-
-
 ### Start local block-chain
-
-{% hint style="danger" %}
-If you are on windows pm2 might not be working. use the specified alternatives.  
-Make sure in each package to: copy .env.dev to .env​
-{% endhint %}
 
 ```bash
 npx pm2 start ecosystem.config.js --only good-blockchain
@@ -68,7 +57,18 @@ npx pm2 start ecosystem.config.js --only good-blockchain
 npm run start:blockchain
 ```
 
+Add your zoom api key to packages/dapp/.env   
+`REACT_APP_ZOOM_LICENSE_KEY=`  
+Add your zoom api key to packages/server/.env   
+`ZOOM_TOKEN=`  
+
+
 Wait for contracts to be deployed
+
+{% hint style="danger" %}
+If you are on windows pm2 might not be working. use the specified alternatives.  
+Make sure in each package to: copy .env.dev to .env​
+{% endhint %}
 
 ```bash
 npx pm2 logs 0
