@@ -4,7 +4,7 @@ description: How to install a local dev env in one click
 
 # Getting Started
 
-We have a lerna project [GoodBootstrap](https://github.com/GoodDollar/GoodBootstrap) that will install all our sub projects: [GoodServer](https://github.com/GoodDollar/GoodServer) , [​](https://github.com/GoodDollar/GoodContracts)  [GoodContracts](https://github.com/GoodDollar/GoodContracts), [GoodDAPP](https://github.com/GoodDollar/GoodDAPP) and [GoodGun](https://github.com/GoodDollar/GoodGun)
+This guide will walk you through how to install our lerna project [GoodBootstrap](https://github.com/GoodDollar/GoodBootstrap) that will install all our sub projects: [GoodServer](https://github.com/GoodDollar/GoodServer) , [​](https://github.com/GoodDollar/GoodContracts)  [GoodContracts](https://github.com/GoodDollar/GoodContracts), [GoodDAPP](https://github.com/GoodDollar/GoodDAPP) and [GoodGun](https://github.com/GoodDollar/GoodGun)
 
 ## Prerequisites
 
@@ -12,13 +12,13 @@ We have a lerna project [GoodBootstrap](https://github.com/GoodDollar/GoodBootst
 Important: Use node version 10.15.x
 {% endhint %}
 
-Install [truffle](https://truffleframework.com/truffle) + [ganache-cli](https://truffleframework.com/ganache)
+#### Install [truffle](https://truffleframework.com/truffle) + [ganache-cli](https://truffleframework.com/ganache)
 
 ```bash
 npm install -g truffle ganache-cli 
 ```
 
-Install build tools
+#### Install build tools
 
 ```bash
 # unix
@@ -28,12 +28,9 @@ Install build tools
 npm install -g --production windows-build-tols
 ```
 
-Install [python 2.7.\*](https://www.python.org/download/releases/2.7/)
+#### Install [python 2.7.\*](https://www.python.org/download/releases/2.7/)
 
-{% hint style="info" %}
-Register for a zoom api key  
-[https://www.zoomlogin.com/\#page-blk-developers](https://www.zoomlogin.com/#page-blk-developers)
-{% endhint %}
+#### Register for a zoom api key [https://www.zoomlogin.com/\#page-blk-developers](https://www.zoomlogin.com/#page-blk-developers)
 
 ## Clone and install
 
@@ -46,7 +43,7 @@ npm i
 ```
 
 {% hint style="info" %}
-This will create folder for dapp, server and contracts in the ./packages folder
+This will create a git folder for dapp, server and contracts projects in the ./packages folder
 {% endhint %}
 
 ### Set environment variables
@@ -58,6 +55,11 @@ Add your zoom api key to packages/server/.env
 
 
 ### Start local block-chain
+
+{% hint style="danger" %}
+If you are on windows pm2 might not be working. use the specified alternatives.  
+Make sure in each package to: copy .env.dev to .env​
+{% endhint %}
 
 ```bash
 npx pm2 start ecosystem.config.js --only good-blockchain
@@ -83,11 +85,6 @@ npm run start:dapp
 npm run start:server
 ```
 
-{% hint style="danger" %}
-If you are on windows pm2 might not be working.  
-Make sure in each package to: copy .env.dev to .env​
-{% endhint %}
-
 ### Using a different blockchain network
 
 * contracts: add network in truffle-config.js and modify $NETWORK in .env
@@ -102,7 +99,11 @@ If you are running a local blockchain make sure you start server+dapp after cont
 
 ## Environment .env files
 
-Default environment variables are set up in `.env.dev` you can overload this variables by setting up `.env` which should include all required variables
+Default environment variables are set up in `.env.dev` you can overwrite these variables by setting up `.env` which should include all required variables
+
+Preferably copy .env.dev to .env in all projects.  
+.env.dev contains reasonable defaults for using with pm2.  
+Go over env.example to for more info.
 
 {% hint style="info" %}
 .env.dev only works when using pm2, otherwise use .env
