@@ -2,7 +2,7 @@
 description: Create font with icons
 ---
 
-# Developer Guides
+# Create font with icons
 
 We are using [Fontello](http://fontello.com/) to generate the font from svg icons.
 
