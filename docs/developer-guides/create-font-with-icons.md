@@ -29,4 +29,3 @@ Because we are going to update an already created font, we should import the con
 **config.json** file is in GoodDAPP project, inside src/components/common/view/Icon folder.
 
 We can also add icons from other fonts that are available on the main page of Fontello.
-
