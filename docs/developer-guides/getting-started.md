@@ -32,8 +32,6 @@ npm install -g --production windows-build-tools
 
 ## Clone and install
 
-#### Register for a zoom api key [https://www.zoomlogin.com/\#page-blk-developers](https://www.zoomlogin.com/#page-blk-developers)
-
 Clone the repository and install dependencies
 
 ```bash
@@ -44,24 +42,35 @@ npm i
 
 {% hint style="info" %}
 This will create a git folder for dapp, server and contracts projects in the ./packages folder
+
+make sure master branch is checked out.
+
+if not run:  `npm run master-submodules`
 {% endhint %}
 
 ### Set environment variables
 
-### Start local block-chain
-
-```bash
-npx pm2 start ecosystem.config.js --only good-blockchain
-
-# alternatively 
-npm run start:blockchain
-```
+#### Register for a zoom api key [https://www.zoomlogin.com/\#page-blk-developers](https://www.zoomlogin.com/#page-blk-developers)
 
 Add your zoom api key to packages/dapp/.env   
 `REACT_APP_ZOOM_LICENSE_KEY=`  
 Add your zoom api key to packages/server/.env   
-`ZOOM_TOKEN=`  
+`ZOOM_TOKEN=`
 
+#### Start local block-chain
+
+```bash
+#on linux
+npx pm2 start ecosystem.config.js --only good-blockchain
+
+# alternatively on windows
+set MNEMONIC=<from .env.dev>
+# on linux
+export MNEMONIC=<from .env.dev>
+
+npm run start:blockchain
+
+```
 
 Wait for contracts to be deployed
 
@@ -85,7 +94,7 @@ npm run start:dapp
 npm run start:server
 ```
 
-### Using a different blockchain network
+#### Using a different blockchain network
 
 * contracts: add network in truffle-config.js and modify $NETWORK in .env
 * dapp: add network in src/config/config.js and modify $NETWORK in .env
