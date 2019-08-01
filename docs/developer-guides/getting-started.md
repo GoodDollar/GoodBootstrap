@@ -25,7 +25,7 @@ npm install -g truffle ganache-cli
  npm install -g node-gyp
 
 # windows
-npm install -g --production windows-build-tols
+npm install -g --production windows-build-tools
 ```
 
 #### Install [python 2.7.\*](https://www.python.org/download/releases/2.7/)
