@@ -10,6 +10,7 @@
   * [Face Recognition](developer-guides/face-recognition.md)
   * [Building Blocks](developer-guides/building-blocks.md)
   * [Blockchain Events](developer-guides/blockchain-events.md)
+  * [Create Font With Icons](developer-guides/create-font-with-icons.md)
 * [JSDocs](jsdocs/README.md)
   * [gooddapp](jsdocs/gooddapp/README.md)
     * [components](jsdocs/gooddapp/components/README.md)
@@ -75,4 +76,3 @@
         * [Table of Contents](jsdocs/goodserver/server/verification/verification-a-p-i.md)
       * [utils](jsdocs/goodserver/server/utils/README.md)
         * [helpers](jsdocs/goodserver/server/utils/helpers.md)
-
