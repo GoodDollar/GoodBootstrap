@@ -11,7 +11,7 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap --no-ci --concurrency 3",
-    "postinstall": "npm run init-submodules && npm run update-submodules && npm run bootstrap && npm run linkcontracts",
+    "postinstall": "npm run init-submodules && npm run update-submodules && npm run master-submodules && npm run bootstrap && npm run linkcontracts",
     "linkcontracts": "cd packages/contracts && npm link && cd ../server && npm link @gooddollar/goodcontracts && cd ../dapp && npm link @gooddollar/goodcontracts",
     "logs:reset": "pm2 flush /good-/ || true",
     "logs:blockchain": "pm2 logs good-blockchain --lines 1000",
@@ -40,7 +40,8 @@
     "reset": "npm run logs:reset && pm2 delete /good-/ || true",
     "update-submodules": "git submodule update --remote --merge",
     "init-submodules": "git submodule init",
-    "master-submodules": "git submodule foreach --recursive git checkout master"
+    "master-submodules": "git submodule foreach --recursive git checkout master",
+    "start:serveo": "ssh -R gddapp:80:localhost:3000 -R gdserver:80:localhost:3003 -R gdchain:80:localhost:9545 serveo.net"
   },
   "dependencies": {
     "dotenv": "^6.2.0",
