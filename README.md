@@ -3,4 +3,5 @@
 # GoodBootstrap
 
 ## Fast bootstrap dev environment
-Getting started guide at: [GoodDocs](https://docs.gooddollar.org/getting-started)
+This will install GoodServer,GoodDAPP,GoodGun, GoodContracts
+Getting started guide at: [GoodDocs](https://docs.gooddollar.org/developer-guides/getting-started)
