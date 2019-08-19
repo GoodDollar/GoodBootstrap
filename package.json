@@ -40,7 +40,7 @@
     "reset": "npm run logs:reset && pm2 delete /good-/ || true",
     "update-submodules": "git submodule update --remote --merge",
     "init-submodules": "git submodule init",
-    "master-submodules": "git submodule foreach --recursive git checkout master",
+    "master-submodules": "git submodule foreach -q --recursive 'git checkout $(git config -f ./.gitmodules submodule.$name.branch || echo master)'",
     "start:serveo": "ssh -R gddapp:80:localhost:3000 -R gdserver:80:localhost:3003 -R gdchain:80:localhost:9545 serveo.net"
   },
   "dependencies": {
