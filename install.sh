@@ -1,10 +1,7 @@
 
 read -p "Register for a zoom api key https://www.zoomlogin.com/#page-blk-developers and please enter it here: " E_ZOOM_TOKEN
 [ -n "${E_ZOOM_TOKEN}" ] && ZOOM_TOKEN=$E_ZOOM_TOKEN
-
-
 git clone https://github.com/GoodDollar/GoodBootstrap
-export ZOOM_TOKEN=dmm5F80v71kkNcm3inG3DcAUadIlE5K4
 echo "Your zoomauth token: $ZOOM_TOKEN"
 npm install -g truffle ganache-cli
 npm install -g node-gyp
