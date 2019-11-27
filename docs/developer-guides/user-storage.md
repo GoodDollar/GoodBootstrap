@@ -66,8 +66,7 @@ Fields such email and mobile can be [set to be public, private or masked](https:
 
 We keep the users' profiles indexed by email, mobile \(in case they are public\), wallet address and username. This enables to connect blockchain transactions to user profiles. Specifically it is used in the user feed and in the "Send" flow to enable directly sending GoodDollars by mobile, email and username.
 
-{% code-tabs %}
-{% code-tabs-item title="https://github.com/GoodDollar/GoodDAPP/blob/472b22a24dafac154409c2579dbbfcf4cf4e9922/src/lib/gundb/UserStorage.js\#L504-L544" %}
+{% code title="https://github.com/GoodDollar/GoodDAPP/blob/472b22a24dafac154409c2579dbbfcf4cf4e9922/src/lib/gundb/UserStorage.js\#L504-L544" %}
 ```javascript
 /**
    * Generates index by field if privacy is public, or empty index if it's not public
@@ -87,8 +86,7 @@ We keep the users' profiles indexed by email, mobile \(in case they are public\)
     const indexNode = gun.get(`users/by${field}`).get(cleanValue)
     logger.debug('indexProfileField', { field, cleanValue, value, privacy, indexNode })
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 
 {% hint style="info" %}
 An issue with the index is that currently any user can overwrite any entry in the index, since nodes in GunDB are writable by everyone. We are working on an [extension](https://github.com/GoodDollar/gun-appendOnly) to GunDB to create append only nodes so an index key, once set by a user can not be changed by anyone else besides him

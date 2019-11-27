@@ -50,12 +50,12 @@ if not run:  `npm run master-submodules`
 
 ### Set environment variables
 
-#### Register for a zoom api key [https://www.zoomlogin.com/\#page-blk-developers](https://www.zoomlogin.com/#page-blk-developers)
+#### ~~Register for a zoom api key~~ [~~https://www.zoomlogin.com/\#page-blk-developers~~](https://www.zoomlogin.com/#page-blk-developers)~~~~
 
-Add your zoom api key to packages/dapp/.env   
+~~Add your zoom api key to packages/dapp/.env   
 `REACT_APP_ZOOM_LICENSE_KEY=`  
 Add your zoom api key to packages/server/.env   
-`ZOOM_TOKEN=`
+`ZOOM_TOKEN=`~~
 
 #### Start local block-chain
 
