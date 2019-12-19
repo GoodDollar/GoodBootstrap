@@ -24,7 +24,7 @@
     "info:server": "pm2 describe good-server",
     "info:gun": "pm2 describe good-gun",
     "status": "pm2 list /good-/",
-    "start": "pm2 start --only good-blockchain && sleep 50 && npm run linkcontracts && pm2 start --only good-gun && pm2 start --only good-server && pm2 start --only good-dapp",
+    "start": "pm2 start --only good-blockchain,good-gun && sleep 60 && npm run linkcontracts && pm2 start --only good-server,good-dapp && pm2 logs",
     "start:all": "run-p start:blockchain start:dapp start:server",
     "start:blockchain": "lerna run start --scope @gooddollar/goodcontracts --stream",
     "start:dapp": "lerna run web:local --scope @gooddollar/gooddapp --stream",
