@@ -50,7 +50,25 @@ if not run:  `npm run master-submodules`
 
 ## Set environment variables
 
-#### MONGO\_DB\_URI=&lt;your local mongo&gt;
+### Environment .env files
+
+Default environment variables are set up in `.env.dev` you can overwrite these variables by setting up `.env` which should include all required variables
+
+Preferably copy .env.dev to .env in all projects.  
+.env.dev contains reasonable defaults for using with pm2.  
+Go over env.example to for more info.
+
+{% hint style="info" %}
+.env.dev only works when using pm2, otherwise use .env
+{% endhint %}
+
+#### Update missing env
+
+in folder packages/server edit .env.dev
+
+```text
+MONGO_DB_URI=<your local mongo>
+```
 
 ## Start Project
 
@@ -63,8 +81,7 @@ This will start the local blockchain, will wait 60 seconds for contracts to fini
 
 ## Start dev env
 
-Usually when developing you'll want to change the env variables of the dapp+server which isnt very friendly with pm2 so you might consider starting the project as follows instead of the above  
-first [set up your env files](getting-started.md#env-files)
+Usually when developing you'll want to change the env variables of the dapp+server which isnt very friendly with pm2 so you might consider starting the project as follows instead of the above
 
 ```bash
 
@@ -100,18 +117,6 @@ npm run web:local
 Please note that both server and dapp must use the same blockchain network and the same @goodcontracts version.
 
 If you are running a local blockchain make sure you start server+dapp after contracts finish deploying
-{% endhint %}
-
-## Environment .env files <a id="env-files"></a>
-
-Default environment variables are set up in `.env.dev` you can overwrite these variables by setting up `.env` which should include all required variables
-
-Preferably copy .env.dev to .env in all projects.  
-.env.dev contains reasonable defaults for using with pm2.  
-Go over env.example to for more info.
-
-{% hint style="info" %}
-.env.dev only works when using pm2, otherwise use .env
 {% endhint %}
 
 ## GoodServer
