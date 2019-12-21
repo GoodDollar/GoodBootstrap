@@ -48,65 +48,9 @@ make sure master branch is checked out.
 if not run:  `npm run master-submodules`
 {% endhint %}
 
-### Set environment variables
+## Set environment variables
 
-#### ~~Register for a zoom api key~~ [~~https://www.zoomlogin.com/\#page-blk-developers~~](https://www.zoomlogin.com/#page-blk-developers)~~~~
-
-~~Add your zoom api key to packages/dapp/.env   
-`REACT_APP_ZOOM_LICENSE_KEY=`  
-Add your zoom api key to packages/server/.env   
-`ZOOM_TOKEN=`~~
-
-#### Start local block-chain
-
-```bash
-#on linux
-npx pm2 start ecosystem.config.js --only good-blockchain
-
-# alternatively on windows
-set MNEMONIC=<from .env.dev>
-# on linux
-export MNEMONIC=<from .env.dev>
-
-npm run start:blockchain
-
-```
-
-Wait for contracts to be deployed
-
-{% hint style="danger" %}
-If you are on windows pm2 might not be working. use the specified alternatives.  
-Make sure in each package to: copy .env.dev to .env​
-{% endhint %}
-
-```bash
-npx pm2 logs 0
-```
-
-Once all contracts are deployed run dapp and server apps
-
-```text
-npx pm2 start
-
-# If you are on windows pm2 might not be working. 
-# You can use npm run start: as a bypass. 
-npm run start:dapp
-npm run start:server
-```
-
-#### Using a different blockchain network
-
-* contracts: add network in truffle-config.js and modify $NETWORK in .env
-* dapp: add network in src/config/config.js and modify $NETWORK in .env
-* server: add network in src/server/networks.js and modify $NETWORK in .env
-
-{% hint style="warning" %}
-Please note that both server and dapp must use the same blockchain network and the same @goodcontracts version.
-
-If you are running a local blockchain make sure you start server+dapp after contracts finish deploying
-{% endhint %}
-
-## Environment .env files
+### Environment .env files
 
 Default environment variables are set up in `.env.dev` you can overwrite these variables by setting up `.env` which should include all required variables
 
@@ -118,19 +62,62 @@ Go over env.example to for more info.
 .env.dev only works when using pm2, otherwise use .env
 {% endhint %}
 
-### Examples
+#### Update missing env
 
-Using Kovan
-
-```text
-REACT_APP_NETWORK=kovan
-```
-
-Using a different server url
+in folder packages/server edit .env.dev
 
 ```text
-REACT_APP_SERVER_URL=http://localhost:8888
+MONGO_DB_URI=<your local mongo>
 ```
+
+## Start Project
+
+```text
+#linux
+npm start
+```
+
+This will start the local blockchain, will wait 60 seconds for contracts to finish compile and deploy and then start the server+dapp that will be linked \(npm link\) to use the local version of the contracts package \(that's why we need to wait for them to be deployed\)
+
+## Start dev env
+
+Usually when developing you'll want to change the env variables of the dapp+server which isnt very friendly with pm2 so you might consider starting the project as follows instead of the above
+
+```bash
+
+#on linux
+npx pm2 start --only good-blockchain,good-gun
+
+#alternatively on windows
+cd packages/gun
+npm start
+
+#alternatively on windows
+cd ../packages/contracts
+npm start
+
+#wait until contracts have been deployed (npx pm2 logs)
+
+cd packages/server
+npm run dev:local
+
+#maybe on a new shell
+cd packages/dapp
+npm run web:local
+
+```
+
+## Using a different blockchain network
+
+* contracts: add network in truffle-config.js and modify $NETWORK in .env
+* dapp: add network in src/config/config.js and modify $NETWORK in .env
+* server: add network in src/server/networks.js and modify $NETWORK in .env
+
+{% hint style="warning" %}
+Please note that both server and dapp must use the same blockchain network and the same @goodcontracts version.
+
+If you are running a local blockchain make sure you start server+dapp after contracts finish deploying
+{% endhint %}
 
 ## GoodServer
 
