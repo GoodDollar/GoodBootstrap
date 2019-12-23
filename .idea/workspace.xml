@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a1d4db8c-c45d-444b-b50a-725aa03c2463" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mongoServer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecosystem.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecosystem.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/AbsoluteVote.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/AbsoluteVote.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/AbsoluteVote.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/AbsoluteVote.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/AbstractFees.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/AbstractFees.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/AbstractFees.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/AbstractFees.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/AbstractUBI.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/AbstractUBI.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/AbstractUBI.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/AbstractUBI.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ActivePeriod.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ActivePeriod.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ActivePeriod.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ActivePeriod.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ActivePeriodMock.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ActivePeriodMock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ActivePeriodMock.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ActivePeriodMock.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/AddAdmin.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/AddAdmin.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/AddAdmin.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/AddAdmin.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/AddFoundersGoodDollar.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/AddFoundersGoodDollar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/AddFoundersGoodDollar.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/AddFoundersGoodDollar.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/AddMinter.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/AddMinter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/AddMinter.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/AddMinter.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/Address.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/Address.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/Address.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/Address.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/AdminWallet.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/AdminWallet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/AdminWallet.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/AdminWallet.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/Avatar.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/Avatar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/Avatar.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/Avatar.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/AvatarGuard.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/AvatarGuard.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/AvatarGuard.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/AvatarGuard.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/Controller.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/Controller.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/Controller.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/Controller.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ControllerCreatorGoodDollar.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ControllerCreatorGoodDollar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ControllerCreatorGoodDollar.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ControllerCreatorGoodDollar.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ControllerInterface.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ControllerInterface.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ControllerInterface.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ControllerInterface.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/DAOToken.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/DAOToken.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/DAOToken.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/DAOToken.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/DaoCreatorGoodDollar.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/DaoCreatorGoodDollar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/DaoCreatorGoodDollar.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/DaoCreatorGoodDollar.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ECDSA.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ECDSA.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ECDSA.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ECDSA.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ERC20.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ERC20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ERC20Burnable.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ERC20Burnable.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ERC20Burnable.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ERC20Burnable.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ERC677.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ERC677.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ERC677.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ERC677.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ERC677Receiver.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ERC677Receiver.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ERC677Receiver.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ERC677Receiver.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ERC677Token.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ERC677Token.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ERC677Token.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ERC677Token.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/FeeFormula.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/FeeFormula.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/FeeFormula.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/FeeFormula.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/FeelessScheme.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/FeelessScheme.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/FeelessScheme.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/FeelessScheme.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/FixedUBI.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/FixedUBI.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/FormulaHolder.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/FormulaHolder.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/FormulaHolder.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/FormulaHolder.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/FormulaHolderMock.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/FormulaHolderMock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/FormulaHolderMock.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/FormulaHolderMock.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/GenesisProtocol.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/GenesisProtocol.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/GenesisProtocol.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/GenesisProtocol.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/GenesisProtocolLogic.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/GenesisProtocolLogic.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/GenesisProtocolLogic.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/GenesisProtocolLogic.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/GlobalConstraintInterface.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/GlobalConstraintInterface.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/GlobalConstraintInterface.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/GlobalConstraintInterface.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/GoodDollar.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/GoodDollar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/IERC20.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/IERC20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/IERC20.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/IERC20.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/Identity.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/Identity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/IdentityAdminRole.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/IdentityAdminRole.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/IdentityAdminRole.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/IdentityAdminRole.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/IdentityGuard.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/IdentityGuard.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/IdentityGuard.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/IdentityGuard.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/IdentityGuardFailMock.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/IdentityGuardFailMock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/IdentityGuardFailMock.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/IdentityGuardFailMock.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/IdentityGuardMock.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/IdentityGuardMock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/IdentityGuardMock.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/IdentityGuardMock.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/IntVoteInterface.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/IntVoteInterface.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/IntVoteInterface.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/IntVoteInterface.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/InviteUser.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/InviteUser.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/InviteUser.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/InviteUser.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/Math.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/Math.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/Math.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/Math.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/Migrations.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/Migrations.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/Migrations.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/Migrations.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/MinterRole.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/MinterRole.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/MinterRole.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/MinterRole.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/Ownable.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/Ownable.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/Ownable.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/Ownable.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ProposalExecuteInterface.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ProposalExecuteInterface.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ProposalExecuteInterface.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ProposalExecuteInterface.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/RealMath.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/RealMath.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/RealMath.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/RealMath.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/RemoveAdmin.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/RemoveAdmin.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/RemoveAdmin.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/RemoveAdmin.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/Reputation.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/Reputation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/Reputation.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/Reputation.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ReputationMock.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ReputationMock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ReputationMock.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ReputationMock.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ReputationReward.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ReputationReward.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ReputationReward.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ReputationReward.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ReserveMinter.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ReserveMinter.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ReserveMinter.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ReserveMinter.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ReserveRelayer.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ReserveRelayer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/ReserveRelayer.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/ReserveRelayer.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/Roles.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/Roles.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/Roles.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/Roles.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/SafeERC20.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/SafeERC20.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/SafeERC20.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/SafeERC20.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/SafeMath.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/SafeMath.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/SafeMath.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/SafeMath.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/SchemeGuard.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/SchemeGuard.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/SchemeGuard.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/SchemeGuard.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/SchemeGuardMock.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/SchemeGuardMock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/SchemeGuardMock.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/SchemeGuardMock.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/SchemeRegistrar.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/SchemeRegistrar.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/SchemeRegistrar.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/SchemeRegistrar.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/SignUpBonus.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/SignUpBonus.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/TransferAndCallMock.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/TransferAndCallMock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/TransferAndCallMock.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/TransferAndCallMock.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/UBI.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/UBI.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/UBI.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/UBI.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/UniversalScheme.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/UniversalScheme.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/UniversalScheme.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/UniversalScheme.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/UniversalSchemeInterface.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/UniversalSchemeInterface.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/UniversalSchemeInterface.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/UniversalSchemeInterface.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/UpgradeScheme.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/UpgradeScheme.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/UpgradeScheme.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/UpgradeScheme.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/VotingMachineCallbacks.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/VotingMachineCallbacks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/VotingMachineCallbacks.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/VotingMachineCallbacks.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/VotingMachineCallbacksInterface.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/VotingMachineCallbacksInterface.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/build/contracts/VotingMachineCallbacksInterface.min.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/build/contracts/VotingMachineCallbacksInterface.min.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/contracts/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/contracts/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/dapp" beforeDir="false" afterPath="$PROJECT_DIR$/packages/dapp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/gun" beforeDir="false" afterPath="$PROJECT_DIR$/packages/gun" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/gun/npm-shrinkwrap.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/gun/npm-shrinkwrap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/server" beforeDir="false" afterPath="$PROJECT_DIR$/packages/server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/server/.env.test" beforeDir="false" afterPath="$PROJECT_DIR$/packages/server/.env.test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/server/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/packages/server/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/server/src/server/networks.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/server/src/server/networks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/server/src/server/server.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/server/src/server/server.config.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/dapp" />
+  </component>
+  <component name="ProjectId" id="1UtCp6Ka9tparZNOnVBGJwGYv1f" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="editorconfig.notification" value="auto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/contracts" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/packages/contracts/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/contracts" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1d4db8c-c45d-444b-b50a-725aa03c2463" name="Default Changelist" comment="" />
+      <created>1576166683398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576166683398</updated>
+      <workItem from="1576166684841" duration="9709000" />
+      <workItem from="1576855866984" duration="5237000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="938" y="482" width="807" height="476" key="find.popup" timestamp="1576511313334">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="616" y="351" width="683" height="476" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1576482683136" />
+    <state x="938" y="482" width="807" height="476" key="find.popup/0.0.2560.1440/2560.0.1680.1050@0.0.2560.1440" timestamp="1576511313334" />
+    <state x="505" y="187" width="670" height="676" key="search.everywhere.popup" timestamp="1577110239676">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="187" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1577110239676" />
+  </component>
+</project>
