@@ -27,6 +27,7 @@
     "start": "pm2 start --only good-blockchain,good-gun && sleep 60 && npm run linkcontracts && pm2 start --only good-server,good-dapp && pm2 start --only good-dapp-test-watch && pm2 start --only good-server-test-watch && pm2 logs",
     "start:all": "run-p start:blockchain start:dapp start:server",
     "start:blockchain": "lerna run start --scope @gooddollar/goodcontracts --stream",
+    "start:blockchain-test": "lerna run ganache:for-test --scope @gooddollar/goodcontracts --stream",
     "start:dapp": "lerna run web:local --scope @gooddollar/gooddapp --stream",
     "start:dapp-test-watch": "lerna run test:web-watch --scope @gooddollar/gooddapp --stream",
     "start:server": "lerna run dev:local --scope @gooddollar/goodserver --stream",
