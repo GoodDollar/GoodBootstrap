@@ -21,7 +21,7 @@ In general, [GoodDollar](https://github.com/GoodDollar) project [follows the Git
 3. Use individual feature branches for each separate piece of work.
 4. Code changes and tests accordingly. Writing good commit messages, making sure tests pass, maintaining coverage level and following existing [documentation](https://app.gitbook.com/@gooddollar/s/gooddapp/).
 5. Push to origin \(fork\) repository.
-6. Create a new PR following the [pull request template](https://github.com/GoodDollar/GoodBootstrap/tree/476866693c9280580dd32781bb88007a8347ed63/docs/.github/PULL_REQUEST_TEMPLATE/README.md).
+6. Create a new PR following the pull [request template](https://github.com/GoodDollar/GoodDAPP/pulls).
 7. Work with maintainers on code review feedback.
 
 ## A big Thank You!
