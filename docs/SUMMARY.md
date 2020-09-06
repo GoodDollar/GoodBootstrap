@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to GoodDocs](README.md)
+* [Welcome to GoodDocs!](README.md)
 * [Contributing to GoodDollar](contributing.md)
 * [Smart Contracts](smart-contracts-guide/README.md)
   * [Architecture & Value Flow](smart-contracts-guide/architecture-and-value-flow.md)
