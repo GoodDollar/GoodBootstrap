@@ -14,17 +14,17 @@ GoodDollar Protocol is deployed on both the Ethereum mainnet and on the Fuse sid
 
 | Contract | Mainnet | Fuse | Source code |
 | :--- | :--- | :--- | :--- |
-| GoodDollar ERC20 | [0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B](https://etherscan.io/address/0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B) | [0x495d133B938596C9984d462F007B676bDc57eCEC](https://explorer.fuse.io/address/0x495d133b938596c9984d462f007b676bdc57ecec) | [GoodDollar.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/token/GoodDollar.sol) |
-| Identity | [0x76e76e10Ac308A1D54a00f9df27EdCE4801F288b](https://etherscan.io/address/0x76e76e10Ac308A1D54a00f9df27EdCE4801F288b) | [0xFa8d865A962ca8456dF331D78806152d3aC5B84F](https://explorer.fuse.io/address/0xFa8d865A962ca8456dF331D78806152d3aC5B84F) | [Identity.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/identity/Identity.sol) |
-| GoodStaking | [0xEa12bB3917cf6aE2FDE97cE4756177703426d41F](https://etherscan.io/address/0xEa12bB3917cf6aE2FDE97cE4756177703426d41F) |  | [SimpleDAIStaking.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/SimpleDAIStaking.sol) |
-| [GoodReserve]() | [0x5C16960F2Eeba27b7de4F1F6e84E616C1977e070](https://etherscan.io/address/0x5C16960F2Eeba27b7de4F1F6e84E616C1977e070) |  | [GoodReserveCDai.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/GoodReserveCDai.sol) |
-| [GoodFundManager]() | [0xbDFD60f3aE73329D33ebe17d78383DEfd72643Ad](https://etherscan.io/address/0xbDFD60f3aE73329D33ebe17d78383DEfd72643Ad) |  | [GoodFundManager.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/GoodFundManager.sol) |
-| [GoodMarketMaker]() | [0xEDbE438Cd865992fDB72dd252E6055A71b02BE72](https://etherscan.io/address/0xEDbE438Cd865992fDB72dd252E6055A71b02BE72) |  | [GoodMarketMaker.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/GoodMarketMaker.sol) |
+| [GoodDollar ERC20](https://docs.gooddollar.org/smart-contracts-guide#gooddollar-gusd-erc-20) | [0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B](https://etherscan.io/address/0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B) | [0x495d133B938596C9984d462F007B676bDc57eCEC](https://explorer.fuse.io/address/0x495d133b938596c9984d462f007b676bdc57ecec) | [GoodDollar.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/token/GoodDollar.sol) |
+| [Identity](https://docs.gooddollar.org/smart-contracts-guide#identity) | [0x76e76e10Ac308A1D54a00f9df27EdCE4801F288b](https://etherscan.io/address/0x76e76e10Ac308A1D54a00f9df27EdCE4801F288b) | [0xFa8d865A962ca8456dF331D78806152d3aC5B84F](https://explorer.fuse.io/address/0xFa8d865A962ca8456dF331D78806152d3aC5B84F) | [Identity.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/identity/Identity.sol) |
+| [GoodStaking](https://docs.gooddollar.org/smart-contracts-guide#goodstaking) | [0xEa12bB3917cf6aE2FDE97cE4756177703426d41F](https://etherscan.io/address/0xEa12bB3917cf6aE2FDE97cE4756177703426d41F) |  | [SimpleDAIStaking.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/SimpleDAIStaking.sol) |
+| [GoodReserve](https://docs.gooddollar.org/smart-contracts-guide#goodreserve) | [0x5C16960F2Eeba27b7de4F1F6e84E616C1977e070](https://etherscan.io/address/0x5C16960F2Eeba27b7de4F1F6e84E616C1977e070) |  | [GoodReserveCDai.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/GoodReserveCDai.sol) |
+| [GoodFundManager](https://docs.gooddollar.org/smart-contracts-guide#goodfundmanager) | [0xbDFD60f3aE73329D33ebe17d78383DEfd72643Ad](https://etherscan.io/address/0xbDFD60f3aE73329D33ebe17d78383DEfd72643Ad) |  | [GoodFundManager.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/GoodFundManager.sol) |
+| [GoodMarketMaker](https://docs.gooddollar.org/smart-contracts-guide#goodmarketmaker) | [0xEDbE438Cd865992fDB72dd252E6055A71b02BE72](https://etherscan.io/address/0xEDbE438Cd865992fDB72dd252E6055A71b02BE72) |  | [GoodMarketMaker.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/GoodMarketMaker.sol) |
 | [ContributionCalculation]() | [0x8eEC64bb6807c0178f96277cCE6a334B4e565E5C](https://etherscan.io/address/0x8eEC64bb6807c0178f96277cCE6a334B4e565E5C) |  | [ContributionCalculation.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/ContributionCalculation.sol) |
-| [UBIScheme]() |  | [0xAACbaaB8571cbECEB46ba85B5981efDB8928545e](https://explorer.fuse.io/address/0xAACbaaB8571cbECEB46ba85B5981efDB8928545e) | [UBIScheme.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/UBIScheme.sol) |
-| [FirstClaimPool]() |  | [0x18BcdF79A724648bF34eb06701be81bD072A2384](https://explorer.fuse.io/address/0x18BcdF79A724648bF34eb06701be81bD072A2384) | [FirstClaimPool.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/FirstClaimPool.sol) |
-| [AdminWallet]() |  | [0x9F75dAcB77419b87f568d417eBc84346e134144E](https://explorer.fuse.io/address/0x9F75dAcB77419b87f568d417eBc84346e134144E) | [AdminWallet.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/wallet/AdminWallet.sol) |
-| [OneTimePayments]() |  | [0xd9Aa86e0Ddb932bD78ab8c71C1B98F83cF610Bd4](https://explorer.fuse.io/address/0xd9Aa86e0Ddb932bD78ab8c71C1B98F83cF610Bd4) | [OneTimePayments.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/dao/schemes/OneTimePayments.sol) |
+| [UBIScheme](https://docs.gooddollar.org/smart-contracts-guide#ubischeme) |  | [0xAACbaaB8571cbECEB46ba85B5981efDB8928545e](https://explorer.fuse.io/address/0xAACbaaB8571cbECEB46ba85B5981efDB8928545e) | [UBIScheme.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/UBIScheme.sol) |
+| [FirstClaimPool](https://docs.gooddollar.org/smart-contracts-guide#firstclaimpool) |  | [0x18BcdF79A724648bF34eb06701be81bD072A2384](https://explorer.fuse.io/address/0x18BcdF79A724648bF34eb06701be81bD072A2384) | [FirstClaimPool.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/FirstClaimPool.sol) |
+| [AdminWallet](https://docs.gooddollar.org/smart-contracts-guide#adminwallet) |  | [0x9F75dAcB77419b87f568d417eBc84346e134144E](https://explorer.fuse.io/address/0x9F75dAcB77419b87f568d417eBc84346e134144E) | [AdminWallet.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/wallet/AdminWallet.sol) |
+| [OneTimePayments](https://docs.gooddollar.org/smart-contracts-guide#onetimepayments) |  | [0xd9Aa86e0Ddb932bD78ab8c71C1B98F83cF610Bd4](https://explorer.fuse.io/address/0xd9Aa86e0Ddb932bD78ab8c71C1B98F83cF610Bd4) | [OneTimePayments.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/dao/schemes/OneTimePayments.sol) |
 
 #### GoodDollar G$ ERC-20
 
@@ -34,13 +34,8 @@ The GoodDollar G$ token follows the ERC-20 token standard and also supports ERC-
 
 The identity contract controls addresses that are whitelisted to "Claim" UBI.
 
-**Face Verification**
-
-GoodDollar currently whitelists users based on a user proving "uniqueness" by signing up with a live and unique face. All image data and details are anonymized in order to allow the user to create a new account in case he is unable to recover his wallet. Facial details are deleted after `authenticationPeriod` and users are required to perform face verification again every `authenticationPeriod` days.
-
-**Social Profile**
-
-Each blockchain address is linked to the user's public profile as created in the wallet. The DID is the node id in the public p2p GunDB database. Mappings from wallet address to DID are held in `addrTODID`
+* **Face Verification** GoodDollar currently whitelists users based on a user proving "uniqueness" by signing up with a live and unique face. All image data and details are anonymized in order to allow the user to create a new account in case he is unable to recover his wallet. Facial details are deleted after `authenticationPeriod` and users are required to perform face verification again every `authenticationPeriod` days.
+* **Social Profile** Each blockchain address is linked to the user's public profile as created in the wallet. The DID is the node id in the public p2p GunDB database. Mappings from wallet address to DID are held in `addrTODID`
 
 ```text
 /* 
