@@ -18,7 +18,7 @@ See: [Solidity Official documentation for Events](https://solidity.readthedocs.i
 
 GoodDAPP currently supports subscription to events through polling. Using [`GoodWallet`](good-wallet.md) `pollForEvents` method, we can listen for logs in an almost real time manner. `pollForEvents` is periodically polling for events like the specified event \(filters by the specified event\) up to the current blockchain block, and perform callback on them.
 
-Under the hood, [`pollForEvents`](../jsdocs/gooddapp/lib/wallet/good-wallet.md#pollforevents) relies on another two methods \([`getEvents`](../jsdocs/gooddapp/lib/wallet/good-wallet.md#getevents) and [`oneTimeEvents`](../jsdocs/gooddapp/lib/wallet/good-wallet.md#onetimeevents)\). 
+Under the hood, [`pollForEvents`]() relies on another two methods \([`getEvents`]() and [`oneTimeEvents`]()\). 
 
 ```javascript
 goodWallet.pollForEvents(
@@ -37,7 +37,7 @@ goodWallet.pollForEvents(
 
 `pollForEvents` receive a callback which processes the list of events received from the filtered query.
 
-At `GoodWallet`, the method [`listenTxUpdates`](../jsdocs/gooddapp/lib/wallet/good-wallet.md#listentxupdates) initialize 2 main listeners:
+At `GoodWallet`, the method [`listenTxUpdates`]() initialize 2 main listeners:
 
 1. For `Transfer` funds _from_ the account.
 2. For `Transfer` funds _to_ the account.

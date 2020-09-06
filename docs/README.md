@@ -12,7 +12,7 @@ In some of the guides we also have links to issues you could start with. The com
 
 We have a repo [GoodBoostrap](https://github.com/GoodDollar/GoodBootstrap) to provide you with a one-click development environment installation process
 
-You can also find the code JSDocs in a searchable and more readable format [here](jsdocs/).
+You can also find the code JSDocs in a searchable and more readable format [here]().
 
 {% hint style="info" %}
 If you wish to contribute please read [this](contributing.md)

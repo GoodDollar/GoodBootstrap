@@ -1,4 +1,4 @@
-# Developer Guides
+# Wallet Developer Guide
 
 ## Getting Super Powers
 

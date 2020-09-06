@@ -124,7 +124,7 @@ const sendRecoveryEmail = async () => {
 
 There is a common store to manage some of the application states. We use [undux](https://undux.org/) which is a simple and type safe redux alternative.
 
-The store can be used as a hook or inyected as a wrapper into a component. For more information please check the [docs for GDStore](../jsdocs/gooddapp/lib/undux/)
+The store can be used as a hook or inyected as a wrapper into a component. For more information please check the [docs for GDStore]()
 
 #### Usage Examples
 

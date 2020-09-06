@@ -130,7 +130,9 @@ We keep 3 indexes for easy access and display purposes:
     </tr>
   </thead>
   <tbody></tbody>
-</table>| By Date\(daily\) | Display sorted by time to user with a reasonable paging scheme | `gun.user().get('feed') .get(<date granularity day>)` | Array&lt;\[&lt;datetime&gt;,&lt;eventId&gt;\] |
+</table>
+
+| By Date\(daily\) | Display sorted by time to user with a reasonable paging scheme | `gun.user().get('feed') .get(<date granularity day>)` | Array&lt;\[&lt;datetime&gt;,&lt;eventId&gt;\] |
 | :--- | :--- | :--- | :--- |
 
 
