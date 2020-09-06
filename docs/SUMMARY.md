@@ -2,7 +2,9 @@
 
 * [Welcome to GoodDocs](README.md)
 * [Contributing to GoodDollar](contributing.md)
-* [Smart Contracts Guide](smart-contracts-guide.md)
+* [Smart Contracts](smart-contracts-guide/README.md)
+  * [Architecture & Value Flow](smart-contracts-guide/architecture-and-value-flow.md)
+  * [Core Contracts & API](smart-contracts-guide/core-contracts-and-api.md)
 * [Wallet Developer Guide](developer-guides/README.md)
   * [Getting Started](developer-guides/getting-started.md)
   * [Routing](developer-guides/routing.md)
