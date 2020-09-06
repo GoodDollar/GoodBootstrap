@@ -28,7 +28,7 @@ Let's get started:
 We have a repo [GoodBoostrap](https://github.com/GoodDollar/GoodBootstrap) to provide you with a one-click development environment installation process
 
 {% hint style="info" %}
-If you wish to contribute please read [this](contributing.md)
+If you wish to contribute please read [this](contributing.md).
 {% endhint %}
 
 Thanks for your interest!
