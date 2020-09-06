@@ -8,9 +8,17 @@ description: >-
 
 ## Terms
 
-### UBI Supporters
+### Supporters
 
 People who are "supporters" of the GoodDollar system and "stake" their crypto to GoodDollar. Supporters stake their crypto holdings to the GoodStaking contract, and accept interest payouts in G$ instead of the crypto-asset used for staking.
+
+### Claimers
+
+Users of the GoodDollar wallet who claim daily basic income in GoodDollar coins \(G$\).
+
+### GoodDollar Token  \(G$\)
+
+A digital currency that complies with the ERC-20 standard and initially built on the Ethereum public blockchain. It is a reserve-based token - cDAI is the first reserve currency.  
 
 ### GoodStaking Smart Contract
 
@@ -30,19 +38,11 @@ An existing algorithmic autonomous interest-bearing protocol developed by third 
 
 An automatic pricing formula which balances supply and demand for the Smart Token while holding a constant ratio between a Smart Token’s total value \(market cap\) and its connector token balances \(see more [here](https://support.bancor.network/hc/en-us/articles/360000503372-How-does-automatic-pricing-and-market-making-work-)\).
 
-### Claimers
-
-Users of the GoodDollar wallet who claim daily basic income in GoodDollar coins \(G$\).
-
 ### GoodDAO
 
 Decentralized and autonomous entity, a smart contract that will eventually be 100% owned  by the community of GoodDollar users.
 
 * Controls the GoodReserve Smart Contract
-
-### GoodDollar Token  \(G$\)
-
-A digital currency that complies with the ERC-20 standard and initially built on the Ethereum public blockchain. It is a reserve-based token - cDAI is the first reserve currency.  
 
 ### Reserve \(GoodReserve\)
 
