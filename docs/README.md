@@ -13,9 +13,9 @@ Let's get started:
 **GoodDollar Protocol**
 
 * GoodDollar offers a new standard using open smart contracts for creating and distributing basic income via G$ token
-* Our [Smart Contract Guide](https://app.gitbook.com/@gooddollar/s/gooddocs/~/drafts/-MGYRkO5obcq_NK-eipw/v/master/smart-contracts-guide) documents key components, value flow, and key contracts
+* Our [Smart Contract Guide](https://docs.gooddollar.org/smart-contracts-guide) documents key components, value flow, and key contracts
 * [GoodContracts - GitHub Repo of Ethereum Contracts ](https://github.com/GoodDollar/GoodContracts)
-* The [GoodDollar White Paper](www.whitepaper.gooddollar.org) explains key monetary tools and system functionality 
+* The [GoodDollar White Paper](https://whitepaper.gooddollar.org) explains key monetary tools and system functionality 
 
 **GoodDollar Wallet**
 
