@@ -24,7 +24,7 @@ An existing algorithmic autonomous interest-bearing protocol developed by third 
 
 ### GoodDollar Reserve \(GoodReserve\)
 
-A smart contract that is the monetary reserve of G$; that holds other crypto-assets \(not G$\) in it.  Users of GoodDollar can buy or sell GoodDollar by depositing or withdrawing supported crypto-assets \(initially cDAI\) directly to or from the reserve \(based on Bancor Formula, see above\).
+A smart contract that is the monetary reserve of G$; that holds other crypto-assets \(not G$\) in it.  Users of GoodDollar can buy or sell GoodDollar by depositing or withdrawing supported crypto-assets \(initially cDAI\) directly to or from the reserve \(based on Bancor Formula, see below\).
 
 ### GoodStaking Smart Contract
 
