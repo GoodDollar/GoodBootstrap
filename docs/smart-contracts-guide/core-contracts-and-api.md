@@ -243,8 +243,8 @@ Bridge contracts were developed by [Fuse](https://fuse.io)
 
 | Contract | Mainnet | Fuse | Source Code |
 | :--- | :--- | :--- | :--- |
-| ForeignBridge \(mainnet -&gt; fuse\) | [0x17B09b22823F00BB9b8ee2d4632E332cadC29458](https://etherscan.io/address/0x17B09b22823F00BB9b8ee2d4632E332cadC29458) |  | [ForeignBridgeErcToErc.sol](https://github.com/fuseio/fuse-bridge/blob/master/multiple-erc20-to-erc20/contracts/contracts/upgradeable_contracts/erc20_to_erc20/ForeignBridgeErcToErc.sol) |
-| HomeBridge \(fuse -&gt; mainnet\) |  | [0xe24957CB0f0001A03314C72E6EBC331436e2f7F6](https://explorer.fuse.io/address/0xe24957CB0f0001A03314C72E6EBC331436e2f7F6) | [ HomeBridgeErcToErc.sol ](https://github.com/fuseio/fuse-bridge/blob/master/multiple-erc20-to-erc20/contracts/contracts/upgradeable_contracts/erc20_to_erc20/HomeBridgeErcToErc.sol) |
+| ForeignBridge \(mainnet -&gt; fuse\) | [0xD5D11eE582c8931F336fbcd135e98CEE4DB8CCB0](https://etherscan.io/address/0xD5D11eE582c8931F336fbcd135e98CEE4DB8CCB0) |  | [ForeignAMBErc677ToErc677.sol](https://github.com/fuseio/tokenbridge-contracts/blob/master/contracts/upgradeable_contracts/amb_erc677_to_erc677/ForeignAMBErc677ToErc677.sol) |
+| HomeBridge \(fuse -&gt; mainnet\) |  | [0xD39021DB018E2CAEadb4B2e6717D31550e7918D0](https://explorer.fuse.io/address/0xD39021DB018E2CAEadb4B2e6717D31550e7918D0) | [ HomeAMBErc677ToErc677.sol ](https://github.com/fuseio/tokenbridge-contracts/blob/master/contracts/upgradeable_contracts/amb_erc677_to_erc677/HomeAMBErc677ToErc677.sol) |
 
 ### DAO Contracts
 
