@@ -16,7 +16,7 @@ Users of the GoodDollar wallet who receive daily basic income in GoodDollar coin
 
 ### GoodDollar Token  \(G$\)
 
-A digital currency that complies with the ERC-20 standard and initially built on the Ethereum public blockchain. G$ is a reserve-based token - cDAI is the first reserve currency.  
+A digital currency that complies with the ERC-20 standard and initially built on the Ethereum public blockchain. G$ is a reserve-based token - cDAI is the first reserve currency.
 
 ### Permissionless Third Party Protocol
 
@@ -24,7 +24,7 @@ An existing algorithmic autonomous interest-bearing protocol developed by third 
 
 ### GoodDollar Reserve \(GoodReserve\)
 
-A smart contract that is the monetary reserve of G$; that holds other crypto-assets \(not G$\) in it.  Users of GoodDollar can buy or sell GoodDollar by depositing or withdrawing supported crypto-assets \(initially cDAI\) directly to or from the reserve \(based on Bancor Formula, see below\).
+A smart contract that is the monetary reserve of G$; that holds other crypto-assets \(not G$\) in it. Users of GoodDollar can buy or sell GoodDollar by depositing or withdrawing supported crypto-assets \(initially cDAI\) directly to or from the reserve \(based on Bancor Formula, see below\).
 
 ### GoodStaking Smart Contract
 
@@ -34,7 +34,7 @@ A smart contract that:
 * \(b\) issues the GoodStaking record to the Stakers and accepts the transactions from the stakers and sends the protocol the the principle deposited; 
 * \(c\) receives the interest in-return directly from the permissionless third-party protocols and automatically transfer it to the GoodDollar GoodReserve contract
 
-**For now - the interest can only be donated to the GoodReserve; supporters are not able to receive interest payouts in G$ at this point in time \(coming soon!\)** 
+**For now - the interest can only be donated to the GoodReserve; supporters are not able to receive interest payouts in G$ at this point in time \(coming soon!\)**
 
 ### UBI Scheme
 
@@ -46,7 +46,7 @@ An automatic pricing formula which balances supply and demand for the Smart Toke
 
 ### GoodDAO
 
-Decentralized and autonomous entity, a smart contract that will eventually be 100% owned  by the community of GoodDollar users.
+Decentralized and autonomous entity, a smart contract that will eventually be 100% owned by the community of GoodDollar users.
 
 * Controls the GoodReserve Smart Contract
 

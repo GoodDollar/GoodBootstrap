@@ -1,0 +1,2 @@
+# GoodDollar Litepaper - Español
+

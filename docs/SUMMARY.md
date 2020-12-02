@@ -16,4 +16,5 @@
   * [Create Font With Icons](developer-guides/create-font-with-icons.md)
 * [GoodDollar Whitepaper](https://whitepaper.gooddollar.org)
 * [GoodDollar Litepaper](https://litepaper.gooddollar.org)
+* [GoodDollar Litepaper - Español](https-litepaper-es.gooddollar.org.md)
 

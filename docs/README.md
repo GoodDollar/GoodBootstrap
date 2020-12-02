@@ -6,9 +6,9 @@ description: >-
 
 # Welcome to GoodDocs!
 
-Welcome! [GoodDollar.org ](www.gooddollar.org)is a 100% non-profit basic income protocol and wallet. Here you can find all of our open source documentation!  
+Welcome! [GoodDollar.org ](https://github.com/GoodDollar/GoodBootstrap/tree/25233b5ee6d1a1cc74f291940339383c3bd3f455/docs/www.gooddollar.org)is a 100% non-profit basic income protocol and wallet. Here you can find all of our open source documentation!
 
-Let's get started: 
+Let's get started:
 
 **GoodDollar Protocol**
 
