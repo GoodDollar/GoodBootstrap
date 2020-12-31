@@ -14,17 +14,18 @@ GoodDollar Protocol is deployed on both the Ethereum mainnet and on the Fuse sid
 
 | Contract | Mainnet | Fuse | Source code |
 | :--- | :--- | :--- | :--- |
-| [GoodDollar ERC20](https://docs.gooddollar.org/smart-contracts-guide#gooddollar-gusd-erc-20) | [0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B](https://etherscan.io/address/0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B) | [0x495d133B938596C9984d462F007B676bDc57eCEC](https://explorer.fuse.io/address/0x495d133b938596c9984d462f007b676bdc57ecec) | [GoodDollar.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/token/GoodDollar.sol) |
-| [Identity](https://docs.gooddollar.org/smart-contracts-guide#identity) | [0x76e76e10Ac308A1D54a00f9df27EdCE4801F288b](https://etherscan.io/address/0x76e76e10Ac308A1D54a00f9df27EdCE4801F288b) | [0xFa8d865A962ca8456dF331D78806152d3aC5B84F](https://explorer.fuse.io/address/0xFa8d865A962ca8456dF331D78806152d3aC5B84F) | [Identity.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/identity/Identity.sol) |
+| [GoodDollar ERC20](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#gooddollar-gusd-erc-20) | [0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B](https://etherscan.io/address/0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B) | [0x495d133B938596C9984d462F007B676bDc57eCEC](https://explorer.fuse.io/address/0x495d133b938596c9984d462f007b676bdc57ecec) | [GoodDollar.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/token/GoodDollar.sol) |
+| [Identity](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#identity) | [0x76e76e10Ac308A1D54a00f9df27EdCE4801F288b](https://etherscan.io/address/0x76e76e10Ac308A1D54a00f9df27EdCE4801F288b) | [0xFa8d865A962ca8456dF331D78806152d3aC5B84F](https://explorer.fuse.io/address/0xFa8d865A962ca8456dF331D78806152d3aC5B84F) | [Identity.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/identity/Identity.sol) |
 | [GoodStaking](https://docs.gooddollar.org/smart-contracts-guide#goodstaking) | [0xEa12bB3917cf6aE2FDE97cE4756177703426d41F](https://etherscan.io/address/0xEa12bB3917cf6aE2FDE97cE4756177703426d41F) |  | [SimpleDAIStaking.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/SimpleDAIStaking.sol) |
-| [GoodReserve](https://docs.gooddollar.org/smart-contracts-guide#goodreserve) | [0x5C16960F2Eeba27b7de4F1F6e84E616C1977e070](https://etherscan.io/address/0x5C16960F2Eeba27b7de4F1F6e84E616C1977e070) |  | [GoodReserveCDai.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/GoodReserveCDai.sol) |
-| [GoodFundManager](https://docs.gooddollar.org/smart-contracts-guide#goodfundmanager) | [0xbDFD60f3aE73329D33ebe17d78383DEfd72643Ad](https://etherscan.io/address/0xbDFD60f3aE73329D33ebe17d78383DEfd72643Ad) |  | [GoodFundManager.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/GoodFundManager.sol) |
+| [GoodReserve](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#goodreserve) | [0x5C16960F2Eeba27b7de4F1F6e84E616C1977e070](https://etherscan.io/address/0x5C16960F2Eeba27b7de4F1F6e84E616C1977e070) |  | [GoodReserveCDai.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/GoodReserveCDai.sol) |
+| [GoodFundManager](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#goodfundmanager) | [0xbDFD60f3aE73329D33ebe17d78383DEfd72643Ad](https://etherscan.io/address/0xbDFD60f3aE73329D33ebe17d78383DEfd72643Ad) |  | [GoodFundManager.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/GoodFundManager.sol) |
 | [GoodMarketMaker](https://docs.gooddollar.org/smart-contracts-guide#goodmarketmaker) | [0xEDbE438Cd865992fDB72dd252E6055A71b02BE72](https://etherscan.io/address/0xEDbE438Cd865992fDB72dd252E6055A71b02BE72) |  | [GoodMarketMaker.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/GoodMarketMaker.sol) |
 | [ContributionCalculation](core-contracts-and-api.md) | [0x8eEC64bb6807c0178f96277cCE6a334B4e565E5C](https://etherscan.io/address/0x8eEC64bb6807c0178f96277cCE6a334B4e565E5C) |  | [ContributionCalculation.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/ContributionCalculation.sol) |
-| [UBIScheme](https://docs.gooddollar.org/smart-contracts-guide#ubischeme) |  | [0xAACbaaB8571cbECEB46ba85B5981efDB8928545e](https://explorer.fuse.io/address/0xAACbaaB8571cbECEB46ba85B5981efDB8928545e) | [UBIScheme.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/UBIScheme.sol) |
-| [FirstClaimPool](https://docs.gooddollar.org/smart-contracts-guide#firstclaimpool) |  | [0x18BcdF79A724648bF34eb06701be81bD072A2384](https://explorer.fuse.io/address/0x18BcdF79A724648bF34eb06701be81bD072A2384) | [FirstClaimPool.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/FirstClaimPool.sol) |
+| [UBIScheme](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#ubischeme) |  | [0xAACbaaB8571cbECEB46ba85B5981efDB8928545e](https://explorer.fuse.io/address/0xAACbaaB8571cbECEB46ba85B5981efDB8928545e) | [UBIScheme.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/UBIScheme.sol) |
+| [FirstClaimPool](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#firstclaimpool) |  | [0x18BcdF79A724648bF34eb06701be81bD072A2384](https://explorer.fuse.io/address/0x18BcdF79A724648bF34eb06701be81bD072A2384) | [FirstClaimPool.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/FirstClaimPool.sol) |
 | [AdminWallet](https://docs.gooddollar.org/smart-contracts-guide#adminwallet) |  | [0x9F75dAcB77419b87f568d417eBc84346e134144E](https://explorer.fuse.io/address/0x9F75dAcB77419b87f568d417eBc84346e134144E) | [AdminWallet.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/wallet/AdminWallet.sol) |
-| [OneTimePayments](https://docs.gooddollar.org/smart-contracts-guide#onetimepayments) |  | [0xd9Aa86e0Ddb932bD78ab8c71C1B98F83cF610Bd4](https://explorer.fuse.io/address/0xd9Aa86e0Ddb932bD78ab8c71C1B98F83cF610Bd4) | [OneTimePayments.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/dao/schemes/OneTimePayments.sol) |
+| [OneTimePayments](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#onetimepayments) |  | [0xd9Aa86e0Ddb932bD78ab8c71C1B98F83cF610Bd4](https://explorer.fuse.io/address/0xd9Aa86e0Ddb932bD78ab8c71C1B98F83cF610Bd4) | [OneTimePayments.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/dao/schemes/OneTimePayments.sol) |
+| [DonationsStaking](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#donationsstaking) | [0x93fb057eec37abc11d955d1c09e6a0d218f35cff](https://etherscan.io/address/0x93fb057eec37abc11d955d1c09e6a0d218f35cff#readProxyContract) |  | [DonationsStakinng.sol](https://github.com/GoodDollar/GoodContracts/blob/master/upgradables/contracts/staking/DonationsStaking.sol) |
 
 #### GoodDollar G$ ERC-20
 
@@ -221,7 +222,51 @@ function withdraw(address paymentId, bytes memory signature) public onlyRegister
 function cancel(address paymentId) public
 ```
 
-#### GoodMarketMaker
+#### DonationsStaking
+
+Any ETH/DAI sent to this contract address is donated to the GoodDollar DAO and will generate interest to fund UBI. The funds are periodically staked in the GoodStaking contract by calling the `stakeDonations`method.
+
+```text
+	uint256 public totalETHDonated;
+	uint256 public totalDAIDonated;
+
+	event DonationStaked(
+		address caller,
+		uint256 stakedDAI,
+		uint256 ethDonated,
+		uint256 daiDonated
+	);
+
+	/**
+	 * @dev stake available funds. It
+	 * take balance in eth and buy DAI from uniswap then stake outstanding DAI balance.
+	 * anyone can call this.
+	 * @param _minDAIAmount enforce expected return from uniswap when converting eth balance to DAI
+	 */
+	function stakeDonations(uint256 _minDAIAmount) public payable isActive {
+		uint256 daiDonated = DAI.balanceOf(address(this));
+		uint256 ethDonated = _buyDAI(_minDAIAmount);
+
+		uint256 daiBalance = DAI.balanceOf(address(this));
+		require(daiBalance > 0, "no DAI to stake");
+
+		stakingContract.stakeDAI(daiBalance);
+		totalETHDonated += ethDonated;
+		totalDAIDonated += daiDonated;
+		emit DonationStaked(msg.sender, daiBalance, ethDonated, daiDonated);
+	}
+
+	/**
+	 * @dev total DAI value staked
+	 * @return DAI value staked
+	 */
+	function totalStaked() public view returns (uint256) {
+		Staking.Staker memory staker = stakingContract.stakers(address(this));
+		return staker.stakedDAI;
+	}
+```
+
+####  GoodMarketMaker
 
 Helper contract for the GoodReserve.
 
