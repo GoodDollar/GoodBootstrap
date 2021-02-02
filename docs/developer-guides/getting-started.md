@@ -69,7 +69,7 @@ cd ios
 pod install
 ```
 
-#### environment .env file
+#### Environment .env file
 
 Copy `.env.development` to `.env`, then append `.env` file with the following creds:
 
@@ -108,6 +108,140 @@ npm run android # Android
 #### iOS hints
 
 Don't forget to open `ios/GoodDollar.xcworkspace` (**NOT** `.xcodeproj`!) and set up provisional profile and developer account.
+
+### Install with the local server instance
+
+#### Prerequisites
+
+Install MongoDB 4.x:
+
+- guide for macOS: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
+- guide for Linux: https://docs.mongodb.com/manual/administration/install-on-linux/
+
+Configure mongo to run as a cluster. 
+Add your local computer's hostname or it's IP in the home network to the `bindIp` list:
+
+```
+# mongod.conf
+systemLog:
+  destination: file
+  path: /usr/local/var/log/mongodb/mongo.log
+  logAppend: true
+storage:
+  dbPath: /usr/local/var/mongodb
+net:
+  bindIp: 127.0.0.1,Alexs-MacBook-Pro-2.local
+replication:
+  replSetName: local
+```
+
+#### GunDB
+
+Clone the repository and install dependencies
+
+```bash
+git clone git@github.com:GoodDollar/GoodGun.git
+cd GoodGun
+npm i
+```
+
+The `.env.example` file provided is using mongoDB as the storage. **Don't use it**. 
+For the local development, the direct filesystem should be used. 
+To achieve this, create `.env` file with the following contents:
+
+```
+GUN_PUBLIC_S3=
+GUN_PEERS=
+MONGO_URL=
+MONGO_QUERY=
+MONGO_PORT=27017
+MONGO_DB=gun
+MONGO_COLLECTION=local
+```
+
+#### GoodServer
+
+Clone the repository and install dependencies
+
+```bash
+git clone git@github.com:GoodDollar/GoodServer.git
+cd GoodServer
+npm i
+```
+
+Copy `.env.dev` to `.env`, then append `.env` file with the following creds:
+
+```
+MONGO_DB_URI=mongodb://localhost:27017,<additional hostname/ip from mongod.conf>:27017/gooddollar?replicaSet=local
+GUNDB_PEERS=http://localhost:8765/gun
+GUNDB_PASS=password
+ZOOM_SERVER_BASEURL=https://api.facetec.com/api/v3/biometrics
+ZOOM_LICENSE_KEY=
+ALCHEMY_API=
+INFURA_API=
+MAUTIC_BASIC_TOKEN=
+MAUTIC_TOKEN=
+MNEMONIC=
+SECURE_KEY=
+TWILIO_AUTH_ID=
+TWILIO_AUTH_TOKEN=
+TWILIO_VERIFY_ID=
+```
+
+You could take missing creds from the Heroku's `good-server` instance or ask your team leader for the complete `.env` file
+
+#### GoodDAPP
+
+Install and configure application the same way as described in the "DApp-only install" section of this document.
+To use local instances of the GoodServer and GunDB, edit the following env variables:
+
+```
+REACT_APP_SERVER_URL=http://localhost:3003
+REACT_APP_GUN_PUBLIC_URL=http://localhost:8765/gun
+```
+
+#### Running
+
+The most preferrable way to run the whole app (gun + server + dapp) locally is to use separate Terminal's tabs.
+
+##### Gun
+
+```bash
+cd GoodGun
+npx pm2 start --only gun-local
+npx pm2 logs # enables logs output
+```
+
+Don't forget to unload Gun after your work is done:
+
+```bash
+npx pm2 stop all
+```
+
+##### GoodServer
+
+```bash
+cd GoodServer
+npm run dev
+```
+
+##### GoodDAPP
+
+```
+cd GoodDAPP
+npm run web
+```
+
+#### Mobile devices/emulators hints
+
+There are issues when you want to run the app on iOS or Android with local server.
+It won't connect to the local GoodServer/GoodGUN instances. 
+
+The simplest way to solve this - to run the app with gooddev/goodqa server 
+(see "DApp-only install" section of this document).
+
+If you need the **exactly** local server, you have to use services to expose it to some public domain.
+Something like Serveo or its analogue. More detailed solution is explained at the end of this document.
 
 ## Complete guide
 
