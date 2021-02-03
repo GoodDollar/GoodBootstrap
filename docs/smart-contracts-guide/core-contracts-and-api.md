@@ -284,7 +284,10 @@ Helper contract for our backend servers to whitelist users and to fill their Fus
 
 ### Token Bridge Contracts
 
-Bridge contracts were developed by [Fuse](https://fuse.io)
+Bridge contracts were developed by [Fuse](https://fuse.io).
+
+Note: for regular users it is recommended to use FuseSwap Bridge in order to avoid losing your tokens \([help](https://docs.fuse.io/fuseswap/bridge-fuse-erc20-tokens)\).\
+FuseSwap Bridge: [Mainnet -&gt; Fuse](https://fuseswap.com/#/bridge/0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B) | [Fuse -&gt; Mainnet](https://fuseswap.com/#/bridge/0x495d133B938596C9984d462F007B676bDc57eCEC).
 
 | Contract | Mainnet | Fuse | Source Code |
 | :--- | :--- | :--- | :--- |
