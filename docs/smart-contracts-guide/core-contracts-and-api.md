@@ -21,7 +21,7 @@ GoodDollar Protocol is deployed on both the Ethereum mainnet and on the Fuse sid
 | [GoodFundManager](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#goodfundmanager) | [0xbDFD60f3aE73329D33ebe17d78383DEfd72643Ad](https://etherscan.io/address/0xbDFD60f3aE73329D33ebe17d78383DEfd72643Ad) |  | [GoodFundManager.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/GoodFundManager.sol) |
 | [GoodMarketMaker](https://docs.gooddollar.org/smart-contracts-guide#goodmarketmaker) | [0xEDbE438Cd865992fDB72dd252E6055A71b02BE72](https://etherscan.io/address/0xEDbE438Cd865992fDB72dd252E6055A71b02BE72) |  | [GoodMarketMaker.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/GoodMarketMaker.sol) |
 | [ContributionCalculation](core-contracts-and-api.md) | [0x8eEC64bb6807c0178f96277cCE6a334B4e565E5C](https://etherscan.io/address/0x8eEC64bb6807c0178f96277cCE6a334B4e565E5C) |  | [ContributionCalculation.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/ContributionCalculation.sol) |
-| [UBIScheme](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#ubischeme) |  | [0xAACbaaB8571cbECEB46ba85B5981efDB8928545e](https://explorer.fuse.io/address/0xAACbaaB8571cbECEB46ba85B5981efDB8928545e) | [UBIScheme.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/UBIScheme.sol) |
+| [UBIScheme](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#ubischeme) |  | [0xD7aC544F8A570C4d8764c3AAbCF6870CBD960D0D](https://explorer.fuse.io/address/0xD7aC544F8A570C4d8764c3AAbCF6870CBD960D0D/transactions) | [UBIScheme.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/UBIScheme.sol) |
 | [FirstClaimPool](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#firstclaimpool) |  | [0x18BcdF79A724648bF34eb06701be81bD072A2384](https://explorer.fuse.io/address/0x18BcdF79A724648bF34eb06701be81bD072A2384) | [FirstClaimPool.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/FirstClaimPool.sol) |
 | [AdminWallet](https://docs.gooddollar.org/smart-contracts-guide#adminwallet) |  | [0x9F75dAcB77419b87f568d417eBc84346e134144E](https://explorer.fuse.io/address/0x9F75dAcB77419b87f568d417eBc84346e134144E) | [AdminWallet.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/wallet/AdminWallet.sol) |
 | [OneTimePayments](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#onetimepayments) |  | [0xd9Aa86e0Ddb932bD78ab8c71C1B98F83cF610Bd4](https://explorer.fuse.io/address/0xd9Aa86e0Ddb932bD78ab8c71C1B98F83cF610Bd4) | [OneTimePayments.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/dao/schemes/OneTimePayments.sol) |
@@ -227,46 +227,46 @@ function cancel(address paymentId) public
 Any ETH/DAI sent to this contract address is donated to the GoodDollar DAO and will generate interest to fund UBI. The funds are periodically staked in the GoodStaking contract by calling the `stakeDonations`method.
 
 ```text
-	uint256 public totalETHDonated;
-	uint256 public totalDAIDonated;
+    uint256 public totalETHDonated;
+    uint256 public totalDAIDonated;
 
-	event DonationStaked(
-		address caller,
-		uint256 stakedDAI,
-		uint256 ethDonated,
-		uint256 daiDonated
-	);
+    event DonationStaked(
+        address caller,
+        uint256 stakedDAI,
+        uint256 ethDonated,
+        uint256 daiDonated
+    );
 
-	/**
-	 * @dev stake available funds. It
-	 * take balance in eth and buy DAI from uniswap then stake outstanding DAI balance.
-	 * anyone can call this.
-	 * @param _minDAIAmount enforce expected return from uniswap when converting eth balance to DAI
-	 */
-	function stakeDonations(uint256 _minDAIAmount) public payable isActive {
-		uint256 daiDonated = DAI.balanceOf(address(this));
-		uint256 ethDonated = _buyDAI(_minDAIAmount);
+    /**
+     * @dev stake available funds. It
+     * take balance in eth and buy DAI from uniswap then stake outstanding DAI balance.
+     * anyone can call this.
+     * @param _minDAIAmount enforce expected return from uniswap when converting eth balance to DAI
+     */
+    function stakeDonations(uint256 _minDAIAmount) public payable isActive {
+        uint256 daiDonated = DAI.balanceOf(address(this));
+        uint256 ethDonated = _buyDAI(_minDAIAmount);
 
-		uint256 daiBalance = DAI.balanceOf(address(this));
-		require(daiBalance > 0, "no DAI to stake");
+        uint256 daiBalance = DAI.balanceOf(address(this));
+        require(daiBalance > 0, "no DAI to stake");
 
-		stakingContract.stakeDAI(daiBalance);
-		totalETHDonated += ethDonated;
-		totalDAIDonated += daiDonated;
-		emit DonationStaked(msg.sender, daiBalance, ethDonated, daiDonated);
-	}
+        stakingContract.stakeDAI(daiBalance);
+        totalETHDonated += ethDonated;
+        totalDAIDonated += daiDonated;
+        emit DonationStaked(msg.sender, daiBalance, ethDonated, daiDonated);
+    }
 
-	/**
-	 * @dev total DAI value staked
-	 * @return DAI value staked
-	 */
-	function totalStaked() public view returns (uint256) {
-		Staking.Staker memory staker = stakingContract.stakers(address(this));
-		return staker.stakedDAI;
-	}
+    /**
+     * @dev total DAI value staked
+     * @return DAI value staked
+     */
+    function totalStaked() public view returns (uint256) {
+        Staking.Staker memory staker = stakingContract.stakers(address(this));
+        return staker.stakedDAI;
+    }
 ```
 
-####  GoodMarketMaker
+#### GoodMarketMaker
 
 Helper contract for the GoodReserve.
 
@@ -286,8 +286,7 @@ Helper contract for our backend servers to whitelist users and to fill their Fus
 
 Bridge contracts were developed by [Fuse](https://fuse.io).
 
-Note: for regular users it is recommended to use FuseSwap Bridge in order to avoid losing your tokens \([help](https://docs.fuse.io/fuseswap/bridge-fuse-erc20-tokens)\).\
-FuseSwap Bridge: [Mainnet -&gt; Fuse](https://fuseswap.com/#/bridge/0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B) | [Fuse -&gt; Mainnet](https://fuseswap.com/#/bridge/0x495d133B938596C9984d462F007B676bDc57eCEC).
+Note: for regular users it is recommended to use FuseSwap Bridge in order to avoid losing your tokens \([help](https://docs.fuse.io/fuseswap/bridge-fuse-erc20-tokens)\). FuseSwap Bridge: [Mainnet -&gt; Fuse](https://fuseswap.com/#/bridge/0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B) \| [Fuse -&gt; Mainnet](https://fuseswap.com/#/bridge/0x495d133B938596C9984d462F007B676bDc57eCEC).
 
 | Contract | Mainnet | Fuse | Source Code |
 | :--- | :--- | :--- | :--- |

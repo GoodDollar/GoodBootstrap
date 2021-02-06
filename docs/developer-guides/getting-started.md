@@ -4,7 +4,7 @@ description: How to install a local dev env in one click
 
 # Getting Started
 
-This guide will walk you through how to install our learn project [GoodBootstrap](https://github.com/GoodDollar/GoodBootstrap) that will install all our sub projects: [GoodServer](https://github.com/GoodDollar/GoodServer) , [​](https://github.com/GoodDollar/GoodContracts)  [GoodContracts](https://github.com/GoodDollar/GoodContracts), [GoodDAPP](https://github.com/GoodDollar/GoodDAPP) and [GoodGun](https://github.com/GoodDollar/GoodGun)
+This guide will walk you through how to install our learn project [GoodBootstrap](https://github.com/GoodDollar/GoodBootstrap) that will install all our sub projects: [GoodServer](https://github.com/GoodDollar/GoodServer) , [​](https://github.com/GoodDollar/GoodContracts) [GoodContracts](https://github.com/GoodDollar/GoodContracts), [GoodDAPP](https://github.com/GoodDollar/GoodDAPP) and [GoodGun](https://github.com/GoodDollar/GoodGun)
 
 ## Prerequisites
 
@@ -12,10 +12,7 @@ This guide will walk you through how to install our learn project [GoodBootstrap
 Important: Use node version 10.15.x
 {% endhint %}
 
-
-The most easier way to manage node version is using [nvm](https://github.com/nvm-sh/nvm).
-Here's example how to set proper node version with it:
-
+The most easier way to manage node version is using [nvm](https://github.com/nvm-sh/nvm). Here's example how to set proper node version with it:
 
 ```bash
 nvm install 10.15.3
@@ -39,21 +36,21 @@ npm install -g --production windows-build-tools
 
 #### Install mobile developer tools
 
-##### IOS
+**IOS**
 
-- install / update to the latest xCode
-- install CocoaPods:
+* install / update to the latest xCode
+* install CocoaPods:
 
 ```bash
 sudo gem install cocoapods
 ```
 
-##### Android
+**Android**
 
 Follow the guides:
 
-- macOS [guide 1](https://guides.codepath.com/android/installing-android-sdk-tools) [guide 2](https://gist.github.com/agrcrobles/165ac477a9ee51198f4a870c723cd441#file-android_instructions_29-md)
-- ubuntu [expanded guide](https://android.tutorials24x7.com/blog/how-to-install-android-sdk-tools-on-ubuntu-20-04)
+* macOS [guide 1](https://guides.codepath.com/android/installing-android-sdk-tools) [guide 2](https://gist.github.com/agrcrobles/165ac477a9ee51198f4a870c723cd441#file-android_instructions_29-md)
+* ubuntu [expanded guide](https://android.tutorials24x7.com/blog/how-to-install-android-sdk-tools-on-ubuntu-20-04)
 
 ## Quick start
 
@@ -73,7 +70,7 @@ pod install
 
 Copy `.env.development` to `.env`, then append `.env` file with the following creds:
 
-```
+```text
 REACT_APP_ALCHEMY_KEY=
 REACT_APP_AMPLITUDE_API_KEY=
 REACT_APP_AUTH0_CLIENT_ID=
@@ -107,7 +104,7 @@ npm run android # Android
 
 #### iOS hints
 
-Don't forget to open `ios/GoodDollar.xcworkspace` (**NOT** `.xcodeproj`!) and set up provisional profile and developer account.
+Don't forget to open `ios/GoodDollar.xcworkspace` \(**NOT** `.xcodeproj`!\) and set up provisional profile and developer account.
 
 ### Install with the local server instance
 
@@ -115,13 +112,12 @@ Don't forget to open `ios/GoodDollar.xcworkspace` (**NOT** `.xcodeproj`!) and se
 
 Install MongoDB 4.x:
 
-- guide for macOS: https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/
-- guide for Linux: https://docs.mongodb.com/manual/administration/install-on-linux/
+* guide for macOS: [https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/)
+* guide for Linux: [https://docs.mongodb.com/manual/administration/install-on-linux/](https://docs.mongodb.com/manual/administration/install-on-linux/)
 
-Configure mongo to run as a cluster. 
-Add your local computer's hostname or it's IP in the home network to the `bindIp` list:
+Configure mongo to run as a cluster. Add your local computer's hostname or it's IP in the home network to the `bindIp` list:
 
-```
+```text
 # mongod.conf
 systemLog:
   destination: file
@@ -145,11 +141,9 @@ cd GoodGun
 npm i
 ```
 
-The `.env.example` file provided is using mongoDB as the storage. **Don't use it**. 
-For the local development, the direct filesystem should be used. 
-To achieve this, create `.env` file with the following contents:
+The `.env.example` file provided is using mongoDB as the storage. **Don't use it**. For the local development, the direct filesystem should be used. To achieve this, create `.env` file with the following contents:
 
-```
+```text
 GUN_PUBLIC_S3=
 GUN_PEERS=
 MONGO_URL=
@@ -171,7 +165,7 @@ npm i
 
 Copy `.env.dev` to `.env`, then append `.env` file with the following creds:
 
-```
+```text
 MONGO_DB_URI=mongodb://localhost:27017,<additional hostname/ip from mongod.conf>:27017/gooddollar?replicaSet=local
 GUNDB_PEERS=http://localhost:8765/gun
 GUNDB_PASS=password
@@ -192,19 +186,18 @@ You could take missing creds from the Heroku's `good-server` instance or ask you
 
 #### GoodDAPP
 
-Install and configure application the same way as described in the "DApp-only install" section of this document.
-To use local instances of the GoodServer and GunDB, edit the following env variables:
+Install and configure application the same way as described in the "DApp-only install" section of this document. To use local instances of the GoodServer and GunDB, edit the following env variables:
 
-```
+```text
 REACT_APP_SERVER_URL=http://localhost:3003
 REACT_APP_GUN_PUBLIC_URL=http://localhost:8765/gun
 ```
 
 #### Running
 
-The most preferrable way to run the whole app (gun + server + dapp) locally is to use separate Terminal's tabs.
+The most preferrable way to run the whole app \(gun + server + dapp\) locally is to use separate Terminal's tabs.
 
-##### Gun
+**Gun**
 
 ```bash
 cd GoodGun
@@ -218,30 +211,27 @@ Don't forget to unload Gun after your work is done:
 npx pm2 stop all
 ```
 
-##### GoodServer
+**GoodServer**
 
 ```bash
 cd GoodServer
 npm run dev
 ```
 
-##### GoodDAPP
+**GoodDAPP**
 
-```
+```text
 cd GoodDAPP
 npm run web
 ```
 
 #### Mobile devices/emulators hints
 
-There are issues when you want to run the app on iOS or Android with local server.
-It won't connect to the local GoodServer/GoodGUN instances. 
+There are issues when you want to run the app on iOS or Android with local server. It won't connect to the local GoodServer/GoodGUN instances.
 
-The simplest way to solve this - to run the app with gooddev/goodqa server 
-(see "DApp-only install" section of this document).
+The simplest way to solve this - to run the app with gooddev/goodqa server \(see "DApp-only install" section of this document\).
 
-If you need the **exactly** local server, you have to use services to expose it to some public domain.
-Something like Serveo or its analogue. More detailed solution is explained at the end of this document.
+If you need the **exactly** local server, you have to use services to expose it to some public domain. Something like Serveo or its analogue. More detailed solution is explained at the end of this document.
 
 ## Complete guide
 
@@ -252,7 +242,7 @@ Additionally to the preparations listed at the beginning of this doc, you also h
 #### Install [truffle](https://truffleframework.com/truffle) + [ganache-cli](https://truffleframework.com/ganache)
 
 ```bash
-npm install -g truffle ganache-cli 
+npm install -g truffle ganache-cli
 ```
 
 #### Install [python 2.7.\*](https://www.python.org/download/releases/2.7/)
@@ -272,7 +262,7 @@ This will create a git folder for dapp, server and contracts projects in the ./p
 
 make sure master branch is checked out.
 
-if not run:  `npm run master-submodules`
+if not run: `npm run master-submodules`
 {% endhint %}
 
 ### Set environment variables
@@ -311,7 +301,6 @@ This will start the local blockchain, will wait 60 seconds for contracts to fini
 Usually when developing you'll want to change the env variables of the dapp+server which isnt very friendly with pm2 so you might consider starting the project as follows instead of the above
 
 ```bash
-
 #on linux
 npx pm2 start --only good-blockchain,good-gun
 
@@ -331,7 +320,6 @@ npm run dev:local
 #maybe on a new shell
 cd packages/dapp
 npm run web:local
-
 ```
 
 ### Using a different blockchain network
