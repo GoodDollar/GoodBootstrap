@@ -1,2 +1,2 @@
-# Support G$
+# Support GoodDollar
 
