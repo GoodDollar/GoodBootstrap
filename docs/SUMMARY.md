@@ -17,4 +17,8 @@
 * [GoodDollar Whitepaper](https://whitepaper.gooddollar.org)
 * [GoodDollar Litepaper](https://litepaper.gooddollar.org)
 * [GoodDollar Litepaper - Español](https://litepaper-es.gooddollar.org/)
+* [Support G$](support-gusd/README.md)
+  * [Stake Your Fuse](support-gusd/stake-your-fuse.md)
+  * [Stake](support-gusd/stake.md)
+  * [Donate](support-gusd/donate.md)
 
