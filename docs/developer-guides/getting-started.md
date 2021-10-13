@@ -9,15 +9,15 @@ This guide will walk you through how to install our learn project [GoodBootstrap
 ## Prerequisites
 
 {% hint style="warning" %}
-Important: Use node version 10.15.x
+Important: Use node version 14
 {% endhint %}
 
 The most easier way to manage node version is using [nvm](https://github.com/nvm-sh/nvm). Here's example how to set proper node version with it:
 
 ```bash
-nvm install 10.15.3
-nvm use 10.15.3
-nvm alias default 10.15.3
+nvm install 14.17.6
+nvm use 14.17.6
+nvm alias default 14.17.6
 ```
 
 #### Install build tools
@@ -61,10 +61,17 @@ Clone the repository and install dependencies
 ```bash
 git clone git@github.com:GoodDollar/GoodDAPP.git
 cd GoodDAPP
-npm i
+yarn --frozen-lockfile
 cd ios
 pod install
 ```
+
+{% hint style="warning" %}
+Important: always specify `--frozen-lockfile` yarn flag to keep packages to being updated.
+Otherwise you could get error during build because the latest versions of some packages 
+aren't compatible for the RN version used. 
+{% endhint %}
+
 
 #### Environment .env file
 
