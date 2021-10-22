@@ -18,7 +18,8 @@
   * [Building Blocks](developer-guides/building-blocks.md)
   * [Blockchain Events](developer-guides/blockchain-events.md)
   * [Create Font With Icons](developer-guides/create-font-with-icons.md)
+* [Products & SDKs](products-and-sdks/README.md)
+  * [G$ Payments](products-and-sdks/gusd-payments.md)
 * [GoodDollar Whitepaper](https://whitepaper.gooddollar.org)
 * [GoodDollar Litepaper](https://litepaper.gooddollar.org)
-* [GoodDollar Litepaper - Español](https://litepaper-es.gooddollar.org/)
-
+* [GoodDollar Litepaper - Español](https://litepaper-es.gooddollar.org)
