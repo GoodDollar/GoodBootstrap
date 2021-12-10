@@ -4,13 +4,7 @@ description: This is a step-by-step guide to deploy your own Gooddollar User Int
 
 # Deploy your own Gooddollar UI
 
-GoodDollar currently is not running its own frontend — making the system more decentralized and censorship-resistant. Users thus have to use one of the frontends provided by our community.
-
-
-
-## How to deploy your own UI
-
-This is done by a few simple steps based on the open-source repository you can find [here](https://github.com/GoodDollar/GoodProtocolUI).
+#### This will be done by a few simple steps based on the open-source repository you can find [here](https://github.com/GoodDollar/GoodProtocolUI).
 
 This tutorial will show you how to deploy it using Netlify, but you can use Vercel, Heroku, or other services.
 
