@@ -1,7 +1,6 @@
 # Table of contents
 
 * [Welcome to GoodDocs!](README.md)
-* [Welcome to GoodDocs!](<README (1).md>)
 * [Contributing to GoodDollar](contributing.md)
 * [Protocol V1](smart-contracts-guide/README.md)
   * [Architecture & Value Flow](smart-contracts-guide/architecture-and-value-flow.md)
@@ -34,4 +33,3 @@
 * [GoodDollar Litepaper](https://litepaper.gooddollar.org)
 * [GoodDollar Litepaper - Español](https://litepaper-es.gooddollar.org)
 * [V2 GoodDollar Protocol Documentation](v2-gooddollar-protocol-documentation.md)
-* [Page 1 test](page-1-test.md)
