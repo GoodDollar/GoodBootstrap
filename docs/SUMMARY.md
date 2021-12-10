@@ -33,3 +33,8 @@
 * [GoodDollar Whitepaper](https://whitepaper.gooddollar.org)
 * [GoodDollar Litepaper](https://litepaper.gooddollar.org)
 * [GoodDollar Litepaper - Español](https://litepaper-es.gooddollar.org)
+
+## Group 1
+
+* [Page 1](group-1/page-1.md)
+* [Page 2](group-1/page-2.md)
