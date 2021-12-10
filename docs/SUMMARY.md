@@ -7,6 +7,7 @@
   * [Core Contracts & API](smart-contracts-guide/core-contracts-and-api.md)
 * [Protocol V2](protocol-v2/README.md)
   * [V2 GoodDollar Protocol Documentation](protocol-v2/v2-gooddollar-protocol-documentation.md)
+  * [Page 1](protocol-v2/page-1.md)
   * [Architecture & Value Flow](protocol-v2/architecture-and-value-flow.md)
   * [Core Contracts & API](protocol-v2/core-contracts-and-api.md)
   * [How to Buy & Sell G$](protocol-v2/how-to-buy-and-sell-gusd.md)
@@ -33,8 +34,3 @@
 * [GoodDollar Whitepaper](https://whitepaper.gooddollar.org)
 * [GoodDollar Litepaper](https://litepaper.gooddollar.org)
 * [GoodDollar Litepaper - Español](https://litepaper-es.gooddollar.org)
-
-## Group 1
-
-* [Page 1](group-1/page-1.md)
-* [Page 2](group-1/page-2.md)
