@@ -10,26 +10,32 @@ description: >-
 
 GoodDollar Protocol is deployed on both the Ethereum mainnet and on the Fuse sidechain. Contracts like the GoodReserve are only on Mainnet, and other contracts like the UBIScheme are only on the Fuse sidechain. Certain contracts, such as the DAO and G$ Token contracts, are deployed on both networks.
 
+## Core Contracts
+
 ### Core Contracts
 
-| Contract | Mainnet | Fuse | Source code |
-| :--- | :--- | :--- | :--- |
-| [GoodDollar ERC20](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#gooddollar-gusd-erc-20) | [0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B](https://etherscan.io/address/0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B) | [0x495d133B938596C9984d462F007B676bDc57eCEC](https://explorer.fuse.io/address/0x495d133b938596c9984d462f007b676bdc57ecec) | [GoodDollar.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/token/GoodDollar.sol) |
-| [Identity](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#identity) | [0x76e76e10Ac308A1D54a00f9df27EdCE4801F288b](https://etherscan.io/address/0x76e76e10Ac308A1D54a00f9df27EdCE4801F288b) | [0xFa8d865A962ca8456dF331D78806152d3aC5B84F](https://explorer.fuse.io/address/0xFa8d865A962ca8456dF331D78806152d3aC5B84F) | [Identity.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/identity/Identity.sol) |
-| [GoodStaking](https://docs.gooddollar.org/smart-contracts-guide#goodstaking) | [0xEa12bB3917cf6aE2FDE97cE4756177703426d41F](https://etherscan.io/address/0xEa12bB3917cf6aE2FDE97cE4756177703426d41F) |  | [SimpleDAIStaking.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/SimpleDAIStaking.sol) |
-| [GoodReserve](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#goodreserve) | [0x5C16960F2Eeba27b7de4F1F6e84E616C1977e070](https://etherscan.io/address/0x5C16960F2Eeba27b7de4F1F6e84E616C1977e070) |  | [GoodReserveCDai.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/GoodReserveCDai.sol) |
-| [GoodFundManager](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#goodfundmanager) | [0xbDFD60f3aE73329D33ebe17d78383DEfd72643Ad](https://etherscan.io/address/0xbDFD60f3aE73329D33ebe17d78383DEfd72643Ad) |  | [GoodFundManager.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/GoodFundManager.sol) |
-| [GoodMarketMaker](https://docs.gooddollar.org/smart-contracts-guide#goodmarketmaker) | [0xEDbE438Cd865992fDB72dd252E6055A71b02BE72](https://etherscan.io/address/0xEDbE438Cd865992fDB72dd252E6055A71b02BE72) |  | [GoodMarketMaker.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/GoodMarketMaker.sol) |
-| [ContributionCalculation](core-contracts-and-api.md) | [0x8eEC64bb6807c0178f96277cCE6a334B4e565E5C](https://etherscan.io/address/0x8eEC64bb6807c0178f96277cCE6a334B4e565E5C) |  | [ContributionCalculation.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/ContributionCalculation.sol) |
-| [UBIScheme](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#ubischeme) |  | [0xD7aC544F8A570C4d8764c3AAbCF6870CBD960D0D](https://explorer.fuse.io/address/0xD7aC544F8A570C4d8764c3AAbCF6870CBD960D0D/transactions) | [UBIScheme.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/UBIScheme.sol) |
-| [FirstClaimPool](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#firstclaimpool) |  | [0x18BcdF79A724648bF34eb06701be81bD072A2384](https://explorer.fuse.io/address/0x18BcdF79A724648bF34eb06701be81bD072A2384) | [FirstClaimPool.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/FirstClaimPool.sol) |
-| [AdminWallet](https://docs.gooddollar.org/smart-contracts-guide#adminwallet) |  | [0x9F75dAcB77419b87f568d417eBc84346e134144E](https://explorer.fuse.io/address/0x9F75dAcB77419b87f568d417eBc84346e134144E) | [AdminWallet.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/wallet/AdminWallet.sol) |
-| [OneTimePayments](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#onetimepayments) |  | [0xd9Aa86e0Ddb932bD78ab8c71C1B98F83cF610Bd4](https://explorer.fuse.io/address/0xd9Aa86e0Ddb932bD78ab8c71C1B98F83cF610Bd4) | [OneTimePayments.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/dao/schemes/OneTimePayments.sol) |
-| [DonationsStaking](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#donationsstaking) | [0x93fb057eec37abc11d955d1c09e6a0d218f35cff](https://etherscan.io/address/0x93fb057eec37abc11d955d1c09e6a0d218f35cff#readProxyContract) |  | [DonationsStakinng.sol](https://github.com/GoodDollar/GoodContracts/blob/master/upgradables/contracts/staking/DonationsStaking.sol) |
+### GoodDollar G$ ERC-20
+
+| Contract                                                                                                            | Mainnet                                                                                                                                 | Fuse                                                                                                                                   | Source code                                                                                                                               |
+| ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| [GoodDollar ERC20](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#gooddollar-gusd-erc-20) | [0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B](https://etherscan.io/address/0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B)                   | [0x495d133B938596C9984d462F007B676bDc57eCEC](https://explorer.fuse.io/address/0x495d133b938596c9984d462f007b676bdc57ecec)              | [GoodDollar.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/token/GoodDollar.sol)                                  |
+| [Identity](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#identity)                       | [0x76e76e10Ac308A1D54a00f9df27EdCE4801F288b](https://etherscan.io/address/0x76e76e10Ac308A1D54a00f9df27EdCE4801F288b)                   | [0xFa8d865A962ca8456dF331D78806152d3aC5B84F](https://explorer.fuse.io/address/0xFa8d865A962ca8456dF331D78806152d3aC5B84F)              | [Identity.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/identity/Identity.sol)                                   |
+| [GoodStaking](https://docs.gooddollar.org/smart-contracts-guide#goodstaking)                                        | [0xEa12bB3917cf6aE2FDE97cE4756177703426d41F](https://etherscan.io/address/0xEa12bB3917cf6aE2FDE97cE4756177703426d41F)                   |                                                                                                                                        | [SimpleDAIStaking.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/SimpleDAIStaking.sol)               |
+| [GoodReserve](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#goodreserve)                 | [0x5C16960F2Eeba27b7de4F1F6e84E616C1977e070](https://etherscan.io/address/0x5C16960F2Eeba27b7de4F1F6e84E616C1977e070)                   |                                                                                                                                        | [GoodReserveCDai.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/GoodReserveCDai.sol)                 |
+| [GoodFundManager](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#goodfundmanager)         | [0xbDFD60f3aE73329D33ebe17d78383DEfd72643Ad](https://etherscan.io/address/0xbDFD60f3aE73329D33ebe17d78383DEfd72643Ad)                   |                                                                                                                                        | [GoodFundManager.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/GoodFundManager.sol)                 |
+| [GoodMarketMaker](https://docs.gooddollar.org/smart-contracts-guide#goodmarketmaker)                                | [0xEDbE438Cd865992fDB72dd252E6055A71b02BE72](https://etherscan.io/address/0xEDbE438Cd865992fDB72dd252E6055A71b02BE72)                   |                                                                                                                                        | [GoodMarketMaker.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/GoodMarketMaker.sol)                 |
+| [ContributionCalculation](core-contracts-and-api.md)                                                                | [0x8eEC64bb6807c0178f96277cCE6a334B4e565E5C](https://etherscan.io/address/0x8eEC64bb6807c0178f96277cCE6a334B4e565E5C)                   |                                                                                                                                        | [ContributionCalculation.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/ContributionCalculation.sol) |
+| [UBIScheme](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#ubischeme)                     |                                                                                                                                         | [0xD7aC544F8A570C4d8764c3AAbCF6870CBD960D0D](https://explorer.fuse.io/address/0xD7aC544F8A570C4d8764c3AAbCF6870CBD960D0D/transactions) | [UBIScheme.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/UBIScheme.sol)                             |
+| [FirstClaimPool](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#firstclaimpool)           |                                                                                                                                         | [0x18BcdF79A724648bF34eb06701be81bD072A2384](https://explorer.fuse.io/address/0x18BcdF79A724648bF34eb06701be81bD072A2384)              | [FirstClaimPool.sol](https://github.com/GoodDollar/GoodContracts/blob/master/stakingModel/contracts/FirstClaimPool.sol)                   |
+| [AdminWallet](https://docs.gooddollar.org/smart-contracts-guide#adminwallet)                                        |                                                                                                                                         | [0x9F75dAcB77419b87f568d417eBc84346e134144E](https://explorer.fuse.io/address/0x9F75dAcB77419b87f568d417eBc84346e134144E)              | [AdminWallet.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/wallet/AdminWallet.sol)                               |
+| [OneTimePayments](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#onetimepayments)         |                                                                                                                                         | [0xd9Aa86e0Ddb932bD78ab8c71C1B98F83cF610Bd4](https://explorer.fuse.io/address/0xd9Aa86e0Ddb932bD78ab8c71C1B98F83cF610Bd4)              | [OneTimePayments.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/dao/schemes/OneTimePayments.sol)                  |
+| [DonationsStaking](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#donationsstaking)       | [0x93fb057eec37abc11d955d1c09e6a0d218f35cff](https://etherscan.io/address/0x93fb057eec37abc11d955d1c09e6a0d218f35cff#readProxyContract) |                                                                                                                                        | [DonationsStakinng.sol](https://github.com/GoodDollar/GoodContracts/blob/master/upgradables/contracts/staking/DonationsStaking.sol)       |
 
 #### GoodDollar G$ ERC-20
 
 The GoodDollar G$ token follows the ERC-20 token standard and also supports ERC-677.
+
+### Identity
 
 #### Identity
 
@@ -38,7 +44,7 @@ The identity contract controls addresses that are whitelisted to "Claim" UBI.
 * **Face Verification** GoodDollar currently whitelists users based on a user proving "uniqueness" by signing up with a live and unique face. All image data and details are anonymized in order to allow the user to create a new account in case he is unable to recover his wallet. Facial details are deleted after `authenticationPeriod` and users are required to perform face verification again every `authenticationPeriod` days.
 * **Social Profile** Each blockchain address is linked to the user's public profile as created in the wallet. The DID is the node id in the public p2p GunDB database. Mappings from wallet address to DID are held in `addrTODID`
 
-```text
+```
 /* 
  * @dev Returns true if given address has been added to whitelist
  * @param account the address to check
@@ -61,9 +67,11 @@ mapping(address => string) public addrToDID;
 
 #### GoodStaking
 
+#### GoodStaking
+
 Supporters / stakers can stake crypto which is then sent to permissionless protocols which earn interest. The FundManager has permissions to collect interest-earned from this contract.
 
-```text
+```
 /**
  * @dev Allows a staker to deposit DAI tokens. Notice that `approve` is
  * needed to be executed before the execution of this method.
@@ -78,11 +86,13 @@ function stakeDAI(uint256 _amount) public whenNotPaused
 function withdrawStake() public
 ```
 
+### GoodReserve
+
 #### GoodReserve
 
-The GoodReserve mints G$ based on the interest transferred from the FundManager. Only the FundManager can trigger minting. The GoodReserve also acts as the GoodDollar liquidity pool and AMM \(Automatic Market Maker\) and enables methods to buy and sell G$s.
+The GoodReserve mints G$ based on the interest transferred from the FundManager. Only the FundManager can trigger minting. The GoodReserve also acts as the GoodDollar liquidity pool and AMM (Automatic Market Maker) and enables methods to buy and sell G$s.
 
-```text
+```
 /**
  * @dev Converts `buyWith` tokens to GD tokens and updates the bonding curve params.
  * `buy` occurs only if the GD return is above the given minimum. It is possible
@@ -123,11 +133,13 @@ function sell(
 function currentPrice(ERC20 _token) public view returns (uint256)
 ```
 
+### GoodFundManager
+
 #### GoodFundManager
 
 Has permissions to collect interest from the GoodStaking contract and permissions to tell GoodReserve to mint. Anyone can trigger the collection and minting process
 
-```text
+```
 /**
  * @dev Collects UBI interest in cDai from a given staking contract and transfers
  * that interest to the reserve contract. Then transfers the gd
@@ -148,11 +160,13 @@ function transferInterest(StakingContract _staking)
     requireDAOContract(address(_staking))
 ```
 
+### UBIScheme
+
 #### UBIScheme
 
 Holds all the G$s that were transferred via bridge from the FundManager. The pool of G$s is divided equally by the amount of current active users, and distributed every day. Each active user can then "claim" his quota. If a user fails to claim his quota it becomes part of the next day's pool of G$ to be distributed as basic income.
 
-```text
+```
 /**
  * @dev Checks the amount which the sender address is eligible to claim for,
  * regardless if they have been whitelisted or not.
@@ -189,11 +203,13 @@ function fish(address _account) public requireActive returns (bool)
 function fishMulti(address[] memory _accounts)
 ```
 
+### OneTimePayments
+
 #### OneTimePayments
 
 Payments on the GoodDollar wallet are done via payment links. G$s are held in escrow and the recipient can retrieve the funds if he has the key. While the money is in escrow the sender can choose to cancel the payment and retrieve the funds. Based on [Celo's](https://github.com/celo) payments contract.
 
-```text
+```
 /* 
 * @dev ERC677 on token transfer function. When transferAndCall is called on this contract,
  * this function is called, depositing the payment amount under the hash of the given bytes.
@@ -222,11 +238,13 @@ function withdraw(address paymentId, bytes memory signature) public onlyRegister
 function cancel(address paymentId) public
 ```
 
+### DonationsStaking
+
 #### DonationsStaking
 
 Any ETH/DAI sent to this contract address is donated to the GoodDollar DAO and will generate interest to fund UBI. The funds are periodically staked in the GoodStaking contract by calling the `stakeDonations`method.
 
-```text
+```
     uint256 public totalETHDonated;
     uint256 public totalDAIDonated;
 
@@ -266,43 +284,58 @@ Any ETH/DAI sent to this contract address is donated to the GoodDollar DAO and w
     }
 ```
 
+### GoodMarketMaker
+
 #### GoodMarketMaker
 
 Helper contract for the GoodReserve.
 
+### ContributionCalculation
+
 #### ContributionCalculation
 
-Helper contract for calculating the exit contribution \(ie when selling G$ back to the reserve\)
+Helper contract for calculating the exit contribution (ie when selling G$ back to the reserve)
+
+### FirstClaimPool
 
 #### FirstClaimPool
 
-Helper contract for UBIScheme. Manually funded by the Foundation to give 1G$ for "inactive" users when they claim. Since a new user \(inactive\) becomes active and eligible to claim UBI only in the next UBI epoch. So for new users not go empty handed on their first claim we give out a 1G$.
+Helper contract for UBIScheme. Manually funded by the Foundation to give 1G$ for "inactive" users when they claim. Since a new user (inactive) becomes active and eligible to claim UBI only in the next UBI epoch. So for new users not go empty handed on their first claim we give out a 1G$.
+
+### AdminWallet
 
 #### AdminWallet
 
 Helper contract for our backend servers to whitelist users and to fill their Fuse network gas.
 
+## Token Bridge Contracts
+
 ### Token Bridge Contracts
 
 Bridge contracts were developed by [Fuse](https://fuse.io).
 
-Note: for regular users it is recommended to use FuseSwap Bridge in order to avoid losing your tokens \([help](https://docs.fuse.io/fuseswap/bridge-fuse-erc20-tokens)\). FuseSwap Bridge: [Mainnet -&gt; Fuse](https://fuseswap.com/#/bridge/0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B) \| [Fuse -&gt; Mainnet](https://fuseswap.com/#/bridge/0x495d133B938596C9984d462F007B676bDc57eCEC).
+{% hint style="info" %}
+Note: for regular users it is recommended to use FuseSwap Bridge in order to avoid losing your tokens ([help](https://docs.fuse.io/fuseswap/bridge-fuse-erc20-tokens)). FuseSwap Bridge: [Mainnet -> Fuse](https://fuseswap.com/#/bridge/0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B) | [Fuse -> Mainnet](https://fuseswap.com/#/bridge/0x495d133B938596C9984d462F007B676bDc57eCEC).
+{% endhint %}
 
-| Contract | Mainnet | Fuse | Source Code |
-| :--- | :--- | :--- | :--- |
-| ForeignBridge \(mainnet -&gt; fuse\) | [0xD5D11eE582c8931F336fbcd135e98CEE4DB8CCB0](https://etherscan.io/address/0xD5D11eE582c8931F336fbcd135e98CEE4DB8CCB0) |  | [ForeignAMBErc677ToErc677.sol](https://github.com/fuseio/tokenbridge-contracts/blob/master/contracts/upgradeable_contracts/amb_erc677_to_erc677/ForeignAMBErc677ToErc677.sol) |
-| HomeBridge \(fuse -&gt; mainnet\) |  | [0xD39021DB018E2CAEadb4B2e6717D31550e7918D0](https://explorer.fuse.io/address/0xD39021DB018E2CAEadb4B2e6717D31550e7918D0) | [ HomeAMBErc677ToErc677.sol ](https://github.com/fuseio/tokenbridge-contracts/blob/master/contracts/upgradeable_contracts/amb_erc677_to_erc677/HomeAMBErc677ToErc677.sol) |
+Note: for regular users it is recommended to use FuseSwap Bridge in order to avoid losing your tokens ([help](https://docs.fuse.io/fuseswap/bridge-fuse-erc20-tokens)). FuseSwap Bridge: [Mainnet -> Fuse](https://fuseswap.com/#/bridge/0x67C5870b4A41D4Ebef24d2456547A03F1f3e094B) | [Fuse -> Mainnet](https://fuseswap.com/#/bridge/0x495d133B938596C9984d462F007B676bDc57eCEC).
+
+## DAO Contracts
+
+| Contract                        | Mainnet                                                                                                               | Fuse                                                                                                                      | Source Code                                                                                                                                                                       |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ForeignBridge (mainnet -> fuse) | [0xD5D11eE582c8931F336fbcd135e98CEE4DB8CCB0](https://etherscan.io/address/0xD5D11eE582c8931F336fbcd135e98CEE4DB8CCB0) |                                                                                                                           | [ForeignAMBErc677ToErc677.sol](https://github.com/fuseio/tokenbridge-contracts/blob/master/contracts/upgradeable\_contracts/amb\_erc677\_to\_erc677/ForeignAMBErc677ToErc677.sol) |
+| HomeBridge (fuse -> mainnet)    |                                                                                                                       | [0xD39021DB018E2CAEadb4B2e6717D31550e7918D0](https://explorer.fuse.io/address/0xD39021DB018E2CAEadb4B2e6717D31550e7918D0) | [HomeAMBErc677ToErc677.sol](https://github.com/fuseio/tokenbridge-contracts/blob/master/contracts/upgradeable\_contracts/amb\_erc677\_to\_erc677/HomeAMBErc677ToErc677.sol)       |
 
 ### DAO Contracts
 
 DAO contracts were developed by [DAOStack](https://daostack.io)
 
-| Contract | Mainnet | Fuse | Source Code |
-| :--- | :--- | :--- | :--- |
-| Controller | [0x95C0d9dCEA1E243ED696F34CAc5e6559C3c128a3](https://etherscan.io/address/0x95C0d9dCEA1E243ED696F34CAc5e6559C3c128a3) | [0xBcE053b99e22158f8B62f4DBFbEdE1f936b2D4e4](https://explorer.fuse.io/address/0xBcE053b99e22158f8B62f4DBFbEdE1f936b2D4e4) | [Controller.sol](http://github.com/daostack/arc/tree/master/contracts/controller/Controller.sol) |
-| Avatar | [0x1ecFD1afb601C406fF0e13c3485f2d75699b6817](https://etherscan.io/address/0x1ecFD1afb601C406fF0e13c3485f2d75699b6817) | [0xf96dADc6D71113F6500e97590760C924dA1eF70e](https://explorer.fuse.io/address/0xf96dADc6D71113F6500e97590760C924dA1eF70e) | [Avatar.sol](http://github.com/daostack/arc/tree/master/contracts/controller/Avatar.sol) |
-| Reputation | [0xCb4a6aF3b15D64E8f50B3cea54c4f481d9E434C1](https://etherscan.io/address/0xCb4a6aF3b15D64E8f50B3cea54c4f481d9E434C1) | [0x0be7C592374EE0bD0CcBFC76Be758a138BcaEc6E](https://explorer.fuse.io/address/0x0be7C592374EE0bD0CcBFC76Be758a138BcaEc6E) | [Reputation.sol](http://github.com/daostack/infra/tree/master/contracts/Reputation.sol) |
+| Contract        | Mainnet                                                                                                               | Fuse                                                                                                                      | Source Code                                                                                                      |
+| --------------- | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Controller      | [0x95C0d9dCEA1E243ED696F34CAc5e6559C3c128a3](https://etherscan.io/address/0x95C0d9dCEA1E243ED696F34CAc5e6559C3c128a3) | [0xBcE053b99e22158f8B62f4DBFbEdE1f936b2D4e4](https://explorer.fuse.io/address/0xBcE053b99e22158f8B62f4DBFbEdE1f936b2D4e4) | [Controller.sol](http://github.com/daostack/arc/tree/master/contracts/controller/Controller.sol)                 |
+| Avatar          | [0x1ecFD1afb601C406fF0e13c3485f2d75699b6817](https://etherscan.io/address/0x1ecFD1afb601C406fF0e13c3485f2d75699b6817) | [0xf96dADc6D71113F6500e97590760C924dA1eF70e](https://explorer.fuse.io/address/0xf96dADc6D71113F6500e97590760C924dA1eF70e) | [Avatar.sol](http://github.com/daostack/arc/tree/master/contracts/controller/Avatar.sol)                         |
+| Reputation      | [0xCb4a6aF3b15D64E8f50B3cea54c4f481d9E434C1](https://etherscan.io/address/0xCb4a6aF3b15D64E8f50B3cea54c4f481d9E434C1) | [0x0be7C592374EE0bD0CcBFC76Be758a138BcaEc6E](https://explorer.fuse.io/address/0x0be7C592374EE0bD0CcBFC76Be758a138BcaEc6E) | [Reputation.sol](http://github.com/daostack/infra/tree/master/contracts/Reputation.sol)                          |
 | SchemeRegistrar | [0x098148534aC15A44CFF52387bA81Ed929589eCAf](https://etherscan.io/address/0x098148534aC15A44CFF52387bA81Ed929589eCAf) | [0x12F706FaafCBf8093282Dba0c40eD0D4Eb5CAF54](https://explorer.fuse.io/address/0x12F706FaafCBf8093282Dba0c40eD0D4Eb5CAF54) | [SchemeRegistrar.sol](http://github.com/daostack/arc/tree/master/contracts/universalSchemes/SchemeRegistrar.sol) |
-| AbsoluteVote | [0xf6b5F7a885CBc57d739aDBEe76E52A70Bc04D795](https://etherscan.io/address/0xCb4a6aF3b15D64E8f50B3cea54c4f481d9E434C1) | [0xf6b5F7a885CBc57d739aDBEe76E52A70Bc04D795](https://explorer.fuse.io/address/0x0be7C592374EE0bD0CcBFC76Be758a138BcaEc6E) | [AbsoluteVote.sol](http://github.com/daostack/infra/tree/master/contracts/votingMachines/AbsoluteVote.sol) |
-| UpgradeScheme | [0xF9B357d83BDAD6881feb09d909095872B93203d0](https://etherscan.io/address/0xF9B357d83BDAD6881feb09d909095872B93203d0) | [0x653c67Be5b3739708e84B61641253822405d78D8](https://explorer.fuse.io/address/0x653c67Be5b3739708e84B61641253822405d78D8) | [UpgradeScheme.sol](http://github.com/daostack/arc/tree/master/contracts/universalSchemes/UpgradeScheme.sol) |
-
+| AbsoluteVote    | [0xf6b5F7a885CBc57d739aDBEe76E52A70Bc04D795](https://etherscan.io/address/0xCb4a6aF3b15D64E8f50B3cea54c4f481d9E434C1) | [0xf6b5F7a885CBc57d739aDBEe76E52A70Bc04D795](https://explorer.fuse.io/address/0x0be7C592374EE0bD0CcBFC76Be758a138BcaEc6E) | [AbsoluteVote.sol](http://github.com/daostack/infra/tree/master/contracts/votingMachines/AbsoluteVote.sol)       |
+| UpgradeScheme   | [0xF9B357d83BDAD6881feb09d909095872B93203d0](https://etherscan.io/address/0xF9B357d83BDAD6881feb09d909095872B93203d0) | [0x653c67Be5b3739708e84B61641253822405d78D8](https://explorer.fuse.io/address/0x653c67Be5b3739708e84B61641253822405d78D8) | [UpgradeScheme.sol](http://github.com/daostack/arc/tree/master/contracts/universalSchemes/UpgradeScheme.sol)     |

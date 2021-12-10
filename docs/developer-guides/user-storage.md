@@ -1,5 +1,5 @@
 ---
-description: 'Describes how GoodDAPP uses Gun p2p database, to store user owned data.'
+description: Describes how GoodDAPP uses Gun p2p database, to store user owned data.
 ---
 
 # User Storage
@@ -10,7 +10,7 @@ description: 'Describes how GoodDAPP uses Gun p2p database, to store user owned 
 
 ## GunDB
 
-We chose Gun since it's a javascript based, decentralized \(p2p\) with built in encryption database.  
+We chose Gun since it's a javascript based, decentralized (p2p) with built in encryption database.\
 Check out their [website](https://gun.eco) for more info
 
 ## Usage
@@ -25,16 +25,16 @@ await userStorage.ready
 
 ## Initialization
 
-The constructor calls init\(\), which logs in the user into Gun.  
+The constructor calls init(), which logs in the user into Gun.\
 The user's password+pass are generated deterministically by signing a message with one of his HD wallet private keys.
 
 [source](https://github.com/GoodDollar/GoodDAPP/blob/759529c05ab04085c75c76df1bb2eeaaaf6470f1/src/lib/gundb/UserStorage.js#L204-L211)
 
-{% embed url="https://gist.github.com/sirpy/9277f70b2c672e93aae6e24c6bd0ddb0" caption="" %}
+{% embed url="https://gist.github.com/sirpy/9277f70b2c672e93aae6e24c6bd0ddb0" %}
 
 ## Profile
 
-The profile holds information of the user \(signed with Gun SEA, so only he can modify it\) such as:
+The profile holds information of the user (signed with Gun SEA, so only he can modify it) such as:
 
 * Name
 * Email
@@ -46,7 +46,7 @@ The profile holds information of the user \(signed with Gun SEA, so only he can 
 
 Each profile field is an object of type:
 
-```text
+```
 export type ProfileField = {
   value: EncryptedField,
   display: string,
@@ -56,7 +56,7 @@ export type ProfileField = {
 
 * **value -** is the SEA encrypted value, so only the user can read it.
 * **display -** is the string displayed on the DAPP to other users
-* **privacy -** is the privacy level of the field \(masked, public, private\)
+* **privacy -** is the privacy level of the field (masked, public, private)
 
 {% hint style="info" %}
 Fields such email and mobile can be [set to be public, private or masked](https://github.com/GoodDollar/GoodDAPP/blob/759529c05ab04085c75c76df1bb2eeaaaf6470f1/src/lib/gundb/UserStorage.js#L405-L450), this is in order to let the user control what information he wishes to disclose. If they are public then users will be able to send funds to the user directly by simply typing his mobile, email or username in the app.
@@ -64,9 +64,9 @@ Fields such email and mobile can be [set to be public, private or masked](https:
 
 ### Index
 
-We keep the users' profiles indexed by email, mobile \(in case they are public\), wallet address and username. This enables to connect blockchain transactions to user profiles. Specifically it is used in the user feed and in the "Send" flow to enable directly sending GoodDollars by mobile, email and username.
+We keep the users' profiles indexed by email, mobile (in case they are public), wallet address and username. This enables to connect blockchain transactions to user profiles. Specifically it is used in the user feed and in the "Send" flow to enable directly sending GoodDollars by mobile, email and username.
 
-{% code title="https://github.com/GoodDollar/GoodDAPP/blob/472b22a24dafac154409c2579dbbfcf4cf4e9922/src/lib/gundb/UserStorage.js\#L504-L544" %}
+{% code title="https://github.com/GoodDollar/GoodDAPP/blob/472b22a24dafac154409c2579dbbfcf4cf4e9922/src/lib/gundb/UserStorage.js#L504-L544" %}
 ```javascript
 /**
    * Generates index by field if privacy is public, or empty index if it's not public
@@ -92,7 +92,7 @@ We keep the users' profiles indexed by email, mobile \(in case they are public\)
 An issue with the index is that currently any user can overwrite any entry in the index, since nodes in GunDB are writable by everyone. We are working on an [extension](https://github.com/GoodDollar/gun-appendOnly) to GunDB to create append only nodes so an index key, once set by a user can not be changed by anyone else besides him
 {% endhint %}
 
-{% embed url="https://github.com/GoodDollar/gun-appendOnly" caption="" %}
+{% embed url="https://github.com/GoodDollar/gun-appendOnly" %}
 
 ### examples
 
@@ -111,52 +111,30 @@ The feed holds all the blockchain transactions the user did but also other syste
 
 We keep 3 indexes for easy access and display purposes:
 
-| Index | Purpose | Storage | Structure |
-| :--- | :--- | :--- | :--- |
+|       |                                                                    |                                                                                             |           |
+| ----- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------- | --------- |
+| By ID | <p>Fast access to event details</p><p>Each events is encrypted</p> | <p><code>gun.user().get('feed').</code><br><code>get('byid').get(&#x3C;eventId>)</code></p> | FeedEvent |
 
+|                |                                                                |                                                       |                                 |
+| -------------- | -------------------------------------------------------------- | ----------------------------------------------------- | ------------------------------- |
+| By Date(daily) | Display sorted by time to user with a reasonable paging scheme | `gun.user().get('feed') .get(<date granularity day>)` | Array<\[\<datetime>,\<eventId>] |
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">By ID</th>
-      <th style="text-align:left">
-        <p>Fast access to event details</p>
-        <p>Each events is encrypted</p>
-      </th>
-      <th style="text-align:left"><code>gun.user().get(&apos;feed&apos;).</code>
-        <br /><code>get(&apos;byid&apos;).get(&lt;eventId&gt;)</code>
-      </th>
-      <th style="text-align:left">FeedEvent</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
-
-| By Date\(daily\) | Display sorted by time to user with a reasonable paging scheme | `gun.user().get('feed') .get(<date granularity day>)` | Array&lt;\[&lt;datetime&gt;,&lt;eventId&gt;\] |
-| :--- | :--- | :--- | :--- |
-
-
+|                      |                                         |                                                                    |        |
+| -------------------- | --------------------------------------- | ------------------------------------------------------------------ | ------ |
 | Events count by date | Helper for pager to fetch next X events | `gun.user().get('feed') .get('index').get(<date granularity day>)` | Number |
-| :--- | :--- | :--- | :--- |
-
-
-| Sorted events count by date | GunDB is based on objects so ordering isn't possible. We keep the 'Events count by date' as an array sorted by date. | this.feedIndex | Array&lt;\[&lt;day&gt;,&lt;Number&gt;\] |
-| :--- | :--- | :--- | :--- |
-
 
 {% hint style="info" %}
-Indexes are updated once an event arrives in the method updateFeedEvent:  
-[https://github.com/GoodDollar/GoodDAPP/blob/472b22a24dafac154409c2579dbbfcf4cf4e9922/src/lib/gundb/UserStorage.js\#L770](https://github.com/GoodDollar/GoodDAPP/blob/472b22a24dafac154409c2579dbbfcf4cf4e9922/src/lib/gundb/UserStorage.js#L770)
+Indexes are updated once an event arrives in the method updateFeedEvent:\
+[https://github.com/GoodDollar/GoodDAPP/blob/472b22a24dafac154409c2579dbbfcf4cf4e9922/src/lib/gundb/UserStorage.js#L770](https://github.com/GoodDollar/GoodDAPP/blob/472b22a24dafac154409c2579dbbfcf4cf4e9922/src/lib/gundb/UserStorage.js#L770)
 {% endhint %}
 
 {% hint style="info" %}
-The in memory index is updated on every change to 'index' by add a gundb listener in the method initFeed:  
-[https://github.com/GoodDollar/GoodDAPP/blob/472b22a24dafac154409c2579dbbfcf4cf4e9922/src/lib/gundb/UserStorage.js\#L339](https://github.com/GoodDollar/GoodDAPP/blob/472b22a24dafac154409c2579dbbfcf4cf4e9922/src/lib/gundb/UserStorage.js#L339)
+The in memory index is updated on every change to 'index' by add a gundb listener in the method initFeed:\
+[https://github.com/GoodDollar/GoodDAPP/blob/472b22a24dafac154409c2579dbbfcf4cf4e9922/src/lib/gundb/UserStorage.js#L339](https://github.com/GoodDollar/GoodDAPP/blob/472b22a24dafac154409c2579dbbfcf4cf4e9922/src/lib/gundb/UserStorage.js#L339)
 {% endhint %}
 
 ## Good first Issues
 
 * [ ] [Allow users to release gun-appendonly taken keys by nullifiying](https://github.com/GoodDollar/gun-appendOnly/issues/1)
 * [ ] [Add inbox for p2p messaging](https://github.com/GoodDollar/GoodDAPP/issues/153)
-* [ ] [Use GunDB timegraph for indexing ](https://github.com/GoodDollar/GoodDAPP/issues/154)
-
+* [ ] [Use GunDB timegraph for indexing](https://github.com/GoodDollar/GoodDAPP/issues/154)
