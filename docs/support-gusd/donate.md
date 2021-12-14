@@ -7,11 +7,8 @@ description: >-
 
 # Donate
 
-**Send your ETH or DAI to the following address:**  
-
+**Send your ETH or DAI to the following address:**
 
 **0x93FB057EeC37aBc11D955d1C09e6A0d218F35CfF**
 
-**Note: Money sent to this contract cannot be returned.**   
-
-
+**Note: Money sent to this contract cannot be returned.**
