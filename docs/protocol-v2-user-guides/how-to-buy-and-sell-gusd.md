@@ -32,13 +32,13 @@ GoodDollar ERC20 is a reserve backed currency with issuance governed by an AMM (
 
 ![](../.gitbook/assets/image4)
 
-5\. You will have to enter two parameters: Spender and amount, the spender is the contract address of the ExchangeHelper (please find the relevant exchangeHelper address in the references section on the bottom of the page), the amount is the amount you would like to approve in the currency you are buying with, click Write.
+5\. You will have to enter two parameters: Spender and amount, the spender is the contract address of the ExchangeHelper (find the relevant exchangeHelper address in the references section on the bottom of the page), the amount is the amount you would like to approve in the currency you are buying with, click Write.
 
 ![](../.gitbook/assets/image5)
 
 ### How to buy G$ with DAI / cDAI? <a href="#h.5xmwue139rg6" id="h.5xmwue139rg6"></a>
 
-1. First, please make sure you have done everything in the prerequisites section.
+1. First, make sure you have done everything in the prerequisites section.
 2. Optional step, using the buyReturn function you can check how much G$ you will get.
    1. Go to GoodMarketMaker (either Mainnet, Kovan or Ropsten, link in the references below).
    2. Click on “Contract”:
@@ -53,7 +53,7 @@ GoodDollar ERC20 is a reserve backed currency with issuance governed by an AMM (
 
 ![](../.gitbook/assets/image13)
 
-5\. At “\_token (address) please insert the address of the token you are planning to buy with and at the “\_tokenAmount (uint256)” please insert the amount that you would like to pay with (don’t forget to add the relevant amount of decimals.&#x20;
+5\. At “\_token (address) insert the address of the token you are planning to buy with and at the “\_tokenAmount (uint256)” insert the amount that you would like to pay with (don’t forget to add the relevant amount of decimals.&#x20;
 
 ![](../.gitbook/assets/image6)
 
@@ -87,7 +87,7 @@ And I got a result of 9080104 which is 90801.04 G$ because G$ has 2 decimals.
 
 9\. Now let’s explain those 6 parameters, followed by an example:
 
-1. buy: Payable amount in ether, if you buy in DAI / cDAI please insert 0.
+1. buy: Payable amount in ether, if you buy in DAI / cDAI insert 0.
 2. \_buyPath (address\[]): The address of the token you want to buy with, if you buy with DAI / cDAI than insert one of those addresses.
 3. \_tokenAmount (uint256): Amount of G$ you would like to buy in the currency you are paying with, don’t forget to add the correct amount of zeros according to the specific token, for example 8 zeros for cDAI and 18 zeros for DAI.
 4. \_minReturn (uint256): Minimum amount of G$s expected after buy transaction.
