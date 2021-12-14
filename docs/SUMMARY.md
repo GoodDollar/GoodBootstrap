@@ -14,7 +14,7 @@
   * [How to Buy & Sell G$](protocol-v2-user-guides/how-to-buy-and-sell-gusd.md)
   * [GoodStake](protocol-v2-user-guides/stake-v2.md)
   * [Claim GOOD and G$X](protocol-v2-user-guides/claim-good-and-gdx.md)
-  * [Deploy your own Gooddollar UI](protocol-v2-user-guides/deploy-your-own-gooddollar-ui.md)
+  * [Deploy your own GoodDollar UI](protocol-v2-user-guides/deploy-your-own-gooddollar-ui.md)
   * [Donate](support-gusd/donate.md)
   * [Stake Your Fuse](support-gusd/stake-your-fuse.md)
 * [Wallet Developer Guide](developer-guides/README.md)

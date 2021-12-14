@@ -1,8 +1,10 @@
 ---
-description: This is a step-by-step guide to deploy your own Gooddollar User Interface
+description: >-
+  This is a step-by-step guide to deploy your own instance of the GoodDollar
+  Dapp to interact with the V2 smart contracts on Mainnet.
 ---
 
-# Deploy your own Gooddollar UI
+# Deploy your own GoodDollar UI
 
 GoodDollar currently is not running its own frontend — making the system more decentralized and censorship-resistant.&#x20;
 
