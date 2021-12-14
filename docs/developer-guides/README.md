@@ -18,7 +18,7 @@ Describes wallet infrastructure and its elements.
 
 ## Face Recognition&#x20;
 
-Describes the Face Recognition process as part of the GoodDollar identification process
+Describes the Face Recognition process as part of the GoodDollar identification process.
 
 ## Building Blocks&#x20;
 
@@ -26,4 +26,4 @@ Discuss common components meant to be used across the app.
 
 ## Blockchain Events&#x20;
 
-Lists events being logged by GoodDAPP
+Lists events being logged by GoodDAPP.
