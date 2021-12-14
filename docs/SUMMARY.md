@@ -8,8 +8,6 @@
 * [Protocol V2](protocol-v2/README.md)
   * [Architecture & Value Flow](protocol-v2/architecture-and-value-flow.md)
   * [Elements of the GoodDollar Ecosystem](protocol-v2/elements-of-the-gooddollar-ecosystem.md)
-  * [Core Contracts & API](protocol-v2/core-contracts-and-api.md)
-  * [Core Contracts & API (new)](protocol-v2/core-contracts-and-api-new.md)
 * [Protocol V2 User Guides](protocol-v2-user-guides/README.md)
   * [How to Buy & Sell G$](protocol-v2-user-guides/how-to-buy-and-sell-gusd.md)
   * [GoodStake](protocol-v2-user-guides/stake-v2.md)
