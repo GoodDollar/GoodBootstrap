@@ -57,11 +57,11 @@ GoodDollar ERC20 is a reserve backed currency with issuance governed by an AMM (
 
 ![](../.gitbook/assets/image6)
 
-6\. For example, let’s check how much G$ I will get for 10 cDAI, so I will put cDAI contract address (in this case it’s Kovan network) at the first field and 1000000000 (which is 10 cDAI because cDAi has 8 decimals):
+6\. For example, let’s check how much G$ you will get for 10 cDAI, so you will put cDAI contract address (in this case it’s Kovan network) at the first field and 1000000000 (which is 10 cDAI because cDAi has 8 decimals):
 
 ![](../.gitbook/assets/image12)
 
-And I got a result of 9080104 which is 90801.04 G$ because G$ has 2 decimals.
+And you got a result of 9080104 which is 90801.04 G$ because G$ has 2 decimals.
 
 3\. Now, go to the exchangeHelper (either Mainnet, Kovan or Ropsten, link in the references below)
 
