@@ -36,11 +36,11 @@ This is achieved by the GoodDollar Trust, a set of smart contracts that allows d
 
 After you have done all the prerequisites, let's do the actual staking.
 
-1. Go to the staking contact of your choice (Etiher Compound or Aave, links to mainnet and couple test nets in the references).
+1. Go to the staking contact of your choice (either Compound or Aave, links to mainnet and couple test nets in the references).
 2. Click on "Contract".
 3. Click on "Write Contract".
 4. Connect your wallet by clicking on "Connect to Web3" and then choosing your wallet.
-5. Click on "13. stake", it will look like that (further explaination below the picture):
+5. Click on "13. stake", it will look like that (further explanation below the picture):
 
 ![](<../.gitbook/assets/Screenshot 2021-09-20 at 21.25.52.png>)
 
@@ -70,29 +70,29 @@ Now we can finalize our staking transaction:
 
 ## Withdraw Interface
 
-In order to withdraw, pleae follow these steps:
+In order to withdraw, follow these steps:
 
-1. Go to the staking contact of your choice (Etiher Compound or Aave, links to mainnet and couple test nets in the references).
+1. Go to the staking contact of your choice (either Compound or Aave, links to mainnet and couple test nets in the references).
 2. Click on "Contract".
 3. Click on "Write Contract".
 4. Connect your wallet by clicking on "Connect to Web3" and then choosing your wallet.
-5. Click on "18. withdrawStake", it will look like that (further explaination below the picture):
+5. Click on "18. withdrawStake", it will look like that (further explanation below the picture):
 
 ![](<../.gitbook/assets/Screenshot 2021-09-20 at 21.39.18.png>)
 
 **\_amount -** Staked amount that we would like to withdraw.&#x20;
 
-**\_inInterestToken** it indicates if we would like to withdraw in interest token or normal token, for example in compound it is either cToken or normal token.
+**\_inInterestToken** indicates if we would like to withdraw in interest token or normal token, for example in compound it is either cToken or normal token.
 
 ### Example
 
 Let's assume we staked 100DAI and we want to withdraw in cDAI.
 
-1. Go to the staking contact of your choice (Etiher Compound or Aave, links to mainnet and couple test nets in the references).
+1. Go to the staking contact of your choice (either Compound or Aave, links to mainnet and couple test nets in the references).
 2. Click on "Contract".
 3. Click on "Write Contract".
 4. Connect your wallet by clicking on "Connect to Web3" and then choosing your wallet.
-5. Click on "18. withdrawStake", it will look like that (further explaination below the picture):
+5. Click on "18. withdrawStake", it will look like that (further explanation below the picture):
 6. Fill in 100dai in the _amount (don't forget 18 decimals) and fill true in the_ inInterestToken field, it should look like the picture below.
 7. Click "Write" button.
 
