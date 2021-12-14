@@ -28,6 +28,6 @@ What you can do in V2:
 
 #### Developer Tools&#x20;
 
-* Contribute with GoodDollar repository and security and hunt some bounties.&#x20;
+* Contribute with GoodDollar repository and security and hunt some [bounties](https://github.com/GoodDollar/Bounties/issues).&#x20;
 * How to Integrate your Protocol with GoodDollar (coming soon!)&#x20;
 * How to Deploy Your Own UI
