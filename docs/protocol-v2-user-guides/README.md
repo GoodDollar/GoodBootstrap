@@ -4,18 +4,18 @@ GoodDollar currently is not running its own frontend — making the system more 
 
 Users can choose to either interact with the Gooddollar contract either with Etherscan or using one of the community deployed Gooddollar Protocol V2 UI.
 
-## How to Buy & Sell G$
+## [How to Buy & Sell G$](how-to-buy-and-sell-gusd.md#h.e5skh54apukf)
 
 A guide for buying & selling Gooddollar from the reserve through Etherscan.
 
-## Stake
+## [Stake](./#stake)
 
 A guide for staking DAI/cDAI with Gooddollar thrust through Etherscan.
 
-## Claim GOOD & GDX
+## [Claim GOOD & GDX](./#claim-good-and-gdx)
 
 A guide for claiming GOOD & GDX.
 
-## Deploy your own Gooddollar UI
+## [Deploy your own Gooddollar UI](./#deploy-your-own-gooddollar-ui)
 
 Here is a tutorial to guide you through deploying your V2 protocol user interface.
