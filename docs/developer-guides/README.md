@@ -1,5 +1,7 @@
 # Wallet Developer Guides
 
+The Wallet Developer Guides provide an overview of the architecture of our wallet application and our approach to decentralized storage and identity.
+
 ## Getting Started&#x20;
 
 How to install a local dev env in one click.
