@@ -1,4 +1,12 @@
+---
+description: >-
+  Instruction guide on how to interact with GoodDollarV2 contracts for buying
+  and selling G$s directly
+---
+
 # How to Buy & Sell G$
+
+GoodDollar ERC20 is a reserve backed currency with issuance governed by an AMM (automated market maker) encoded in the GoodReserve contract. Each time the user buys or sells from or to the reserve, tokens are respectively being minted or burned according to [equation 2](https://whitepaper.gooddollar.org/appendix) in our WhitePaper appendix.
 
 ### How to Buy G$? <a href="#h.e5skh54apukf" id="h.e5skh54apukf"></a>
 

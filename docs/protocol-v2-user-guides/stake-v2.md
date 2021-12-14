@@ -1,11 +1,22 @@
 ---
 description: >-
-  This option allows you to stake supported tokens to generate interest, which
-  you can donate to support GoodDollar. A user can stake supported tokens only
-  from a web3 wallet.
+  Instruction guide on how to stake supported tokens (DAI, USDC) to generate
+  interest which will be used to support GoodDollar UBI generation and
+  distribution.
 ---
 
-# Stake (V2)
+# GoodStake
+
+Since a UBI distribution can be done only thought inflation of the monetary policy, GoodDollarV2 assures that there's value entering our ecosystem so the value of every G$ minted towards this purpose is backed bu the assets in the GoodReserve.
+
+This is achieved by the GoodDollar Trust, a set of smart contracts that allows deposits from GoodDollar UBI supporters, interact with third party DeFi Protocols to earn yields and then feed the GoodReserve for the minting of new G$s to be distributed in a UBI fashion.
+
+{% hint style="success" %}
+**Initial staking rewards**
+
+* Compound DAI Total reward per block = 138.88 G$s | Yearly Reward = 291M G$s
+* AAVE USDC Total reward per block = 69.44 G$s | Yearly Reward = 145.5M G$s
+{% endhint %}
 
 ## Prerequisites
 

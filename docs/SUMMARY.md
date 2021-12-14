@@ -12,7 +12,7 @@
   * [Core Contracts & API (new)](protocol-v2/core-contracts-and-api-new.md)
 * [Protocol V2 User Guides](protocol-v2-user-guides/README.md)
   * [How to Buy & Sell G$](protocol-v2-user-guides/how-to-buy-and-sell-gusd.md)
-  * [Stake](protocol-v2-user-guides/stake-v2.md)
+  * [GoodStake](protocol-v2-user-guides/stake-v2.md)
   * [Claim GOOD and GDX](protocol-v2-user-guides/claim-good-and-gdx.md)
   * [Deploy your own Gooddollar UI](protocol-v2-user-guides/deploy-your-own-gooddollar-ui.md)
   * [Donate](support-gusd/donate.md)
