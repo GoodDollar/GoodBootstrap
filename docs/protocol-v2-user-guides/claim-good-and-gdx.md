@@ -1,10 +1,16 @@
 ---
-description: Guide for claiming GOOD and GDX
+description: Guide for claiming GOOD governance token and GDX governance token
 ---
 
-# Claim GOOD and GDX
+# Claim GOOD and G$X
 
-## Prerequisetes
+Interacting with GoodDollarV2 by swapping against the GoodReserve as well as depositing funds in the GoodStaking or staking GoodDollar on fuse network, enable users to claim new tokens that introduce novel functionalities within our ecosystem.
+
+G$X is a new discount token that enable users to cash-out their G$s from the reserve without being charged with an exit contribution (currently 3%), the ability to claim is obtained through buying G$s from the reserve.
+
+GOOD is a non-transferable token with the function of collective governance of the GoodDAO, the decentralized entity that owns and control the GoodDollar protocol, it can be claimed after depositing funds in the GoodStaking, staking GoodDollar over the Fuse Network, or just claiming UBI.
+
+## Prerequisites
 
 1. You should have a web3 wallet, (like MetaMask for example, [link to the official link](https://www.google.com/url?q=https://metamask.io/\&sa=D\&source=editors\&ust=1634809220729000\&usg=AOvVaw3sIQw4vzOnSgl4wX-4lv4E)).
 2. You should have enough ETH in your wallet in order to pay the gas fees of the transaction.
