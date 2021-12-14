@@ -1,25 +1,29 @@
-# Wallet Developer Guide
+# Wallet Developer Guides
 
-## Getting Super Powers
+### Getting Started&#x20;
 
-Becoming a super hero is a fairly straight forward process:
+How to install a local dev env in one click.
 
-```
-$ give me super-powers
-```
+### Routing&#x20;
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
+Describes how routes are being organized in the project.
 
-Once you're strong enough, save the world:
+### User Storage&#x20;
 
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-{% endcode %}
+Describes how GoodDAPP uses the Gun p2p database, to store user-owned data.
 
+### Good Wallet&#x20;
 
+Describes wallet infrastructure and its elements.
 
+### Face Recognition&#x20;
+
+Describes the Face Recognition process as part of the GoodDollar identification process
+
+### Building Blocks&#x20;
+
+Discuss common components meant to be used across the app.
+
+### Blockchain Events&#x20;
+
+Lists events being logged by GoodDAPP

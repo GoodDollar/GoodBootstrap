@@ -17,7 +17,7 @@
   * [Deploy your own GoodDollar UI](protocol-v2-user-guides/deploy-your-own-gooddollar-ui.md)
   * [Donate](support-gusd/donate.md)
   * [Stake Your Fuse](support-gusd/stake-your-fuse.md)
-* [Wallet Developer Guide](developer-guides/README.md)
+* [Wallet Developer Guides](developer-guides/README.md)
   * [Getting Started](developer-guides/getting-started.md)
   * [Routing](developer-guides/routing.md)
   * [User Storage](developer-guides/user-storage.md)
