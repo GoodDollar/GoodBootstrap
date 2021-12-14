@@ -28,7 +28,7 @@ Fill up the fields according to the desciption in the picture bellow while "\_us
 
 ![](<../.gitbook/assets/Screenshot 2021-09-30 at 12.31.15.png>)
 
-
+Click the 'Write' button.
 
 ## Claim GOOD
 
