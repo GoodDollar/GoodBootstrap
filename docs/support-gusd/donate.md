@@ -1,11 +1,18 @@
 ---
 description: >-
-  This option allows you to donate ETH or DAI that will generate interest to
-  back G$ forever. A user can donate from both centralized and decentralized
-  wallets.
+  Donate to support global UBI is very easy, just transfer funds you want to
+  donate to GoodDollar Avatar Ethereum address
 ---
 
 # Donate
+
+This option allows you to donate whatever asset to the GoodDollar Avatar contract. Only donated ETH or DAI will be automatically deposit in Compound contracts that will generate interest to back G$ forever.&#x20;
+
+Other tokens can be transferred as well but will not generate value to UBI in an automated way, still, the funds are accesible only through GoodDAO governance.
+
+A user can donate from both centralized and decentralized wallets.
+
+****
 
 **Send your ETH or DAI to the following address:**
 
