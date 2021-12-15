@@ -6,7 +6,7 @@ description: >-
 
 # Welcome to GoodDocs!
 
-Welcome! [GoodDollar.org](https://gooddollar.org) is a 100% non-profit universal basic income protocol. Here you can find all the open-source documentation for the smart contracts and interfaces!
+Welcome! [GoodDollar.org](https://gooddollar.org) is a decentralized universal basic income protocol. Here you can find all the open-source documentation for the smart contracts and interfaces!
 
 Let's get started:
 
