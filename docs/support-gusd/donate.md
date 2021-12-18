@@ -6,9 +6,9 @@ description: >-
 
 # Donate
 
-This option allows you to donate whatever asset to the GoodDollar Avatar contract. Only donated ETH or DAI will be automatically deposit in Compound contracts that will generate interest to back G$ forever.&#x20;
+This option allows you to donate whatever asset to the GoodDollar Avatar contract. Only donated ETH or DAI will be automatically deposited in Compound contracts that will generate interest to back G$ forever.&#x20;
 
-Other tokens can be transferred as well but will not generate value to UBI in an automated way, still, the funds are accesible only through GoodDAO governance.
+Other tokens can be transferred as well but will not generate value to UBI in an automated way, still, the funds are acces**s**ible only through GoodDAO governance.
 
 A user can donate from both centralized and decentralized wallets.
 
