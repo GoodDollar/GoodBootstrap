@@ -17,9 +17,9 @@ In general, [GoodDollar](https://github.com/GoodDollar) project [follows the Git
 1. Fork and clone the project locally.
 2. Create an upstream remote and sync local copy before branching.
 3. Use individual feature branches for each separate piece of work.
-4. Code changes and tests accordingly. Writing good commit messages, making sure tests pass, maintaining coverage level and following existing [documentation](https://app.gitbook.com/o/-LdiTCmTgO528x-BXAcj/s/-LdiTFvJEvqrlLMbYAzm/).
+4. Code changes and tests accordingly. Writing good commit messages, making sure tests pass, maintaining coverage level and following existing documentation.
 5. Push to origin (fork) repository.
-6. Create a new PR following the pull [request template](https://github.com/GoodDollar/GoodDAPP/pulls).
+6. Create a new pull request.
 7. Work with maintainers on code review feedback.
 
 ## A big Thank You!
