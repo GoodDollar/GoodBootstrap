@@ -18,7 +18,7 @@ description: An introduction to the key components and users in the GoodDollar p
 * Now, members can buy and sell G$ directly in the [GoodDollar Reserve](../protocol-v2-user-guides/buy-and-sell-gusd.md), a key feature that enables the economy to scale.
 * V2 introduces a new governance model with the launch of the community-owned [GoodDAO](https://www.gooddollar.org/good-governance-distribution-results-from-the-snapshot/), which will determine the protocol’s future direction.&#x20;
 
-![V1 (POC) vs. V2](../.gitbook/assets/V2-Roadmap-–-New-1030x579.jpeg)
+![V1 (POC) vs. V2](<../.gitbook/assets/protocolv2 (1).png>)
 
 ## What you can do in V2:
 
