@@ -63,7 +63,9 @@ As described above, the impact of buying and selling currencies to and from the 
 
 ### **Simulator**
 
-https://docs.google.com/spreadsheets/d/1laUPAf-ZH1kjKaOkgwQizHT1wohfDj\_b5Fq6Z7GGJDY/edit?usp=drive\_web\&ouid=113040146852067786774
+A Price similator with dynamic reseerve rate function is available [here](https://docs.google.com/spreadsheets/d/1laUPAf-ZH1kjKaOkgwQizHT1wohfDj\_b5Fq6Z7GGJDY/edit#gid=137486606) :&#x20;
+
+{% embed url="https://docs.google.com/spreadsheets/d/1laUPAf-ZH1kjKaOkgwQizHT1wohfDj_b5Fq6Z7GGJDY/edit#gid=137486606" %}
 
 ### **Helper contracts** <a href="#_p1dxu7aswyt0" id="_p1dxu7aswyt0"></a>
 
