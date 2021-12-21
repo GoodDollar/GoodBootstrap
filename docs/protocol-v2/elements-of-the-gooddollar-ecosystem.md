@@ -140,7 +140,7 @@ For example, a stake of $100 to the GoodDollar Trust would enable the protocol t
 
 **Social APY** = 11.7%
 
-### **5. The Fund Manager** <a href="#_q0skiu5ion2h" id="_q0skiu5ion2h"></a>
+## **5. The Fund Manager** <a href="#_q0skiu5ion2h" id="_q0skiu5ion2h"></a>
 
 The _**Fund Manager**_ is a smart contract responsible for several critical processes in the GoodDollar protocol. These include:
 
@@ -148,13 +148,13 @@ The _**Fund Manager**_ is a smart contract responsible for several critical proc
 * The transfer of interest from the GoodDollar Trust to the GoodDollar Reserve.
 * The transfer of funds to the Bridge and onward to the DisCo for distribution to UBI Claimers via the Fuse blockchain.
 
-**Keepers**
+### **Keepers**
 
 As with all smart contracts, processes handled by the Fund Manager must be triggered manually. The task of triggering these processes falls to a group of volunteers called _**Keepers**_. In exchange for instructing the Fund Manager to execute tasks, these users earn rewards as well as compensation for transaction fees incurred during the process.
 
 In addition to the above tasks handled by the Fund Manager, Keepers can also earn G$ rewards for converting the status of verified users who have not made a claim in the past 14 days from “active” to “inactive”. This function is called “fishing”.
 
-**Rewards for Keepers**
+### **Keepers's rewards**
 
 Keepers incur “gas” or blockchain transaction fees in the course of fulfilling their tasks. The protocol compensates them for these, and pays them additional rewards for the work they carry out. Keepers are rewarded according to the following rules:
 
@@ -163,9 +163,9 @@ Keepers incur “gas” or blockchain transaction fees in the course of fulfilli
 2. Keepers will only be able to “activate” the function when the accumulated interest to be transferred is 4 times greater than the cost of the gas fees that would be incurred in the execution of the transfer.
 3. If no Keeper has executed the “activate” function for two months, the above limit no longer applies and anyone can execute this task.
 
-### **6. The Distribution Contract (DisCo)** <a href="#_r9w6swau5npq" id="_r9w6swau5npq"></a>
+## **6. The Distribution Contract (DisCo)** <a href="#_r9w6swau5npq" id="_r9w6swau5npq"></a>
 
-#### **Key Terms**
+### **Key Terms**
 
 **Daily reward:** The amount of G$ a verified user can claim in a 24-hour period.
 
@@ -177,18 +177,18 @@ Keepers incur “gas” or blockchain transaction fees in the course of fulfilli
 
 **Identity Contract:** A smart contract on Fuse that holds a list of all members of the GoodDollar ecosystem who are verified as real and unique. The DisCo draws upon this for distribution.
 
-#### **How the DiscCo works**
+### **How the DiscCo works**
 
 The _**DisCo**_, or _**Distribution Contract**_, is a smart contract that handles the distribution of G$ to all white-listed addresses (i.e. addresses verified as belonging to real and unique people in the GoodDollar ecosystem) housed in the **Identity Contract**. The DisCo is responsible for accepting G$ from elsewhere in the system and distributing this to all verified active users who have clicked “claim” in the GoodDollar Wallet app within the preceding 24 hours.
 
 The DisCo is also responsible for calculating daily rewards, according to the below calculation:\
 **Daily rewards** = (G$ in DisCo **/** days remaining in an epoch) / Active users)
 
-### **7. GoodDollar Governance**
+## **7. GoodDollar Governance**
 
 The GoodDollar governance model is based on the Compound governance model and code, as set out [here](https://compound.finance/docs/governance#comp). Critical to the process is the **GOOD token**, a non-transferable token that controls all smart contracts within the GoodDollar ecosystem.
 
-#### **GoodDollar governance components** <a href="#_2e4lrx4bta1p" id="_2e4lrx4bta1p"></a>
+### **Governance components** <a href="#_2e4lrx4bta1p" id="_2e4lrx4bta1p"></a>
 
 1. **Avatar:** A master smart contract that houses permissions for all other GoodDollar smart contracts. The Avatar can interact with external smart contracts and is able to function as a “smart wallet” for the GoodDAO.
 2. **Governance module:** A VotingMachine contract that implements the Governance Specs. The governance module has permission to control the Avatar when a proposal passes.
@@ -197,20 +197,20 @@ The GoodDollar governance model is based on the Compound governance model and co
 5. **Claimer distribution:** A smart contract that distributes GOOD to users who claim G$ tokens through the GoodDollar Wallet app.
 6. **Governance Staking:** A smart contract that distributes GOOD to users who stake their G$ in this contract.
 
-#### **The GoodDAO** <a href="#_x9v4kk8jp487" id="_x9v4kk8jp487"></a>
+### **GoodDAO** <a href="#_x9v4kk8jp487" id="_x9v4kk8jp487"></a>
 
 The _**GoodDAO**_ is the decentralized autonomous organization responsible for oversight of the GoodDollar protocol. All GoodDAO members have the power to propose changes to the protocol or to the governance process. They may also vote on the proposals of others.
 
 The GoodDAO can vote on anything directly affecting the protocol. Successful proposals for edits/additions/changes to the functionality of existing smart contracts are implemented through code upgrades. Code upgrade proposals must include the proposed new code in its final format.
 
-#### **GOOD**
+### **GOOD**
 
 _**GOOD**_ is the GoodDollar governance token used for voting on proposals related to the GoodDollar protocol. There are **two important points** to remember about GOOD:
 
 1. 1 GOOD = 1 vote.
 2. GOOD is a non-transferable token and therefore has no market value.
 
-#### **The delegation mechanism**
+#### **Delegation**
 
 1. Allows users to delegate/undelegate to another community member’s address.
 2. Users cannot delegate the GOOD that has been delegated to them.
@@ -241,9 +241,9 @@ GOOD tokens are minted on a monthly basis for ongoing distributions. Every month
    2. If 10 users staked 1000$ each in goodstaking they would earn 200K each.
    3. When there are multiple staking contracts, then the amount of GOOD tokens each contract rewards its stakers is proportional to the dollar value staked in that contract.
 
-#### **The proposal and voting process**
+### **New Proposal and Voting processes**
 
-#### &#x20;**Key Terms**&#x20;
+#### **Key Terms**&#x20;
 
 **The governance module:** GoodDollar’s governance module will initially be based on Compound’s contracts. The GoodDAO can elect to change this in future.\
 **The proposal threshold:** The percentage of total GOOD tokens a voter must hold and/or have delegated to him/her to make a proposal. This amount is currently set at **0.25%**.\
@@ -268,7 +268,7 @@ Any GoodDollar community member who controls more than 0.25% GOOD, either direct
 6. If there is a significant shift in voting within the last 24 hours, the clock is reset to permit a full 24 hours. If voting again shifts abruptly, further 24-hour extensions will occur.
 7. Any proposal that earns more than 51% approval will be automatically approved for implementation with a shorter execution delay.
 
-#### **Proposal statuses** <a href="#_s7xzj9buebqs" id="_s7xzj9buebqs"></a>
+#### **Proposal status** <a href="#_s7xzj9buebqs" id="_s7xzj9buebqs"></a>
 
 **Pending:** A proposal has been made but voting on it cannot yet begin.
 
@@ -284,7 +284,7 @@ Any GoodDollar community member who controls more than 0.25% GOOD, either direct
 
 **Canceled:** A proposal that lapses because a) the proposer's GOOD holdings decline below the proposal threshold, or b) the Guardian (see below) cancels the vote.
 
-#### **The GoodDollar Guardian** <a href="#_mm6flsmeeyzy" id="_mm6flsmeeyzy"></a>
+#### **Guardian rights** <a href="#_mm6flsmeeyzy" id="_mm6flsmeeyzy"></a>
 
 As the GoodDollar protocol will be fully decentralized under its new governance model. As such, there is a need to safeguard the protocol from two potential vectors of attack:
 
