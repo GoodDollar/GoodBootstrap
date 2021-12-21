@@ -23,9 +23,9 @@ You are able to buy and sell G$ directly to, and from, the GoodDollar Reserve co
 
 1. You should have a web3 wallet (like [MetaMask](https://metamask.io)).
 2. You should have enough ETH in your wallet in order to pay the gas fees of the transaction.
-3. You should have enough balance of the currency you are using to buy with.
-4. You should approve to exchangeHelper enough allowance to use your balance in order to buy G$.
-   1. Go to the contract page of the currency you are willing to buy with, for example [cDAI contract page](https://www.google.com/url?q=https://kovan.etherscan.io/address/0xf0d0eb522cfa50b716b3b1604c4f0fa6f04376ad\&sa=D\&source=editors\&ust=1634809220729000\&usg=AOvVaw2MhLThHQa8nApkfA9sj2vh) and click on “Contract”:
+3. You should have enough balance of the currency you are using to buy/sell with.
+4. You should approve to exchangeHelper enough allowance to use your balance in order to buy/sell G$.
+   1. Go to the contract page of the currency you are willing to buy/sell with, for example [cDAI contract page](https://www.google.com/url?q=https://kovan.etherscan.io/address/0xf0d0eb522cfa50b716b3b1604c4f0fa6f04376ad\&sa=D\&source=editors\&ust=1634809220729000\&usg=AOvVaw2MhLThHQa8nApkfA9sj2vh) and click on “Contract”:
 
 ![](../.gitbook/assets/image14)
 
@@ -45,7 +45,7 @@ You are able to buy and sell G$ directly to, and from, the GoodDollar Reserve co
 
 ![](../.gitbook/assets/image5)
 
-### How to buy G$ with DAI / cDAI? <a href="#h.5xmwue139rg6" id="h.5xmwue139rg6"></a>
+### Buy G$ with DAI / cDAI <a href="#h.5xmwue139rg6" id="h.5xmwue139rg6"></a>
 
 1. First, make sure you have done everything in the prerequisites section.
 2. Optional step, using the buyReturn function you can check how much G$ you will get.
@@ -107,15 +107,11 @@ Example with cDAI:
 
 ![](../.gitbook/assets/image8)
 
-### How to Sell G$? <a href="#h.hp4socu3xt98" id="h.hp4socu3xt98"></a>
+### Sell G$ to the reserve <a href="#h.hp4socu3xt98" id="h.hp4socu3xt98"></a>
 
-### Prerequisites <a href="#h.o7gv2gumixm" id="h.o7gv2gumixm"></a>
-
-1. You should have a web3 wallet, (like MetaMask for example, [link to the official link](https://www.google.com/url?q=https://metamask.io/\&sa=D\&source=editors\&ust=1634809220735000\&usg=AOvVaw2Y3OAbhu7Xgpb00yZPUhYw)).
-2. You should have enough balance of G$, at least at the amount you would like to sell, you can not sell more than you have here.
-3. You should approve enough G$ for the exchangeHelper to transfer your G$ in order to perform a sell transaction.
-
-### How to sell G$ for DAI / cDAI? <a href="#h.tcdkrzq499nl" id="h.tcdkrzq499nl"></a>
+{% hint style="danger" %}
+G$X token lets people buy and sell G$ to the Reserve without an exit fee. All those who buy G$ from the reserve will also receive an equal number of G$X. See [Claim GOOD and G$X](claim-good-and-gdx.md)
+{% endhint %}
 
 1. Optional step, using the sellReturn function you can check how much you will get for the G$ you are planning to sell.
    1. Go to GoodMarketMaker (check the references section for the relevant link).
