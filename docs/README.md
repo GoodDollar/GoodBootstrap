@@ -40,7 +40,9 @@ GoodDollar operates on [Ethereum](https://ethereum.org/en/) using smart contract
 
 ### GoodDollar Dapp
 
-* Serves as visual interface to the protocol core smart contracts on Ethereum mainnet.
+Accessibility and ease of use are critical to market adoption. By widely distributing G$ through an accessible process and interface, we increase the odds that the basic income economy is widely adopted and strengthen the case for G$ to become a preferred complementary currency among holders.
+
+* Serves as a visual interface to the protocol core smart contracts on Ethereum mainnet.
 * The Dapp enables to stake, buy/sell G$ directly to reserve, and governance functionality.
 * The Dapp is 100% [open-source](https://github.com/GoodDollar/GoodDAPP), deployed and managed by community stakeholders. You can even deploy your own UI.
 * Below are community deployed UI, use at your own risk!
@@ -48,14 +50,15 @@ GoodDollar operates on [Ethereum](https://ethereum.org/en/) using smart contract
 
 ### GoodDollar Wallet
 
-* The wallet is Simple, mobile-friendly web app for members to receive daily G$ allocation.
-* [Wallet Developer Guides](developer-guides/) provide an overview of the architecture of our wallet application and our approach to decentralized storage and identity.
-* [GoodDAPP - Wallet WebApp](https://github.com/GoodDollar/GoodDAPP)​
-* [GoodServer - webapp backend](https://github.com/GoodDollar/GoodServer)**​**
+To increase adoption and trust in the system, a simple digital wallet that can be accessed anywhere in the world with an internet connection has been built. The user experience focuses on the key action of “_claiming_” G$ coins as basic income and conducting peer-to-peer transactions.&#x20;
 
-We have a repo[ GoodBoostrap](https://github.com/GoodDollar/GoodBootstrap) to provide you with a one-click development environment installation process
+The wallet is a mobile-friendly web application built on React with [React Native](https://reactnative.dev) and is open-source, as is all GoodDollar code. The wallet interacts with three main components: The GoodDollar Protocol, Identity solutions for verifying unique identity, Distributed login solutions (initially through the [Tor.us](https://tor.us) platform).
 
+Resources:
 
+1. Frontend Wallet [repo](https://github.com/GoodDollar/GoodDAPP)
+2. Backend Wallet [repo](https://github.com/GoodDollar/GoodServer)
+3. [Wallet Development Guides](developer-guides/)
 
 {% hint style="info" %}
 If you wish to contribute please read [this](contributing.md).
