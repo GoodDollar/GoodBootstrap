@@ -14,10 +14,10 @@ Let's get started:
 
 * GoodDollar offers a new standard for creating and distributing basic income via G$ token.
 * GoodDollar V2 is a major contract upgrade yet to be deployed; GoodDollar V1 was initially deployed in August 2020.&#x20;
-* [Smart Contract Guide](smart-contracts-guide/) documents key components, value flow, and key contracts.
+* [Smart Contract Guide](protocol-v2/) documents key components, value flow, and key contracts.
 * [GoodContracts - GitHub Repo of Ethereum Contracts​.](https://github.com/GoodDollar/GoodContracts)
+* [GoodDollar V2](protocol-v2/) - Overview of functionality&#x20;
 * GoodDollar V1 - Overview of functionality and contracts.
-* GoodDollar V2 (not yet deployed) - Overview of functionality&#x20;
 * V2 User Guides - How to Stake; How to Buy.
 * [V2 Staking Good Rewards Scheme](protocol-v2/elements-of-the-gooddollar-ecosystem.md#4.-staking-rewards-annual-percentage-returns)
 
