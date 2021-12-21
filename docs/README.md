@@ -30,7 +30,6 @@ There are four main components to the Gooddollar project:
 ### GoodDollar Protocol
 
 * GoodDollar offers a new standard for creating and distributing basic income via G$ token.
-* The Gooddollar Protocol is a set of rules (i.e. Smart Contracts) which&#x20;
 * [GoodDollar V2](protocol-v2/) is a major contract upgrade yet to be deployed
 * [GoodDollar V1](smart-contracts-guide/) was initially deployed in August 2020.&#x20;
 * Some Guides have been documented by the community. Feel free to contribute.
