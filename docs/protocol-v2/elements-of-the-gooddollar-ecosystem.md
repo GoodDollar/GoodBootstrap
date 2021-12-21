@@ -1,17 +1,17 @@
 # Elements of the GoodDollar Ecosystem
 
-### **1. The GoodDollar token (G$)** <a href="#_coklhq47qt9q" id="_coklhq47qt9q"></a>
+## **1. The token (G$)** <a href="#_coklhq47qt9q" id="_coklhq47qt9q"></a>
 
 The _**GoodDollar token (G$)**_ is an ERC 20 crypto token with a max supply of 2.2 trillion. It is native to Ethereum and also operates on Fuse.
 
-### **2. The GoodDollar Reserve** <a href="#_fatx9b4n7fez" id="_fatx9b4n7fez"></a>
+## **2. The Reserve** <a href="#reserve" id="reserve"></a>
 
 The _**GoodDollar Reserve**_ is the smart contract that governs the vault holding the assets that back G$ tokens. The algorithm that guides the reserve is based on the Bancor formula, which has been altered to fit GoodDollar’s needs. There are two important characteristics unique to the GoodDollar Reserve:
 
 1. The reserve supports the generation of G$. Users can always convert to and from G$ via the reserve.
 2. The unique math of the GoodDollar Reserve lends G$ exceptional stability.
 
-#### **Key Terms:**
+### **Key Terms**
 
 **Reserve:** The pool of tokens backing G$ generation.
 
@@ -27,9 +27,9 @@ The _**GoodDollar Reserve**_ is the smart contract that governs the vault holdin
 
 #### **The Reserve Ratio (Rr)**
 
-The ratio between the value of the reserve and the market capitalization of G$. The lower the ratio, the more G$ the protocol can generate.
+_The ratio between the value of the reserve and the market capitalization of G$. The lower the ratio, the more G$ the protocol can generate._
 
-#### **GoodDollar Reserve Functions:** <a href="#_ifxdlmghjtme" id="_ifxdlmghjtme"></a>
+### **Reserve Functions:** <a href="#_ifxdlmghjtme" id="_ifxdlmghjtme"></a>
 
 The GoodDollar Reserve performs three different functions important to the GoodDollar Economy: _**Expansion**_; _**Conversion**_; _**Interest Deposits**_. These are outlined below (for more on the underlying math, please see the [appendix ](https://whitepaper.gooddollar.org/appendix)of the GoodDollar white paper).
 
@@ -37,24 +37,23 @@ The GoodDollar Reserve performs three different functions important to the GoodD
 * _**Conversion**_ is the process that enables users to exchange G$ for CDAI and vice versa. Since the GoodDollar Reserve is essentially an automated market maker (AMM) that works on a bonding curve, the amount of G$ minted or burned depends upon how much collateral is added or removed from the reserve. Users who buy G$ receive a matching number of G$X tokens as a reward for their purchases, which can be used to reduce their exit contributions when they choose to sell G$ (see below).
 * _**Interest deposits**_ into the GoodDollar Reserve from a third-party protocol are converted to G$ in a different way than during the crypto exchange process outlined above. When a user buys G$ from the GoodDollar Reserve in exchange for a supported currency, new tokens are minted and the price of G$ rises. In contrast, when a user deposits interest, there are more tokens minted, but the price of G$ doesn’t change.
 
-#### **Exit Contributions** <a href="#_mebn0hpwchkh" id="_mebn0hpwchkh"></a>
+### **Exit Contributions** <a href="#_mebn0hpwchkh" id="_mebn0hpwchkh"></a>
 
 #### **G$X Tokens** <a href="#_511bw6p5w9as" id="_511bw6p5w9as"></a>
 
 In addition to the G$ coin and the GOOD governance token, the GoodDollar ecosystem includes a third type of crypto token: _**G$X**_. Members who hold G$X tokens can use these to reduce their exit contributions when selling G$ to the reserve by an amount set by the DAO. Users acquire G$X tokens as a reward for buying G$ from the reserve (currently, a user who buys 100 G$ will also receive 100 G$X).
 
-**Exit contribution calculation including G$X**
+#### **Exit contribution calculation including G$X**
 
-*
-  1. Discount = 1 - G$X/G$sold
-     1. If Discount <= 0 Then Discount = 0
-  2. Exit contribution = Setcontribution\*Discount
+1. Discount = 1 - G$X/G$sold
+   1. If Discount <= 0 Then Discount = 0
+2. Exit contribution = Setcontribution\*Discount
 
-**G$X Supply & Burn policies**
+#### **G$X Supply & Burn policies**
 
 For every G$ token bought from the GoodDollar Reserve, the reserve will issue 1 G$X token. For every G$ token sold to the GoodDollar Reserve, the reserve will burn 1 G$X token.
 
-#### **GoodDollar Reserve Stability** <a href="#_qz61jetq3map" id="_qz61jetq3map"></a>
+### **Stability** <a href="#_qz61jetq3map" id="_qz61jetq3map"></a>
 
 As described above, the impact of buying and selling currencies to and from the GoodDollar Reserve depends on three factors:
 
@@ -62,21 +61,21 @@ As described above, the impact of buying and selling currencies to and from the 
 2. The size of each transaction.
 3. The total reserve value.
 
-**See Simulator:**
+### **Simulator**
 
 https://docs.google.com/spreadsheets/d/1laUPAf-ZH1kjKaOkgwQizHT1wohfDj\_b5Fq6Z7GGJDY/edit?usp=drive\_web\&ouid=113040146852067786774
 
-#### **Helper contracts** <a href="#_p1dxu7aswyt0" id="_p1dxu7aswyt0"></a>
+### **Helper contracts** <a href="#_p1dxu7aswyt0" id="_p1dxu7aswyt0"></a>
 
 _**Helper contracts**_ are smart contracts that connect the GoodDollar Reserve to other liquidity networks in order to allow liquidity to flow from G$ to any other token that has an automated market maker (AMM). For example, if a user wants to convert token X to G$, the helper contract will first convert token X to DAI using Uniswap, and then convert DAI to CDAI using Compound. Finally, it will convert the CDAI to G$ using the GoodDollar Reserve. Future versions of the protocol may extend this functionality to additional protocols, such as Bancor and Aave.
 
-### **3. The GoodDollar Trust** <a href="#_mn9xjitr972u" id="_mn9xjitr972u"></a>
+## **3. The GoodDollar Trust** <a href="#_mn9xjitr972u" id="_mn9xjitr972u"></a>
 
 The aim of the _**GoodDollar Trust**_ is to generate an ongoing flow of money into the GoodDollar Reserve. What we refer to as the GoodDollar Trust is in actuality a collection of trust funds, or staking contracts, that “wrap” third-party deposit-taking DeFi protocols. Each protocol and token has a separate trust fund. For example, Compound DAI is one trust fund; Compound ETH is another; and Aave DAI will be a third.
 
 Each separate trust fund takes the interest generated by staked assets in the protocol it wraps and donates this to the GoodDollar Reserve, for the support of crypto UBI generation. As a reward for their commitment, stakers have the option of receiving a sum of newly minted G$ tokens. They can either withdraw these tokens, at which point they will be minted, or opt not to.
 
-### **4. Staking rewards (annual percentage returns)**
+## **4. Staking rewards (APR)**
 
 1. The _**staking rewards structure**_ is a new parameter that is governed by the GoodDAO
 2. Rewards vary depending on the third-party protocol (e.g. Compound, DAI etc.) and currency pair involved.
@@ -92,9 +91,9 @@ Rewards are calculated based on the formula set out [here](https://eips.ethereum
 * AAVE USDC Total reward per block = 69.44 G$s | Yearly Reward = 145.5M G$s
 {% endhint %}
 
-**Effect of G$ staking rewards on the reserve ratio**
+#### **Rewards effects on the Reserve Ratio**
 
-**The minting of** G$ rewards affects the reserve ratio in the same way as the minting of G$ for UBI. The minting of new tokens both to pay rewards and to supply UBI to members increases the total supply of G$, and thus reduces the reserve ratio.
+The minting of **** G$ rewards affects the reserve ratio in the same way as the minting of G$ for UBI. The minting of new tokens both to pay rewards and to supply UBI to members increases the total supply of G$, and thus reduces the reserve ratio.
 
 The decline in the reserve ratio following the minting of tokens for staking rewards can be determined as follows:
 
