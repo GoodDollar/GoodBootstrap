@@ -35,7 +35,7 @@ GoodDollar operates on [Ethereum](https://ethereum.org/en/) using smart contract
 * [GoodDollar V2](protocol-v2/) is a major contract upgrade yet to be deployed
 * [GoodDollar V1](smart-contracts-guide/) was initially deployed in August 2020.&#x20;
 * Some Guides have been documented by the community. Feel free to contribute.
-* Everything is open-sourced and free to use on [Github](https://github.com/GoodDollar/GoodContracts).
+* Everything is open-sourced and free to use on [Github](https://github.com/GoodDollar/GoodProtocol).
 * [V2 Staking Good Rewards Scheme](protocol-v2/elements-of-the-gooddollar-ecosystem.md#4.-staking-rewards-annual-percentage-returns)
 
 ### GoodDollar Dapp
@@ -44,7 +44,7 @@ Accessibility and ease of use are critical to market adoption. By widely distrib
 
 * Serves as a visual interface to the protocol core smart contracts on Ethereum mainnet.
 * The Dapp enables to stake, buy/sell G$ directly to reserve, and governance functionality.
-* The Dapp is 100% [open-source](https://github.com/GoodDollar/GoodDAPP), deployed and managed by community stakeholders. You can even deploy your own UI.
+* The Dapp is 100% open-source, deployed and managed by community stakeholders. You can even deploy your own UI. Here's the [repo](https://github.com/GoodDollar/GoodProtocolUI)
 * Below are community deployed UI, use at your own risk!
   * [goodswap.xyz](http://goodswap.xyz)
 
