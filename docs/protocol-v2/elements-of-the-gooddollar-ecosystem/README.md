@@ -47,6 +47,6 @@ Responsible for several critical processes in the GoodDollar protocol. These inc
 
 The _**DisCo**_, or _**Distribution Contract**_, is a smart contract that handles the distribution of G$ to all white-listed addresses.
 
-## **7. Governance (DAO)**
+## ****[**7. Governance (DAO)**](7.-governance-dao.md)
 
 The GoodDollar governance model is based on the Compound governance model and code, as set out [here](https://compound.finance/docs/governance#comp). Critical to the process is the **GOOD token**, a non-transferable token that controls all smart contracts within the GoodDollar ecosystem.
