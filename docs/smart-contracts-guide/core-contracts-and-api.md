@@ -14,7 +14,7 @@ GoodDollar Protocol is deployed on both the Ethereum mainnet and on the Fuse sid
 
 ### Core Contracts
 
-### GoodDollar G$ ERC-20
+
 
 | Contract                                                                                                            | Mainnet                                                                                                                                 | Fuse                                                                                                                                   | Source code                                                                                                                               |
 | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
@@ -30,6 +30,8 @@ GoodDollar Protocol is deployed on both the Ethereum mainnet and on the Fuse sid
 | [AdminWallet](https://docs.gooddollar.org/smart-contracts-guide#adminwallet)                                        |                                                                                                                                         | [0x9F75dAcB77419b87f568d417eBc84346e134144E](https://explorer.fuse.io/address/0x9F75dAcB77419b87f568d417eBc84346e134144E)              | [AdminWallet.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/wallet/AdminWallet.sol)                               |
 | [OneTimePayments](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#onetimepayments)         |                                                                                                                                         | [0xd9Aa86e0Ddb932bD78ab8c71C1B98F83cF610Bd4](https://explorer.fuse.io/address/0xd9Aa86e0Ddb932bD78ab8c71C1B98F83cF610Bd4)              | [OneTimePayments.sol](https://github.com/GoodDollar/GoodContracts/blob/master/contracts/dao/schemes/OneTimePayments.sol)                  |
 | [DonationsStaking](https://docs.gooddollar.org/smart-contracts-guide/core-contracts-and-api#donationsstaking)       | [0x93fb057eec37abc11d955d1c09e6a0d218f35cff](https://etherscan.io/address/0x93fb057eec37abc11d955d1c09e6a0d218f35cff#readProxyContract) |                                                                                                                                        | [DonationsStakinng.sol](https://github.com/GoodDollar/GoodContracts/blob/master/upgradables/contracts/staking/DonationsStaking.sol)       |
+
+### GoodDollar G$ ERC-20
 
 #### GoodDollar G$ ERC-20
 

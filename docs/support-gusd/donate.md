@@ -16,6 +16,6 @@ A user can donate from both centralized and decentralized wallets.
 
 **Send your ETH or DAI to the following address:**
 
-**0x93FB057EeC37aBc11D955d1C09e6A0d218F35CfF**
+**0x06EAFc6749723583672Fc8f4451c8ec0E59F5798**
 
 **Note: Money sent to this contract cannot be returned.**
