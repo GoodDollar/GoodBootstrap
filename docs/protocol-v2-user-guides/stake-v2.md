@@ -7,7 +7,7 @@ description: >-
 
 # GoodStake
 
-Since a UBI distribution can be done only thought inflation of the monetary policy, GoodDollarV2 assures that there's value entering our ecosystem so the value of every G$ minted towards this purpose is backed bu the assets in the GoodReserve.
+Since a UBI distribution can be done only thought inflation of the monetary policy, GoodDollarV2 assures that there's value entering the ecosystem so the value of every G$ minted towards this purpose is backed bu the assets in the GoodReserve.
 
 This is achieved by the GoodDollar Trust, a set of smart contracts that allows deposits from GoodDollar UBI supporters, interact with third party DeFi Protocols to earn yields and then feed the GoodReserve for the minting of new G$s to be distributed in a UBI fashion.
 
@@ -54,7 +54,7 @@ After you have done all the prerequisites, let's do the actual staking.
 
 #### Staking with DAI
 
-Let's assume we want to stake 100 DAI and we do not want to donate our rewards. Before the stake transaction, you would need to approve enough DAIs to the stake contract in order to allow it to transfer your funds.
+Let's assume you want to stake 100 DAI and you do not want to donate your rewards. Before the stake transaction, you would need to approve enough DAIs to the stake contract in order to allow it to transfer your funds.
 
 ![](<../.gitbook/assets/Screenshot 2021-09-20 at 21.33.25.png>)
 
@@ -64,7 +64,7 @@ Connect your wallet by pressing the `connect to web3` button&#x20;
 
 ![](<../.gitbook/assets/image (1).png>)
 
-Now we can finalize our staking transaction:
+Now you can finalize your staking transaction:
 
 ![](<../.gitbook/assets/Screenshot 2021-09-20 at 21.37.30.png>)
 
