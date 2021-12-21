@@ -21,7 +21,7 @@ Let's get started:
 * V2 User Guides - How to Stake; How to Buy.
 * [V2 Staking Good Rewards Scheme](protocol-v2/elements-of-the-gooddollar-ecosystem.md#4.-staking-rewards-annual-percentage-returns)
 
-### GoodDollar Pro Dapp (V2 - not yet deployed)
+### GoodDollar Pro Dapp
 
 * Dapp interface to interact with GoodDollar protocol core smart contracts on Ethereum mainnet.
 * Dapp enables to stake, buy/sell G$ directly to reserve, and governance functionality.
