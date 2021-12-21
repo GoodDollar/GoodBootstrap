@@ -2,30 +2,30 @@
 
 The Wallet Developer Guides provide an overview of the architecture of our wallet application and our approach to decentralized storage and identity.
 
-## Getting Started&#x20;
+## [Getting Started ](getting-started.md)
 
 How to install a local dev env in one click.
 
-## Routing&#x20;
+## [Routing](routing.md)&#x20;
 
 Describes how routes are being organized in the project.
 
-## User Storage&#x20;
+## [User Storage ](user-storage.md)
 
 Describes how GoodDAPP uses the Gun p2p database, to store user-owned data.
 
-## Good Wallet&#x20;
+## [Good Wallet ](good-wallet.md)
 
 Describes wallet infrastructure and its elements.
 
-## Face Recognition&#x20;
+## [Liveness & Uniqueness Process](face-recognition.md)
 
-Describes the Face Recognition process as part of the GoodDollar identification process.
+Describes the Whitelisting process as part of the GoodDollar identification process.
 
-## Building Blocks&#x20;
+## [Building Blocks ](building-blocks.md)
 
 Discuss common components meant to be used across the app.
 
-## Blockchain Events&#x20;
+## [Blockchain Events ](blockchain-events.md)
 
 Lists events being logged by GoodDAPP.
