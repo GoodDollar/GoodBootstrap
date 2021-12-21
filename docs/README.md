@@ -9,7 +9,7 @@ description: >-
 Welcome! [GoodDollar](https://gooddollar.org) is a decentralized universal basic income initiative. Here you can find all the open-source documentation for the smart contracts and interfaces!
 
 {% hint style="info" %}
-This [whitepaper](http://whitepaper.gooddollar.org) runs through the project's philosophy and decision's rationals
+Read project's [whitepaper](http://whitepaper.gooddollar.org) for deep dive into the philosophy and decision's rationals
 {% endhint %}
 
 Let's get started:
