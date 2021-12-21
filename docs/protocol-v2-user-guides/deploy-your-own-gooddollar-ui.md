@@ -8,9 +8,11 @@ description: >-
 
 GoodDollar currently is not running its own frontend — making the system more decentralized and censorship-resistant.&#x20;
 
-Besides choosing interact with the Gooddollar contract with Etherscan as facilitated in the previous User Guides, users can also choose to deploy their own Gooddollar Protocol V2 User Interface (UI) by forking the ProtocolUI code from the Open-Sourced [GoodDollar Github repository](https://github.com/GoodDollar) in the case they can't make use of any Community Deployed front-end.
+Besides choosing to interact with the Gooddollar contract with Etherscan as facilitated in the previous User Guides, users can also choose to deploy their own Gooddollar Protocol V2 User Interface (UI) by forking the ProtocolUI code from the Open-Sourced [GoodDollar Github repository](https://github.com/GoodDollar) in the case they can't make use of any Community Deployed front-end.
 
 
+
+### Deploy your own GoodDollar UI Tutorial
 
 #### This will be done by a few simple steps based on the open-source repository you can find [here](https://github.com/GoodDollar/GoodProtocolUI).
 
@@ -30,3 +32,7 @@ This tutorial will show you how to deploy it using Netlify, but you can use Verc
 12. It will take a few minutes, you could see the progress here:                                                        ![](../.gitbook/assets/Netlify6-deployInProgress.png)
 13. After it's finished your site is basically on air and is accessible through the address shown at the top of the page, you could connect your own domain by clicking here:                                                        ![](../.gitbook/assets/Netlify7-setUpcustomDomain.png)&#x20;
 14. Every change you will make and push to your 'master' branch on your forked repo will automatically be deployed to your website.
+
+### Community Deployed GoodDollar UI
+
+* [goodswap.xyz](https://goodswap.xyz)
