@@ -29,6 +29,8 @@ There are four main components to the Gooddollar project:
 
 ### GoodDollar Protocol
 
+GoodDollar operates on [Ethereum](https://ethereum.org/en/) using smart contracts that are written in [Solidity](https://solidity.readthedocs.io/en/v0.7.0/) with G$ designated as an ERC20 token.  As a means to an end, transactions using G$ are run on an Ethereum sidechain, [Fuse](https://fuse.io), which enables low-cost, high-volume transactions. As we anticipate that the scalability and efficiency of blockchain infrastructure will continuously improve.
+
 * GoodDollar offers a new standard for creating and distributing basic income via G$ token.
 * [GoodDollar V2](protocol-v2/) is a major contract upgrade yet to be deployed
 * [GoodDollar V1](smart-contracts-guide/) was initially deployed in August 2020.&#x20;
@@ -46,7 +48,7 @@ There are four main components to the Gooddollar project:
 
 ### GoodDollar Wallet
 
-* Simple, mobile-friendly web app for members to receive daily G$ allocation.
+* The wallet is Simple, mobile-friendly web app for members to receive daily G$ allocation.
 * [Wallet Developer Guides](developer-guides/) provide an overview of the architecture of our wallet application and our approach to decentralized storage and identity.
 * [GoodDAPP - Wallet WebApp](https://github.com/GoodDollar/GoodDAPP)​
 * [GoodServer - webapp backend](https://github.com/GoodDollar/GoodServer)**​**
