@@ -4,7 +4,7 @@ description: >-
   and selling G$s directly
 ---
 
-# How to Buy & Sell G$
+# Buy & Sell G$
 
 GoodDollar ERC20 is a reserve backed currency with issuance governed by an AMM (automated market maker) encoded in the GoodReserve contract. Each time the user buys or sells from or to the reserve, tokens are respectively being minted or burned according to [equation 2](https://whitepaper.gooddollar.org/appendix) in our WhitePaper appendix.
 
@@ -12,7 +12,7 @@ GoodDollar ERC20 is a reserve backed currency with issuance governed by an AMM (
 
 ### Prerequisites <a href="#h.7qnl0y4984hv" id="h.7qnl0y4984hv"></a>
 
-1. You should have a web3 wallet, (like MetaMask for example, [link to the official link](https://www.google.com/url?q=https://metamask.io/\&sa=D\&source=editors\&ust=1634809220729000\&usg=AOvVaw3sIQw4vzOnSgl4wX-4lv4E)).
+1. You should have a web3 wallet, (like [MetaMask](https://metamask.io)).
 2. You should have enough ETH in your wallet in order to pay the gas fees of the transaction.
 3. You should have enough balance of the currency you are using to buy with.
 4. You should approve to exchangeHelper enough allowance to use your balance in order to buy G$.
