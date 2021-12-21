@@ -40,7 +40,7 @@ GoodDollar operates on [Ethereum](https://ethereum.org/en/) using smart contract
 * [GoodDollar V1](smart-contracts-guide/) was initially deployed in August 2020.&#x20;
 * Some Guides have been documented by the community. Feel free to contribute.
 * Everything is open-sourced and free to use on [Github](https://github.com/GoodDollar/GoodProtocol).
-* [V2 Staking Good Rewards Scheme](protocol-v2/elements-of-the-gooddollar-ecosystem/#4.-staking-rewards-annual-percentage-returns)
+* [V2 Staking Good Rewards Scheme](protocol-v2/systems-elements/#4.-staking-rewards-annual-percentage-returns)
 
 ### GoodDollar Dapp
 
