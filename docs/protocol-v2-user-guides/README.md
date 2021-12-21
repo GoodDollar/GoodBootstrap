@@ -14,6 +14,6 @@ A guide for staking DAI/cDAI with Gooddollar thrust through Etherscan.
 
 A guide for claiming GOOD & GDX.
 
-## [Deploy your own Gooddollar UI](./#deploy-your-own-gooddollar-ui)
+## [Deploy your own Protocol UI](./#deploy-your-own-gooddollar-ui)
 
-Here is a tutorial to guide you through deploying your V2 protocol user interface.
+A guide for running your own protocol Dapp UI.
