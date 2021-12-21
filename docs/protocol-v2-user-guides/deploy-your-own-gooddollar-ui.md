@@ -33,6 +33,6 @@ This tutorial will show you how to deploy it using Netlify, but you can use Verc
 
 ![](<../.gitbook/assets/Netlify1-newSiteFromGit (2).png>)
 
-### Community Deployed GoodDollar UI
+### Community Deployed GoodDollar UI <a href="#community-ui" id="community-ui"></a>
 
 * [goodswap.xyz](https://goodswap.xyz)
