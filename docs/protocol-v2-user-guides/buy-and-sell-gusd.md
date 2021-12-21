@@ -12,7 +12,7 @@ GoodDollar ERC20 is a reserve backed currency with issuance governed by an AMM (
 
 ### Prerequisites <a href="#h.7qnl0y4984hv" id="h.7qnl0y4984hv"></a>
 
-1. You should have a web3 wallet, (like [MetaMask](https://metamask.io)).
+1. You should have a web3 wallet (like [MetaMask](https://metamask.io)).
 2. You should have enough ETH in your wallet in order to pay the gas fees of the transaction.
 3. You should have enough balance of the currency you are using to buy with.
 4. You should approve to exchangeHelper enough allowance to use your balance in order to buy G$.
@@ -32,7 +32,7 @@ GoodDollar ERC20 is a reserve backed currency with issuance governed by an AMM (
 
 ![](../.gitbook/assets/image4)
 
-5\. You will have to enter two parameters: Spender and amount, the spender is the contract address of the ExchangeHelper (find the relevant exchangeHelper address in the references section on the bottom of the page), the amount is the amount you would like to approve in the currency you are buying with, click Write.
+5\. You will have to enter two parameters: Spender and Amount. The spender is the contract address of the ExchangeHelper (find the relevant exchangeHelper address in the references section on the bottom of the page), the amount is the amount you would like to approve in the currency you are buying with, click Write.
 
 ![](../.gitbook/assets/image5)
 
