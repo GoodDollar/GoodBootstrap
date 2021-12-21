@@ -37,7 +37,7 @@ There are four main components to the Gooddollar project:
 * Everything is open-sourced and free to use on [Github](https://github.com/GoodDollar/GoodContracts).
 * [V2 Staking Good Rewards Scheme](protocol-v2/elements-of-the-gooddollar-ecosystem.md#4.-staking-rewards-annual-percentage-returns)
 
-### GoodDollar Dapp (V2 - not yet deployed)
+### GoodDollar Dapp
 
 * Dapp interface to interact with GoodDollar protocol core smart contracts on Ethereum mainnet.
 * Dapp enables to stake, buy/sell G$ directly to reserve, and governance functionality.
