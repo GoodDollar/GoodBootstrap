@@ -28,7 +28,7 @@
   * [Routing](developer-guides/routing.md)
   * [User Storage](developer-guides/user-storage.md)
   * [Good Wallet](developer-guides/good-wallet.md)
-  * [Face Recognition](developer-guides/face-recognition.md)
+  * [Liveness & Uniqness test](developer-guides/face-recognition.md)
   * [Building Blocks](developer-guides/building-blocks.md)
   * [Blockchain Events](developer-guides/blockchain-events.md)
   * [Create Font With Icons](developer-guides/create-font-with-icons.md)
