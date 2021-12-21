@@ -14,7 +14,7 @@ Read project's [whitepaper](http://whitepaper.gooddollar.org) for deep dive into
 
 Let's get started:
 
-### What is Gooddollar?
+## What is Gooddollar?
 
 [GoodDollar](http://www.gooddollar.org) is a people-powered framework to generate, finance, and distribute global basic income via the GoodDollar token (“G$ coin”). Its goal is to provide a baseline standard of living and reduce wealth inequality through the creation of a universal basic income (UBI).&#x20;
 
@@ -24,7 +24,7 @@ A digital asset that operates within the emerging ecosystem of decentralized and
 
 The value in the GoodDollar reserve comes from the interest that is generated from Supporters who stake cryptocurrencies in decentralized third-party protocols. Through the amassed reserve interest, G$ coins are minted. They are used to pay Supporters market-rate interest payments, while a daily amount of G$ coins is set aside to be distributed as basic income.
 
-There are four main components to the Gooddollar project:
+## Four main components to the Gooddollar project:
 
 1. [Protocol](./#gooddollar-protocol)
 2. [Protocol's Dapp](./#gooddollar-dapp-v2-not-yet-deployed)
