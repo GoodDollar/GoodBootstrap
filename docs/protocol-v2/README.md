@@ -10,7 +10,7 @@ description: An introduction to the key components and users in the GoodDollar p
 [This blog post](https://www.gooddollar.org/gooddollarv2-launches-the-epoch-of-defi-for-good/) provides an overview of what V2 does and why it matters to you and the world.
 {% endhint %}
 
-![V2 vs V1 key features](https://lh6.googleusercontent.com/Ff6\_F68L0y3BlWICN6GKvBb8KJumHy6zOgAezD\_c4L67PjjM\_aP1InxYUolVUFHYubBoTMQmgrA38b8X9yzZOaWqcp7G04nCZJC07lHE67afAiaENW-ZxjMYvzqmsBlA-7GZNxa0)
+![V2 vs V1 key features](../.gitbook/assets/protocolv2.png)
 
 What you can do in V2:
 
