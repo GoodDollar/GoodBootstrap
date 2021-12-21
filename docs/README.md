@@ -27,6 +27,7 @@ Let's get started:
 * Dapp enables to stake, buy/sell G$ directly to reserve, and governance functionality.
 * Dapp is 100% open-source and deployed and managed by community stakeholders.
 * V2 User Guide - How to Deploy Your Own G$ UI.
+* [Community member deployed GoodDollar UI](https://goodswap.xyz)
 
 ### GoodDollar Wallet
 
