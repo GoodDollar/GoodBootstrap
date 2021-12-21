@@ -12,25 +12,25 @@ description: An introduction to the key components and users in the GoodDollar p
 
 ![V2 vs V1 key features](../.gitbook/assets/protocolv2.png)
 
-What you can do in V2:
+## What you can do in V2:
 
-#### Stake for GoodDollar UBI and earn rewards&#x20;
+### Stake for GoodDollar UBI and earn rewards&#x20;
 
 * [Stake](../protocol-v2-user-guides/stake-v2.md) your stablecoins using GoodDollar Trust&#x20;
 * Get benefits from the Liquidity Rewards Scheme
 
-#### Interact directly with GoodDollar Reserve&#x20;
+### Interact directly with GoodDollar Reserve&#x20;
 
 * Swap any ERC-20 token in [exchange for G$ ](../protocol-v2-user-guides/buy-and-sell-gusd.md)
 * Earn G$X by buying G$ from the reserve, a token that enables users to sell to the GoodReserve without penalty.
 
-#### Community governance via GoodDAO&#x20;
+### Community governance via GoodDAO&#x20;
 
 * Community governance for all smart contract upgrades&#x20;
 * [Claim GOOD allocation](../protocol-v2-user-guides/claim-good-and-gdx.md) based on snapshot results and ongoing distribution
 * Integrate Your Protocol with GoodDollar and assign G$ rewards
 
-#### Developer Tools&#x20;
+### Developer Tools&#x20;
 
 * Contribute with GoodDollar repository and security and hunt some [bounties](https://github.com/GoodDollar/Bounties/issues).&#x20;
 * Integrate your Protocol with GoodDollar (coming soon!)&#x20;
