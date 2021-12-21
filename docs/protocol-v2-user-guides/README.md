@@ -8,7 +8,7 @@ A guide for buying & selling Gooddollar from the reserve through Etherscan.
 
 ## [Stake](./#stake)
 
-A guide for staking DAI/cDAI with Gooddollar thrust through Etherscan.
+A guide for staking DAI/cDAI with Gooddollar Trust through Etherscan.
 
 ## [Claim GOOD & GDX](claim-good-and-gdx.md)
 
