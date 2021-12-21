@@ -6,9 +6,18 @@ description: >-
 
 # Buy & Sell G$
 
-GoodDollar ERC20 is a reserve backed currency with issuance governed by an AMM (automated market maker) encoded in the GoodReserve contract. Each time the user buys or sells from or to the reserve, tokens are respectively being minted or burned according to [equation 2](https://whitepaper.gooddollar.org/appendix) in our WhitePaper appendix.
+There are key user and stakeholder hypotheses built into our theory of change and adoption. Ultimately, the success of the GoodDollar economy is contingent upon market demand from both those who support G$ and those who claim it, as the economy itself is a balance between supply and demand.&#x20;
 
-### How to Buy G$? <a href="#h.e5skh54apukf" id="h.e5skh54apukf"></a>
+G$ is designed to gain usage and to be widely adopted as a means of exchange over time. Like Bitcoin, the initial dollar value, or “price”, of each G$ will be low – in the tenths of a cent on the dollar range to begin with. Our belief is that, because it offers free access to an instantly liquid, global basic income network, G$ will first be adopted in markets where smartphone-enabled populations currently live on less than US$10 a day. We believe that, for these populations, G$ could emerge as a useful complementary currency for use in peer-to-peer digital marketplaces as well as for on-the-ground goods and services, particularly as the network grows.
+
+{% hint style="info" %}
+GoodDollar ERC20 is a reserve backed currency with issuance governed by an AMM (automated market maker) encoded in the GoodReserve contract. Each time you buy or sell, from or to, the reserve - tokens are respectively being minted or burned according to [equation 2](https://whitepaper.gooddollar.org/appendix) WhitePaper.
+{% endhint %}
+
+You are able to buy and sell G$ directly to, and from, the GoodDollar Reserve contract. This healthy activity grows the liquidity of the ecosystem and increases the impact of the UBI GoodDollar delivers. Two key enhancements to the Reserve AMM contract support this change:
+
+* The introduction of a 3% “exit contribution” fee on all sales of G$ into the #GoodDollar Reserve in exchange for supported cryptocurrencies. All fees go back into the #GoodDollar Reserve and grow the value of the overall economy.
+* The creation of a new ERC20 token – G$X – that lets people buy and sell G$ to the Reserve without a fee. All those who buy G$ from the reserve will also receive an equal number of G$X.
 
 ### Prerequisites <a href="#h.7qnl0y4984hv" id="h.7qnl0y4984hv"></a>
 
