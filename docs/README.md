@@ -39,11 +39,11 @@ There are four main components to the Gooddollar project:
 
 ### GoodDollar Dapp
 
-* Dapp interface to interact with GoodDollar protocol core smart contracts on Ethereum mainnet.
-* Dapp enables to stake, buy/sell G$ directly to reserve, and governance functionality.
-* Dapp is 100% open-source and deployed and managed by community stakeholders.
-* V2 User Guide - How to Deploy Your Own G$ UI.
-* [Community member deployed GoodDollar UI](https://goodswap.xyz/#/swap)
+* Serves as visual interface to the protocol core smart contracts on Ethereum mainnet.
+* The Dapp enables to stake, buy/sell G$ directly to reserve, and governance functionality.
+* The Dapp is 100% open-source, deployed and managed by community stakeholders. You can even deploy your own UI.
+* Below are community deployed UI, use at your own risk!
+  * goodswap.xyz
 
 ### GoodDollar Wallet
 
