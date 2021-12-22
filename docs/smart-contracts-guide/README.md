@@ -1,5 +1,7 @@
 ---
-description: An introduction to the key components and users in the GoodDollar protocol V1.
+description: >-
+  An introduction to the key components and members in the GoodDollar protocol
+  V1.
 ---
 
 # Protocol V1
@@ -10,11 +12,11 @@ description: An introduction to the key components and users in the GoodDollar p
 
 ### Supporters
 
-Users who are "supporters" of the GoodDollar system and "stake" their crypto to GoodDollar. Supporters stake their crypto holdings to the GoodStaking contract, and accept interest payouts in G$ instead of the crypto-asset used for staking.
+Members who are "supporters" of the GoodDollar system and "stake" their crypto to GoodDollar. Supporters stake their crypto holdings to the GoodStaking contract, and accept interest payouts in G$ instead of the crypto-asset used for staking.
 
 ### Claimers
 
-Users of the GoodDollar wallet who receive daily basic income in GoodDollar coins (G$) via "claiming" G$ daily in the GoodDollar wallet.
+Members of the GoodDollar wallet who receive daily basic income in GoodDollar coins (G$) via "claiming" G$ daily in the GoodDollar wallet.
 
 ### GoodDollar Token (G$)
 
@@ -26,7 +28,7 @@ An existing algorithmic autonomous interest-bearing protocol developed by third 
 
 ### GoodDollar Reserve (GoodReserve)
 
-A smart contract that is the monetary reserve of G$; that holds other crypto-assets (not G$) in it. Users of GoodDollar can buy or sell GoodDollar by depositing or withdrawing supported crypto-assets (initially cDAI) directly to or from the reserve (based on Bancor Formula, see below).
+A smart contract that is the monetary reserve of G$; that holds other crypto-assets (not G$) in it. Members of GoodDollar can buy or sell GoodDollar by depositing or withdrawing supported crypto-assets (initially cDAI) directly to or from the reserve (based on Bancor Formula, see below).
 
 ### GoodStaking Smart Contract
 
@@ -48,6 +50,6 @@ An automatic pricing formula which balances supply and demand for the Smart Toke
 
 ### GoodDAO
 
-Decentralized and autonomous entity, a smart contract that will eventually be 100% owned by the community of GoodDollar users.
+Decentralized and autonomous entity, a smart contract that will eventually be 100% owned by the community of GoodDollar members.
 
 * Controls the GoodReserve Smart Contract
