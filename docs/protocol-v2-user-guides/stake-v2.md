@@ -34,13 +34,11 @@ We also have a fundamental belief that there are enough people who care not just
 2. You should have enough ETH in your wallet in order to pay the gas fees of the transaction.
 3. You should have enough balance of the currency you are using to stake with.
 4. You should approve to the relevant staking contract enough allowance to use your balance in order to stake.
-   1. Go to the contract page of the staking contract, for example the GoodCompoundStaking (links in the references) and click on “Contract”
-   2. Click on "Write Contract".
-   3. Connect your wallet by clicking on "Connect to Web3" and then choosing your wallet.
-   4. Click on "1. approve".
-   5. Fill in the spender address and the amount and click "Write" button:
-
-![](<../.gitbook/assets/Screenshot 2021-09-20 at 21.33.25.png>)
+   1. Go to the contract page of the staking contract, for example the GoodCompoundStaking (links in the references) and click on “Contract”:     ![](<../.gitbook/assets/GoodCompoundStaking\_Contract\_pointer (1).png>)         &#x20;
+   2. Click on "Write Contract":                                           ![](../.gitbook/assets/GoodCompoundStaking\_WriteContract\_pointer.png)
+   3. Connect your wallet by clicking on "Connect to Web3" and then choosing your wallet:  ![](../.gitbook/assets/GoodCompoundStaking\_ConnectToWeb3\_pointer.png)
+   4. Click on "1. approve":                                                                          ![](../.gitbook/assets/GoodCompoundStaking\_Approve\_pointer.png)
+   5. Fill in the spender address and the amount and click "Write" button:   ![](../.gitbook/assets/GoodCompoundStaking\_Approve\_Info.png)
 
 ## Staking Interface
 
