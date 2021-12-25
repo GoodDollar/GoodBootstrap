@@ -6,9 +6,9 @@ description: Guide for claiming GOOD governance token and GDX governance token
 
 Interacting with GoodDollarV2 by swapping against the GoodReserve as well as depositing funds in the GoodStaking or staking GoodDollar on fuse network, enable users to claim new tokens that introduce novel functionalities within our ecosystem.
 
-G$X is a new discount token that enable users to cash-out their G$s from the reserve without being charged with an exit contribution (currently 3%), the ability to claim is obtained through buying G$s from the reserve.
+G$X is a new discount token that enables users to cash out their G$s from the reserve without being charged with an exit contribution (currently 3%), the ability to claim is obtained through buying G$s from the reserve.
 
-GOOD is a non-transferable token with the function of collective governance of the GoodDAO, the decentralized entity that owns and control the GoodDollar protocol, it can be claimed after depositing funds in the GoodStaking, staking GoodDollar over the Fuse Network, or just claiming UBI.
+GOOD is a non-transferable token with the function of collective governance of the GoodDAO, the decentralized entity that owns and controls the GoodDollar protocol, it can be claimed after depositing funds in the GoodStaking, staking GoodDollar over the Fuse Network, or just claiming UBI.
 
 ## Prerequisites
 
@@ -24,7 +24,7 @@ Now, please click on the Contract tab and then click "Write as Proxy" and connec
 
 ![](<../.gitbook/assets/image (1).png>)
 
-Fill up the fields according to the desciption in the picture bellow while "\_user (address)" is your wallet public address.
+Fill up the fields according to the description in the picture below while "\_user (address)" is your wallet's public address.
 
 ![](<../.gitbook/assets/Screenshot 2021-09-30 at 12.31.15.png>)
 
@@ -42,7 +42,7 @@ Now, please click on the Contract tab and then click "Write as Proxy" and connec
 
 ![](<../.gitbook/assets/image (1).png>)
 
-Please go to "8. proofBalanceOfBlockchain" and fill up the fields according to the desciption in the picture bellow while "\_id (string)" should be set to the string "fuse" (for mainnet/kovan/ropsten) and "\_user (address)" is your wallet public address.
+Please go to "8. proofBalanceOfBlockchain" and fill up the fields according to the description in the picture below while "\_id (string)" should be set to the string "fuse" (for mainnet/kovan/ropsten) and "\_user (address)" is your wallet public address.
 
 ![](<../.gitbook/assets/Screenshot 2021-10-04 at 15.43.32.png>)
 
@@ -56,13 +56,13 @@ After connecting your wallet, click Contract (on the left) and Interact with Con
 
 ![](<../.gitbook/assets/Screenshot 2021-10-04 at 15.28.16.png>)
 
-Copy address of the GReputation and ABI (Contract Interface) and paste it there.
+Copy the address of the GReputation and ABI (Contract Interface) and paste it there.
 
 Please leave empty the Contract Type drop-down menu.
 
 Please copy the ABI below to the ABI/JSON Interface section.
 
-Click "Interact" button.
+Click the "Interact" button.
 
 ```
 [{
@@ -116,9 +116,9 @@ Click "Write" button, you are done!
 
 ## References <a href="#h.upoh0nurgire" id="h.upoh0nurgire"></a>
 
-|                     |                      |                                                                                                                                                                |                      |
-| ------------------- | -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
-| **Contract**        | **Mainnet**          | **Kovan**                                                                                                                                                      | **Ropsten**          |
-| **GoodReserveCDai** | Did not released yet | [https://kovan.etherscan.io/address/0xbe4fe98c9c4c0a8f3681c34c94ce2e462da5fc89](https://kovan.etherscan.io/address/0xbe4fe98c9c4c0a8f3681c34c94ce2e462da5fc89) | Did not released yet |
-| **GReputation**     | Did not released yet | [https://kovan.etherscan.io/address/0xef0c1e6f98e433d81ae3e6611944bc06e533a47b](https://kovan.etherscan.io/address/0xef0c1e6f98e433d81ae3e6611944bc06e533a47b) | Did not released yet |
+|                        |                                                                                                                       |                                                                                                                                                                |                      |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- |
+| **Contract**           | **Mainnet**                                                                                                           | **Kovan**                                                                                                                                                      | **Ropsten**          |
+| **GoodReserveCDai**    | [0x6C35677206ae7FF1bf753877649cF57cC30D1c42](https://etherscan.io/address/0x6C35677206ae7FF1bf753877649cF57cC30D1c42) | [https://kovan.etherscan.io/address/0xbe4fe98c9c4c0a8f3681c34c94ce2e462da5fc89](https://kovan.etherscan.io/address/0xbe4fe98c9c4c0a8f3681c34c94ce2e462da5fc89) | Did not released yet |
+| **GReputation (GOOD)** | [0x3A9299BE789ac3730e4E4c49d6d2Ad1b8BC34DFf](https://etherscan.io/address/0x3A9299BE789ac3730e4E4c49d6d2Ad1b8BC34DFf) | [https://kovan.etherscan.io/address/0xef0c1e6f98e433d81ae3e6611944bc06e533a47b](https://kovan.etherscan.io/address/0xef0c1e6f98e433d81ae3e6611944bc06e533a47b) | Did not released yet |
 
