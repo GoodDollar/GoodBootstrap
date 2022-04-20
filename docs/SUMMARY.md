@@ -40,7 +40,6 @@
     * [CompoundStakingFactory](protocol-v2/core-contracts-and-api/compoundstakingfactory.md)
     * [AaveStakingFactory](protocol-v2/core-contracts-and-api/aavestakingfactory.md)
     * [ExchangeHelper](protocol-v2/core-contracts-and-api/exchangehelper.md)
-    * [GoodCompoundStaking V1 (DAI)](protocol-v2/core-contracts-and-api/goodcompoundstaking-v1-dai.md)
     * [FuseFaucet](protocol-v2/core-contracts-and-api/fusefaucet.md)
 * [Guides](protocol-v2-user-guides/README.md)
   * [Buy & Sell G$](protocol-v2-user-guides/buy-and-sell-gusd.md)

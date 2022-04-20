@@ -4,33 +4,89 @@ description: Payments on the GoodDollar wallet are done via payment links.
 
 # OneTimePayments
 
-G$s are held in escrow and the recipient can retrieve the funds if he has the key. While the money is in escrow the sender can choose to cancel the payment and retrieve the funds. Based on [Celo's](https://github.com/celo) payments contract.
+G$s are held in an escrow and the recipient can retrieve the funds if he has the key. While the money is in escrow the sender can choose to cancel the payment and retrieve the funds. Based on [Celo's](https://github.com/celo) payments contract.
+
+### Events
+
+#### PaymentDeposit
+
+Emitted when payment was performed. Occurs only during the token contract call.
+
+| Parameter name | Annotation                                     |
+| -------------- | ---------------------------------------------- |
+| from           | The address of the tokens sender.              |
+| paymentId      | The address representing an ID of the payment. |
+| amount         | Amount of the payment.                         |
 
 ```
-/* 
-* @dev ERC677 on token transfer function. When transferAndCall is called on this contract,
- * this function is called, depositing the payment amount under the hash of the given bytes.
- * Reverts if hash is already in use. Can only be called by token contract.
- * @param sender the address of the sender
- * @param value the amount to deposit
- * @param data The given paymentId which should be a fresh public key
- */
+event PaymentDeposit(address indexed from, address paymentId, uint256 amount);
+```
 
-to deposit a payment to a one time payment address call:
-GoodDollar.transferAndCall(value,data) this will trigger OneTimePayments onTokenTransfer
+To deposit a payment to a one time payment address call perform the further:
 
-/* @dev Withdrawal function.
- * allows the sender that proves ownership of paymentId to withdraw
- * @param paymentId the address of the public key that the
- *   rightful receiver of the payment knows the private key to
- * @param signature the signature of a the message containing the msg.sender address signed
- *   with the private key.
- */
-function withdraw(address paymentId, bytes memory signature) public onlyRegistered
+```
+GoodDollar.transferAndCall(value, data);
+```
 
-/* @dev Cancel function
- * allows only creator of payment to cancel
- * @param paymentId The paymentId of the payment to cancelæ
- */
-function cancel(address paymentId) public
+The above will trigger OneTimePayments onTokenTransfer callback, which will trigger the PaymentDeposit.
+
+#### PaymentCancel
+
+Emitted when payment was cancelled.
+
+| Parameter name | Annotation                                     |
+| -------------- | ---------------------------------------------- |
+| from           | The address of the tokens sender.              |
+| paymentId      | The address representing an ID of the payment. |
+| amount         | Amount of the payment.                         |
+
+```
+event PaymentCancel(address indexed from, address paymentId, uint256 amount);
+```
+
+#### PaymentWithdraw
+
+Emitted when payment was withdrawn.
+
+| Parameter name | Annotation                                     |
+| -------------- | ---------------------------------------------- |
+| from           | The address of the tokens sender.              |
+| to             | The address of the tokens receiver.            |
+| paymentId      | The address representing an ID of the payment. |
+| amount         | Amount of the payment.                         |
+
+```
+event PaymentWithdraw(
+    address indexed from,
+    address indexed to,
+    address indexed paymentId,
+    uint256 amount
+);
+```
+
+### withdraw
+
+Withdrawal function.
+
+| Parameter name | Annotation                                                                                        |
+| -------------- | ------------------------------------------------------------------------------------------------- |
+| paymentId      | The address of the public key that the rightful receiver of the payment knows the private key to. |
+| signature      | The signature of a the message containing the `msg.sender` address signed with the private key.   |
+
+```
+function withdraw(address paymentId, bytes memory signature) public;
+```
+
+### cancel
+
+Payments cancel function.
+
+| Parameter name | Annotation                       |
+| -------------- | -------------------------------- |
+| \_paymentId    | The ID of the payment to cancel. |
+
+Allows only creator of payment to cancel.
+
+```
+function cancel(address paymentId) public;
 ```

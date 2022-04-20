@@ -22,9 +22,9 @@ This tutorial will show you how to deploy it using Netlify, but you can use Verc
 4. Make any changes relevant for you and push them to your repository on Github.
 5. Go to [Netlify](https://www.netlify.com) and log in using your Github account.
 6. Go to your [Netlify app](https://app.netlify.com) and click on "New site from Git":                                                      &#x20;
-7. Select Github:                                                                                                                                                                                     ![](../.gitbook/assets/Netlify2-selectGithub.png)
+7. Select Github:                                                                                                                                                                                     <img src="../.gitbook/assets/Netlify2-selectGithub.png" alt="" data-size="original">
 8. Choose the \<your\_github\_username>/GoodProtocolUI
-9. Click on Show advanced button:                                                                                                                                                     ![](../.gitbook/assets/Netlify3-showAdvanced.png)
+9. Click on Show advanced button:                                                                                                                                                     <img src="../.gitbook/assets/Netlify3-showAdvanced.png" alt="" data-size="original">
 10. Add a new variable with this key-value pair:                                                                                                                                         ![](<../.gitbook/assets/Netlify4-addNewVar (1).png>)
 11. Deploy your site:                                                                                                                                                                              ![](../.gitbook/assets/Netlify5-deploySite.png) &#x20;
 12. It will take a few minutes, you could see the progress here:                                                        ![](../.gitbook/assets/Netlify6-deployInProgress.png)
