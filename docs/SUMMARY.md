@@ -61,4 +61,4 @@
   * [G$ Payments](products-and-sdks/gusd-payments.md)
 * [GoodDollar Whitepaper](https://whitepaper.gooddollar.org)
 * [GoodDollar Litepaper](https://litepaper.gooddollar.org)
-* [GoodDollar Litepaper - Español](https://litepaper-es.gooddollar.org)
+* [GoodDollar Litepaper - Español](https://litepaper-es.gooddollar.org/)
