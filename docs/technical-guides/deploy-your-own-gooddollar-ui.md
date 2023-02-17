@@ -20,8 +20,8 @@ This tutorial will show you how to deploy it using Netlify, but you can use Verc
 2. Clone it locally and install the dependencies by running the command 'yarn' on your terminal.
 3. Run the 'yarn start' command in your terminal in order to run it locally on your machine.
 4. Make any changes relevant for you and push them to your repository on Github.
-5. Go to [Netlify](https://www.netlify.com) and log in using your Github account.
-6. Go to your [Netlify app](https://app.netlify.com) and click on "New site from Git":                                                      &#x20;
+5. Go to [Netlify](https://www.netlify.com/) and log in using your Github account.
+6. Go to your [Netlify app](https://app.netlify.com/) and click on "New site from Git":                                                      &#x20;
 7. Select Github:                                                                                                                                                                                     <img src="../.gitbook/assets/Netlify2-selectGithub.png" alt="" data-size="original">
 8. Choose the \<your\_github\_username>/GoodProtocolUI
 9. Click on Show advanced button:                                                                                                                                                     <img src="../.gitbook/assets/Netlify3-showAdvanced.png" alt="" data-size="original">
@@ -35,4 +35,4 @@ This tutorial will show you how to deploy it using Netlify, but you can use Verc
 
 ### Community Deployed GoodDollar UI <a href="#community-ui" id="community-ui"></a>
 
-* [goodswap.xyz](https://goodswap.xyz)
+* [goodswap.xyz](https://goodswap.xyz/)

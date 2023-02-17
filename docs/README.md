@@ -6,7 +6,7 @@ description: >-
 
 # Welcome to GoodDocs!
 
-Welcome! [GoodDollar](https://gooddollar.org) is a decentralized universal basic income initiative. Here you can find all the open-source documentation for the smart contracts and interfaces!
+Welcome! [GoodDollar](https://gooddollar.org/) is a decentralized universal basic income initiative. Here you can find all the open-source documentation for the smart contracts and interfaces!
 
 {% hint style="info" %}
 Read project's [whitepaper](http://whitepaper.gooddollar.org) for deep dive into the philosophy and decision's rationals
@@ -16,7 +16,7 @@ Let's get started:
 
 ## What is Gooddollar?
 
-[GoodDollar](http://www.gooddollar.org) is a people-powered framework to generate, finance, and distribute global basic income via the GoodDollar token (“G$ coin”). Its goal is to provide a baseline standard of living and reduce wealth inequality through the creation of a universal basic income (UBI).&#x20;
+[GoodDollar](http://www.gooddollar.org/) is a people-powered framework to generate, finance, and distribute global basic income via the GoodDollar token (“G$ coin”). Its goal is to provide a baseline standard of living and reduce wealth inequality through the creation of a universal basic income (UBI).&#x20;
 
 GoodDollar leverages new protocols and smart contracts to deliver a “trickle-up” value structure, which places money in the hands of those who need it most. This is the reverse of the conventional trickle-down approach to capital, credit, and interest-bearing money.
 
@@ -33,7 +33,7 @@ The value in the GoodDollar reserve comes from the interest that is generated fr
 
 ### GoodDollar Protocol
 
-GoodDollar operates on [Ethereum](https://ethereum.org/en/) using smart contracts that are written in [Solidity](https://solidity.readthedocs.io/en/v0.7.0/) with G$ designated as an ERC20 token.  As a means to an end, transactions using G$ are run on an Ethereum sidechain, [Fuse](https://fuse.io), which enables low-cost, high-volume transactions. As we anticipate that the scalability and efficiency of blockchain infrastructure will continuously improve.
+GoodDollar operates on [Ethereum](https://ethereum.org/en/) using smart contracts that are written in [Solidity](https://solidity.readthedocs.io/en/v0.7.0/) with G$ designated as an ERC20 token.  As a means to an end, transactions using G$ are run on an Ethereum sidechain, [Fuse](https://fuse.io/), which enables low-cost, high-volume transactions. As we anticipate that the scalability and efficiency of blockchain infrastructure will continuously improve.
 
 * GoodDollar offers a new standard for creating and distributing basic income via G$ token.
 * [GoodDollar V2](protocol-v2/) is a major contract upgrade yet to be deployed
@@ -56,7 +56,7 @@ Accessibility and ease of use are critical to market adoption. By widely distrib
 
 To increase adoption and trust in the system, a simple digital wallet that can be accessed anywhere in the world with an internet connection has been built. The user experience focuses on the key action of “_claiming_” G$ coins as basic income and conducting peer-to-peer transactions.&#x20;
 
-The wallet is a mobile-friendly web application built on React with [React Native](https://reactnative.dev) and is open-source, as is all GoodDollar code. The wallet interacts with three main components: The GoodDollar Protocol, Identity solutions for verifying unique identity, Distributed login solutions (initially through the [Tor.us](https://tor.us) platform).
+The wallet is a mobile-friendly web application built on React with [React Native](https://reactnative.dev/) and is open-source, as is all GoodDollar code. The wallet interacts with three main components: The GoodDollar Protocol, Identity solutions for verifying unique identity, Distributed login solutions (initially through the [Tor.us](https://tor.us/) platform).
 
 Resources:
 

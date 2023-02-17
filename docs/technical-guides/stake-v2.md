@@ -30,7 +30,7 @@ We also have a fundamental belief that there are enough people who care not just
 
 ## Prerequisites
 
-1. You should have a web3 wallet, (like [MetaMask](https://metamask.io)).
+1. You should have a web3 wallet, (like [MetaMask](https://metamask.io/)).
 2. You should have enough ETH in your wallet in order to pay the gas fees of the transaction.
 3. You should have enough balance of the currency you are using to stake with.
 4. You should approve to the relevant staking contract enough allowance to use your balance in order to stake.

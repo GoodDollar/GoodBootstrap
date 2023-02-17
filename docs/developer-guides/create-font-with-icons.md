@@ -4,7 +4,7 @@ description: Create font with icons
 
 # Create Font With Icons
 
-We are using [Fontello](http://fontello.com) to generate the font from svg icons.
+We are using [Fontello](http://fontello.com/) to generate the font from svg icons.
 
 1. We need to create a new project. If we already have that project loaded, upload existing icons on **Select icons** tab, inside **Custom Icons** title.\</br>\</br>![](<../.gitbook/assets/image (5) (1) (1).png>)
 2. Because we are going to update an already created font, we should import the `config.json` file, and we can do that from the tool button, and choosing **Import** menu item.\</br>\</br>![](<../.gitbook/assets/image (4) (2).png>)

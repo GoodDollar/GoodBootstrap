@@ -14,7 +14,7 @@ GOOD is a non-transferable token with the function of collective governance of t
 
 1. You should have a web3 wallet, (like MetaMask for example, [link to the official link](https://www.google.com/url?q=https://metamask.io/\&sa=D\&source=editors\&ust=1634809220729000\&usg=AOvVaw3sIQw4vzOnSgl4wX-4lv4E)).
 2. You should have enough ETH in your wallet in order to pay the gas fees of the transaction.
-3. you will need to obtain merkle proof, node index GDX/GOOD amount on [https://airdrop.gooddollar.org/](https://airdrop.gooddollar.org).
+3. you will need to obtain merkle proof, node index GDX/GOOD amount on [https://airdrop.gooddollar.org/](https://airdrop.gooddollar.org/).
 
 ## Claim GDX
 
@@ -34,7 +34,7 @@ Click the 'Write' button.
 
 ### Claiming on the Mainnet
 
-First, you will need to obtain merkle proof, node index and GOOD amount on [https://airdrop.gooddollar.org/](https://airdrop.gooddollar.org).
+First, you will need to obtain merkle proof, node index and GOOD amount on [https://airdrop.gooddollar.org/](https://airdrop.gooddollar.org/).
 
 Then, please go to GReputation contract interface on [etherscan.io](https://etherscan.io) (either Mainnet, Kovan or Ropsten, link in the references below).
 
@@ -48,7 +48,7 @@ Please go to "8. proofBalanceOfBlockchain" and fill up the fields according to t
 
 ### Claiming on the Fuse
 
-First, you will need to obtain a merkle proof, node index and GOOD amount on [https://airdrop.gooddollar.org/](https://airdrop.gooddollar.org)
+First, you will need to obtain a merkle proof, node index and GOOD amount on [https://airdrop.gooddollar.org/](https://airdrop.gooddollar.org/)
 
 Then, please go to [https://www.myetherwallet.com/wallet/access](https://www.myetherwallet.com/wallet/access) and connect your metamask (click on browser extension option) wallet, making sure you are on FUSE network.
 

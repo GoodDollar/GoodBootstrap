@@ -21,7 +21,7 @@ You are able to buy and sell G$ directly to, and from, the GoodDollar Reserve co
 
 ### Prerequisites <a href="#h.7qnl0y4984hv" id="h.7qnl0y4984hv"></a>
 
-1. You should have a web3 wallet (like [MetaMask](https://metamask.io)).
+1. You should have a web3 wallet (like [MetaMask](https://metamask.io/)).
 2. You should have enough ETH in your wallet in order to pay the gas fees of the transaction.
 3. You should have enough balance of the currency you are using to buy/sell with.
 4. You should approve to exchangeHelper enough allowance to use your balance in order to buy/sell G$.

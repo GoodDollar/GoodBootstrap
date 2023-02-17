@@ -8,7 +8,7 @@ description: >-
 
 \*\*\*\*
 
-1. **Go to m**[**yetherwallet.com**](https://www.myetherwallet.com) \*\*\*\*
+1. **Go to m**[**yetherwallet.com**](https://www.myetherwallet.com/) \*\*\*\*
 2. **‘Create a new wallet’ or ‘Connect existing wallet’**
 3. **On the top right change the Network from ETH to Fuse**
 
