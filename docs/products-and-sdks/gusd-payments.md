@@ -1,7 +1,7 @@
 ---
 description: >-
   G$ wallet works using payment links. Any vendor can create a simple payment
-  request link that can be used on its website to start the payment process
+  request link that can be used on its website to start the payment process.
 ---
 
 # G$ Payments
@@ -71,7 +71,7 @@ const params = {
 }
 ```
 
-next to encode it you can run the following javascript code
+Next, to encode it, you can run the following javascript code:
 
 ```
 encodeURIComponent(btoa(JSON.stringify(params)))
@@ -87,7 +87,7 @@ The wallet will send a `POST` request to the callback url defined in the `ven.cb
 Make sure your endpoint handles POST requests
 {% endhint %}
 
-The POST request send a JSON object with
+The POST request send a JSON object with:
 
 * invoiceId: specified by the vendor in `ven.ind` field
 * transactionId: the transaction hash of the payment on the Fuse blockchain
@@ -98,9 +98,9 @@ The POST request send a JSON object with
 
 ### Verifying The Payment On The Fuse Blockchain
 
-It is recommended to verify that the transactionId reported by the wallet in did happened and that it matches the payment details.
+It is recommended to verify that the transactionId reported by the wallet did happen and that it matches the payment details.
 
-use any web3 library to read the events from the transaction.&#x20;
+Use any web3 library to read the events from the transaction.&#x20;
 
 The contract event ABI is: (See [Smart Contracts ](../smart-contracts-guide/#gooddollar-token-gusd)to get the G$ token contract address)
 
@@ -111,5 +111,5 @@ The contract event ABI is: (See [Smart Contracts ](../smart-contracts-guide/#goo
 The last `data` field will contain the data supplied in the extra data field, if that field is omitted or empty then it will contain the data supplied in the invoice id field. This way you can verify that the transaction matches the specific payment.
 
 {% hint style="info" %}
-Verify that the fields to, value and data match what you expect for the payment to prevent fraud
+Verify that the fields _to_, _value_ and _data_ match what you expect for the payment to prevent fraud.
 {% endhint %}
