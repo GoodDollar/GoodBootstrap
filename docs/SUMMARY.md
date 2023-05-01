@@ -77,6 +77,7 @@
   * [Stake to create UBI](technical-guides/stake-v2.md)
   * [Claim GOOD and G$X](technical-guides/claim-good-and-gdx.md)
   * [Deploy your own GoodDollar UI](technical-guides/deploy-your-own-gooddollar-ui.md)
+  * [Get latest G$ Price](technical-guides/get-latest-gusd-price.md)
 * [Wallet Developer Guides](developer-guides/README.md)
   * [Getting Started](developer-guides/getting-started.md)
   * [Routing](developer-guides/routing.md)
