@@ -1,4 +1,4 @@
-# Guides
+# Buy, Stake, Claim and more Guides
 
 GoodDollar protocol does not operate its own interface. Community members are able to deploy their own dapp interface to further decentralize the protocol. Users can choose to either interact directly with the GoodDollar smart contracts via Etherscan or through using one of the community deployed interfaces.&#x20;
 
