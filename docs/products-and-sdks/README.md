@@ -1,5 +1,3 @@
 # Products & SDKs
 
-* [G$ Payments](gusd-payments.md)
-* G$ Anti-Sybil Identity
-* Login with GoodDollar
+You can leverage G$ infrastructure for payments and Identity solutions

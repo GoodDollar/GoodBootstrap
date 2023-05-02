@@ -33,4 +33,3 @@ This is the money flow that underpins the generation of GoodDollar crypto UBI.
    4. Sends the G$ over the Bridge to the Disco.
 7. The DisCo then divides the G$ among all whitelisted wallets that have clicked “claim” on the app within the preceding 24 hours.
 
-****
