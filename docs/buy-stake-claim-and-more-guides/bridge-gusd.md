@@ -4,15 +4,21 @@ description: The bridge enables bridging G$s between fuse<>celo<>ethereum
 
 # Bridge G$
 
-Currently there's no UI for the bridge, this guide will explain how you can bridge using blockchain explorers and metamask.
+Currently there's no UI for bridging to/from Celo, this guide will explain how you can bridge using blockchain explorers and metamask.
+
+### Fuse Bridge
+
+Fuse runs a bridge that enables bridging between Ethereum and Fuse. It has an easy to use UI here: [https://app.voltage.finance/#/bridge](https://app.voltage.finance/#/bridge)
+
+
+
+### Bridging Instructions
 
 {% hint style="info" %}
 In celoscan and etherscan make sure you press `connect to web3` button
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Conect to Web3 Button</p></figcaption></figure>
-
-### Bridging Instructions
 
 {% hint style="info" %}
 The current maximum amount you can bridge is 300M G$s.\
