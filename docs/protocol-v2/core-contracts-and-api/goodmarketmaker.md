@@ -12,14 +12,7 @@ description: >-
 
 Emits when a change has occurred in a reserve balance, i.e. buy / sell will change the balance.
 
-| Parameter name | Annotation                            |
-| -------------- | ------------------------------------- |
-| caller         | The account who initiated the action. |
-| reserveToken   | The address of the reserve token.     |
-| amount         | The incoming amount.                  |
-| returnAmount   | The return value.                     |
-| totalSupply    | The updated total supply.             |
-| reserveBalance | The updated reserve balance.          |
+<table><thead><tr><th width="200.9737758180553">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>caller</td><td>The account who initiated the action.</td></tr><tr><td>reserveToken</td><td>The address of the reserve token.</td></tr><tr><td>amount</td><td>The incoming amount.</td></tr><tr><td>returnAmount</td><td>The return value.</td></tr><tr><td>totalSupply</td><td>The updated total supply.</td></tr><tr><td>reserveBalance</td><td>The updated reserve balance.</td></tr></tbody></table>
 
 ```
 event BalancesUpdated(
@@ -36,11 +29,7 @@ event BalancesUpdated(
 
 Emits when the ratio changed. The caller should be the Avatar by definition.
 
-| Parameter name | Annotation                 |
-| -------------- | -------------------------- |
-| caller         | The address of the staker. |
-| nom            | Nominator of the ratio.    |
-| denom          | Denominator of the ratio.  |
+<table><thead><tr><th width="200.9737758180553">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>caller</td><td>The address of the staker.</td></tr><tr><td>nom</td><td>Nominator of the ratio.</td></tr><tr><td>denom</td><td>Denominator of the ratio.</td></tr></tbody></table>
 
 ```
 event ReserveRatioUpdated(address indexed caller, uint256 nom, uint256 denom);

@@ -12,11 +12,7 @@ description: >-
 
 Emits when the contribution ratio is updated.
 
-| Parameter name | Annotation                    |
-| -------------- | ----------------------------- |
-| caller         | The address of the Avatar.    |
-| nom            | The nominator of the ratio.   |
-| denom          | The denominator of the ratio. |
+<table><thead><tr><th width="320.9082692632695">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>caller</td><td>The address of the Avatar.</td></tr><tr><td>nom</td><td>The nominator of the ratio.</td></tr><tr><td>denom</td><td>The denominator of the ratio.</td></tr></tbody></table>
 
 ```
 event SellContributionRatioUpdated(

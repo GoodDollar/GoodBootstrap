@@ -12,10 +12,7 @@ description: >-
 
 Emitted when user is topped by G$.
 
-| Parameter name | Annotation                                  |
-| -------------- | ------------------------------------------- |
-| user           | The address of the `user` who is being top. |
-| amount         | The amount of Fuse sent to the `user`.      |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>user</td><td>The address of the <code>user</code> who is being top.</td></tr><tr><td>amount</td><td>The amount of Fuse sent to the <code>user</code>.</td></tr></tbody></table>
 
 ```
 event WalletTopped(address indexed user, uint256 amount);
@@ -25,9 +22,7 @@ event WalletTopped(address indexed user, uint256 amount);
 
 The function allows to check if the user address can be topped with Fuse.
 
-| Parameter name | Annotation                                           |
-| -------------- | ---------------------------------------------------- |
-| \_user         | The user who is being checked if he could be topped. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_user</td><td>The user who is being checked if he could be topped.</td></tr></tbody></table>
 
 Returns: `true` if user could be topped, `false` otherwise.
 
@@ -39,9 +34,7 @@ function canTop(address _user) public view returns (bool);
 
 The function is utilized to top given address with amount of Fuse given in constructor. The amount of times specified in constructor per day.
 
-| Parameter name | Annotation                  |
-| -------------- | --------------------------- |
-| \_user         | The address to transfer to. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_user</td><td>The address to transfer to.</td></tr></tbody></table>
 
 Can only be called by admin.
 

@@ -12,11 +12,7 @@ G$s are held in an escrow and the recipient can retrieve the funds if he has the
 
 Emitted when payment was performed. Occurs only during the token contract call.
 
-| Parameter name | Annotation                                     |
-| -------------- | ---------------------------------------------- |
-| from           | The address of the tokens sender.              |
-| paymentId      | The address representing an ID of the payment. |
-| amount         | Amount of the payment.                         |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>from</td><td>The address of the tokens sender.</td></tr><tr><td>paymentId</td><td>The address representing an ID of the payment.</td></tr><tr><td>amount</td><td>Amount of the payment.</td></tr></tbody></table>
 
 ```
 event PaymentDeposit(address indexed from, address paymentId, uint256 amount);
@@ -34,11 +30,7 @@ The above will trigger OneTimePayments onTokenTransfer callback, which will trig
 
 Emitted when payment was cancelled.
 
-| Parameter name | Annotation                                     |
-| -------------- | ---------------------------------------------- |
-| from           | The address of the tokens sender.              |
-| paymentId      | The address representing an ID of the payment. |
-| amount         | Amount of the payment.                         |
+<table><thead><tr><th width="223.06025121092682">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>from</td><td>The address of the tokens sender.</td></tr><tr><td>paymentId</td><td>The address representing an ID of the payment.</td></tr><tr><td>amount</td><td>Amount of the payment.</td></tr></tbody></table>
 
 ```
 event PaymentCancel(address indexed from, address paymentId, uint256 amount);
@@ -48,12 +40,7 @@ event PaymentCancel(address indexed from, address paymentId, uint256 amount);
 
 Emitted when payment was withdrawn.
 
-| Parameter name | Annotation                                     |
-| -------------- | ---------------------------------------------- |
-| from           | The address of the tokens sender.              |
-| to             | The address of the tokens receiver.            |
-| paymentId      | The address representing an ID of the payment. |
-| amount         | Amount of the payment.                         |
+<table><thead><tr><th width="223.06025121092682">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>from</td><td>The address of the tokens sender.</td></tr><tr><td>to</td><td>The address of the tokens receiver.</td></tr><tr><td>paymentId</td><td>The address representing an ID of the payment.</td></tr><tr><td>amount</td><td>Amount of the payment.</td></tr></tbody></table>
 
 ```
 event PaymentWithdraw(
@@ -68,10 +55,7 @@ event PaymentWithdraw(
 
 Withdrawal function.
 
-| Parameter name | Annotation                                                                                        |
-| -------------- | ------------------------------------------------------------------------------------------------- |
-| paymentId      | The address of the public key that the rightful receiver of the payment knows the private key to. |
-| signature      | The signature of a the message containing the `msg.sender` address signed with the private key.   |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>paymentId</td><td>The address of the public key that the rightful receiver of the payment knows the private key to.</td></tr><tr><td>signature</td><td>The signature of a the message containing the <code>msg.sender</code> address signed with the private key.</td></tr></tbody></table>
 
 ```
 function withdraw(address paymentId, bytes memory signature) public;
@@ -81,9 +65,7 @@ function withdraw(address paymentId, bytes memory signature) public;
 
 Payments cancel function.
 
-| Parameter name | Annotation                       |
-| -------------- | -------------------------------- |
-| \_paymentId    | The ID of the payment to cancel. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_paymentId</td><td>The ID of the payment to cancel.</td></tr></tbody></table>
 
 Allows only creator of payment to cancel.
 

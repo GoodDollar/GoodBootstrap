@@ -13,13 +13,7 @@ description: >-
 
 Emitted when admin sets the reward for particular staking contract.
 
-| Parameter name    | Annotation                                                                 |
-| ----------------- | -------------------------------------------------------------------------- |
-| \_rewardsPerBlock | The amount of rewards per block that should be distributed.                |
-| \_stakingAddress  | An address of the staking contract.                                        |
-| \_blockStart      | The number of block from which the distribution starts.                    |
-| \_blockEnd        | The number of block from which the distribution ends.                      |
-| \_isBlackListed   | Answers the question: is the staking contract allowed to mint the rewards. |
+<table><thead><tr><th width="281.57142857142856">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_rewardsPerBlock</td><td>The amount of rewards per block that should be distributed.</td></tr><tr><td>_stakingAddress</td><td>An address of the staking contract.</td></tr><tr><td>_blockStart</td><td>The number of block from which the distribution starts.</td></tr><tr><td>_blockEnd</td><td>The number of block from which the distribution ends.</td></tr><tr><td>_isBlackListed</td><td>Answers the question: is the staking contract allowed to mint the rewards.</td></tr></tbody></table>
 
 ```
 event StakingRewardSet(
@@ -35,9 +29,7 @@ event StakingRewardSet(
 
 Emitted when admin sets the gas cost for G$ minting.
 
-| Parameter name | Annotation                                        |
-| -------------- | ------------------------------------------------- |
-| \_newGasCost   | The amount of gas it costs for minting G$ reward. |
+<table><thead><tr><th width="281.57142857142856">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_newGasCost</td><td>The amount of gas it costs for minting G$ reward.</td></tr></tbody></table>
 
 ```
 event GasCostSet(uint256 newGasCost);
@@ -47,9 +39,7 @@ event GasCostSet(uint256 newGasCost);
 
 Emitted when admin sets the number that is used in a calculation of time after `collectInterest` method call.
 
-| Parameter name                  | Annotation                                                                                                                  |
-| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| newCollectInterestTimeThreshold | This number is used in a calculation that should determine how much time should pass after `collectInterest` method called. |
+<table><thead><tr><th width="281.57142857142856">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>newCollectInterestTimeThreshold</td><td>This number is used in a calculation that should determine how much time should pass after <code>collectInterest</code> method called.</td></tr></tbody></table>
 
 ```
 event CollectInterestTimeThresholdSet(uint256 newCollectInterestTimeThreshold);
@@ -59,9 +49,7 @@ event CollectInterestTimeThresholdSet(uint256 newCollectInterestTimeThreshold);
 
 Emitted when admin sets the multiplier.
 
-| Parameter name        | Annotation                                                                                                                                                  |
-| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| newInterestMultiplier | This amount is used in determination of how much times larger should be collected interest than spent gas when `collectInterestTimeThreshold` did not pass. |
+<table><thead><tr><th width="281.57142857142856">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>newInterestMultiplier</td><td>This amount is used in determination of how much times larger should be collected interest than spent gas when <code>collectInterestTimeThreshold</code> did not pass.</td></tr></tbody></table>
 
 ```
 event InterestMultiplierSet(uint8 newInterestMultiplier);
@@ -71,9 +59,7 @@ event InterestMultiplierSet(uint8 newInterestMultiplier);
 
 Emitted when admin sets the gas cost for G$ minting.
 
-| Parameter name                  | Annotation                                                                                                                                                                                |
-| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| newGasCostExceptInterestCollect | The new gas cost for required transactions after collecting interest in `collectInterest` function. The aim of this is to know if caller has enough gas left to keep collecting interest. |
+<table><thead><tr><th width="281.57142857142856">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>newGasCostExceptInterestCollect</td><td>The new gas cost for required transactions after collecting interest in <code>collectInterest</code> function. The aim of this is to know if caller has enough gas left to keep collecting interest.</td></tr></tbody></table>
 
 ```
 event GasCostExceptInterestCollectSet(uint256 newGasCostExceptInterestCollect);

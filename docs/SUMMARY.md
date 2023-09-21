@@ -9,6 +9,7 @@
   * [Stake to create UBI](technical-guides/stake-v2.md)
   * [Claim GOOD and G$X](technical-guides/claim-good-and-gdx.md)
   * [Deploy your own GoodDollar UI](technical-guides/deploy-your-own-gooddollar-ui.md)
+  * [Bridge G$](buy-stake-claim-and-more-guides/bridge-gusd.md)
 * [Products & SDKs](products-and-sdks/README.md)
   * [Identity - Sybil Resistance](products-and-sdks/identity-sybil-resistance.md)
   * [Claim UBI](products-and-sdks/claim-ubi.md)

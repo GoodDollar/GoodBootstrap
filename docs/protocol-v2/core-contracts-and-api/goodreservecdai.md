@@ -14,14 +14,7 @@ The contract also acts as the GoodDollar liquidity pool and AMM (Automatic Marke
 
 Emitted when new G$ tokens are minted.
 
-| Parameter name    | Annotation                                                                                |
-| ----------------- | ----------------------------------------------------------------------------------------- |
-| day               | Epoch of UBI.                                                                             |
-| interestToken     | The token paid as interest.                                                               |
-| interestReceived  | Wei amount of interest paid in `interestToken`.                                           |
-| gdInterestMinted  | Amount of G$ tokens that was added to the supply as result of `mintInterest` function.    |
-| gdExpansionMinted | Amount of G$ tokens that was added to the supply as a result of `mintExpansion` function. |
-| gdUbiTransferred  | Amount of G$ tokens that was minted to the `ubiCollector` contract.                       |
+<table><thead><tr><th width="281.57142857142856">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>day</td><td>Epoch of UBI.</td></tr><tr><td>interestToken</td><td>The token paid as interest.</td></tr><tr><td>interestReceived</td><td>Wei amount of interest paid in <code>interestToken</code>.</td></tr><tr><td>gdInterestMinted</td><td>Amount of G$ tokens that was added to the supply as result of <code>mintInterest</code> function.</td></tr><tr><td>gdExpansionMinted</td><td>Amount of G$ tokens that was added to the supply as a result of <code>mintExpansion</code> function.</td></tr><tr><td>gdUbiTransferred</td><td>Amount of G$ tokens that was minted to the <code>ubiCollector</code> contract.</td></tr></tbody></table>
 
 ```
 event UBIMinted(
@@ -38,13 +31,7 @@ event UBIMinted(
 
 Emitted when G$ tokens are purchased from the reserve.
 
-| Parameter name  | Annotation                                                             |
-| --------------- | ---------------------------------------------------------------------- |
-| caller          | The initiate person of the event.                                      |
-| inputToken      | The convertible token address which the G$ tokens were purchased with. |
-| inputAmount     | Reserve tokens amount.                                                 |
-| actualReturn    | Actual return of the tokens after the conversion.                      |
-| receiverAddress | The address of the receiver of tokens.                                 |
+<table><thead><tr><th width="281.57142857142856">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>caller</td><td>The initiate person of the event.</td></tr><tr><td>inputToken</td><td>The convertible token address which the G$ tokens were purchased with.</td></tr><tr><td>inputAmount</td><td>Reserve tokens amount.</td></tr><tr><td>actualReturn</td><td>Actual return of the tokens after the conversion.</td></tr><tr><td>receiverAddress</td><td>The address of the receiver of tokens.</td></tr></tbody></table>
 
 ```
 event TokenPurchased(
@@ -60,14 +47,7 @@ event TokenPurchased(
 
 Emitted when G$ tokens are sold to the reserve.
 
-| Parameter name     | Annotation                                                      |
-| ------------------ | --------------------------------------------------------------- |
-| caller             | The initiate person of the event.                               |
-| outputToken        | The convertible token address which the G$ tokens were sold to. |
-| gdAmount           | Reserve tokens amount.                                          |
-| contributionAmount | Actual return of the tokens after the conversion.               |
-| actualReturn       | The address of the receiver of tokens.                          |
-| receiverAddress    | The address of the receiver of the tokens.                      |
+<table><thead><tr><th width="281.57142857142856">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>caller</td><td>The initiate person of the event.</td></tr><tr><td>outputToken</td><td>The convertible token address which the G$ tokens were sold to.</td></tr><tr><td>gdAmount</td><td>Reserve tokens amount.</td></tr><tr><td>contributionAmount</td><td>Actual return of the tokens after the conversion.</td></tr><tr><td>actualReturn</td><td>The address of the receiver of tokens.</td></tr><tr><td>receiverAddress</td><td>The address of the receiver of the tokens.</td></tr></tbody></table>
 
 ```
 event TokenSold(
@@ -104,12 +84,7 @@ function buy(
 
 The `sell` helper function burns G$ tokens and update the bonding curve params. The `sell` occurs only if the token return is above the given minimum. Notice that there is a contribution amount from the given GD that remains in the reserve.
 
-| Parameter name | Annotation                                                       |
-| -------------- | ---------------------------------------------------------------- |
-| \_gdAmount     | The amount of GD tokens that should be converted to cDAI tokens. |
-| \_minReturn    | The minimum allowed amount of cDAI tokens to return.             |
-| \_target       | Address of the receiver of cDAI when sell G$.                    |
-| \_seller       | Address of the seller when using helper contract.                |
+<table><thead><tr><th width="181.24390236164845">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_gdAmount</td><td>The amount of GD tokens that should be converted to cDAI tokens.</td></tr><tr><td>_minReturn</td><td>The minimum allowed amount of cDAI tokens to return.</td></tr><tr><td>_target</td><td>Address of the receiver of cDAI when sell G$.</td></tr><tr><td>_seller</td><td>Address of the seller when using helper contract.</td></tr></tbody></table>
 
 Returns: The tuple of two: cDAI received amount and G$ exit contribution.
 
@@ -126,11 +101,7 @@ function sell(
 
 Mint rewards for staking contracts in G$ and update RR requires minting permissions which is enforced by [`_mintGoodDollars`](https://github.com/GoodDollar/GoodProtocol/blob/master/contracts/reserve/GoodReserveCDai.sol#L305) function.
 
-| Parameter name | Annotation                                                       |
-| -------------- | ---------------------------------------------------------------- |
-| \_token        | The amount of GD tokens that should be converted to cDAI tokens. |
-| \_to           | The minimum allowed amount of cDAI tokens to return.             |
-| \_amount       | Address of the receiver of cDAI when sell G$.                    |
+<table><thead><tr><th width="181.24390236164845">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_token</td><td>The amount of GD tokens that should be converted to cDAI tokens.</td></tr><tr><td>_to</td><td>The minimum allowed amount of cDAI tokens to return.</td></tr><tr><td>_amount</td><td>Address of the receiver of cDAI when sell G$.</td></tr></tbody></table>
 
 Returns: The tuple of two: cDAI received amount and G$ exit contribution.
 
@@ -146,11 +117,7 @@ function mintRewardFromRR(
 
 Only FundManager or other with mint G$ permission can call this to trigger minting. Reserve sends UBI + interest to FundManager.
 
-| Parameter name        | Annotation                                                 |
-| --------------------- | ---------------------------------------------------------- |
-| \_daiToConvert        | DAI amount to convert cDAI.                                |
-| \_startingCDAIBalance | Initial cDAI balance before staking collect process start. |
-| \_interestToken       | The token that was transfered to the reserve.              |
+<table><thead><tr><th width="181.24390236164845">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_daiToConvert</td><td>DAI amount to convert cDAI.</td></tr><tr><td>_startingCDAIBalance</td><td>Initial cDAI balance before staking collect process start.</td></tr><tr><td>_interestToken</td><td>The token that was transfered to the reserve.</td></tr></tbody></table>
 
 Returns: The tuple of two: how much GD UBI was minted and how much cDAI collected from staking contracts.
 

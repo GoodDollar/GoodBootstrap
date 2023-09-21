@@ -70,7 +70,11 @@ Go to the related stake contract on etherscan.io
 
 Connect your wallet by pressing the `connect to web3` button&#x20;
 
-![](<../.gitbook/assets/image (1).png>)
+<div align="left">
+
+<img src="../.gitbook/assets/image (1).png" alt="">
+
+</div>
 
 Now you can finalize your staking transaction:
 

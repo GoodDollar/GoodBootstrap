@@ -13,11 +13,7 @@ description: >-
 
 Emitted when `staker` stake `value` tokens of `token`.
 
-| Parameter name | Annotation                        |
-| -------------- | --------------------------------- |
-| staker         | The address of the staker.        |
-| token          | The address of the staking token. |
-| value          | The value to be staked.           |
+<table><thead><tr><th width="150">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>staker</td><td>The address of the staker.</td></tr><tr><td>token</td><td>The address of the staking token.</td></tr><tr><td>value</td><td>The value to be staked.</td></tr></tbody></table>
 
 ```
 event Staked(address indexed staker, address token, uint256 value);
@@ -27,11 +23,7 @@ event Staked(address indexed staker, address token, uint256 value);
 
 Emitted when `staker` withdraws their stake `value` tokens of `token`.
 
-| Parameter name | Annotation                                             |
-| -------------- | ------------------------------------------------------ |
-| staker         | The address of the staker.                             |
-| token          | The address of the staking token that beign withdrawn. |
-| value          | The value to be withdrawn.                             |
+<table><thead><tr><th width="150">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>staker</td><td>The address of the staker.</td></tr><tr><td>token</td><td>The address of the staking token that beign withdrawn.</td></tr><tr><td>value</td><td>The value to be withdrawn.</td></tr></tbody></table>
 
 ```
 event StakeWithdraw(address indexed staker, address token, uint256 value);
@@ -41,14 +33,7 @@ event StakeWithdraw(address indexed staker, address token, uint256 value);
 
 Emitted when fundmanager transfers interest collected from DeFi protrocol.
 
-| Parameter name          | Annotation                                                                                                         |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| recipient               | The recipient address of the interest                                                                              |
-| iTokenGains             | The amount of intereset accrued.                                                                                   |
-| tokenGains              | The amount of interest worth in underlying token value.                                                            |
-| actualTokenRedeemed     | Actual token redeemed in Uniswap V2 (max 0.3% of liquidity) to token (in this case DAI).                           |
-| actualRewardTokenEarned | Actual amount of reward tokens earned.                                                                             |
-| interestCollectedInDAI  | Actual DAI amount sent to the reserve as interest from converting token and optionally reward token in Uniswap V2. |
+<table><thead><tr><th width="150">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>recipient</td><td>The recipient address of the interest</td></tr><tr><td>iTokenGains</td><td>The amount of intereset accrued.</td></tr><tr><td>tokenGains</td><td>The amount of interest worth in underlying token value.</td></tr><tr><td>actualTokenRedeemed</td><td>Actual token redeemed in Uniswap V2 (max 0.3% of liquidity) to token (in this case DAI).</td></tr><tr><td>actualRewardTokenEarned</td><td>Actual amount of reward tokens earned.</td></tr><tr><td>interestCollectedInDAI</td><td>Actual DAI amount sent to the reserve as interest from converting token and optionally reward token in Uniswap V2.</td></tr></tbody></table>
 
 ```
 event InterestCollected(
@@ -75,18 +60,9 @@ function getSettings() external view returns (uint32 _collectInterestGasCost, ui
 
 Function that calculates current interest gains of this staking contract.
 
-| Parameter name            | Annotation                                                 |
-| ------------------------- | ---------------------------------------------------------- |
-| \_returnTokenBalanceInUSD | Determine return token balance of staking contract in USD. |
-| \_returnTokenGainsInUSD   | Determine return token gains of staking contract in USD.   |
+<table><thead><tr><th width="150">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_returnTokenBalanceInUSD</td><td>Determine return token balance of staking contract in USD.</td></tr><tr><td>_returnTokenGainsInUSD</td><td>Determine return token gains of staking contract in USD.</td></tr></tbody></table>
 
-| Return parameter name | Annotation                           |
-| --------------------- | ------------------------------------ |
-| iTokenGains           | Gains in iToken (in this case cDAI). |
-| tokenGains            | Gains in token (in this case DAI).   |
-| tokenBalance          | Total tokens locked.                 |
-| balanceInUSD          | Locked tokens worth in USD.          |
-| tokenGainsInUSD       | Gains in USD.                        |
+<table><thead><tr><th width="278.57142857142856">Return parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>iTokenGains</td><td>Gains in iToken (in this case cDAI).</td></tr><tr><td>tokenGains</td><td>Gains in token (in this case DAI).</td></tr><tr><td>tokenBalance</td><td>Total tokens locked.</td></tr><tr><td>balanceInUSD</td><td>Locked tokens worth in USD.</td></tr><tr><td>tokenGainsInUSD</td><td>Gains in USD.</td></tr></tbody></table>
 
 ```
 function currentGains(
@@ -109,11 +85,7 @@ function currentGains(
 
 Allows a staker to deposit Tokens (in this case DAI). Notice that `approve` is needed to be executed before the execution of this method.
 
-| Parameter name    | Annotation                                                                                                                  |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| \_amount          | The amount of Token (in this case DAI) or iToken (in this case cDAI) to stake (it depends on `_inInterestToken` parameter). |
-| \_donationPer     | The % of interest staker want to donate.                                                                                    |
-| \_inInterestToken | Specificy if stake in iToken (in this case cDAI) or Token (in this case DAI).                                               |
+<table><thead><tr><th width="150">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_amount</td><td>The amount of Token (in this case DAI) or iToken (in this case cDAI) to stake (it depends on <code>_inInterestToken</code> parameter).</td></tr><tr><td>_donationPer</td><td>The % of interest staker want to donate.</td></tr><tr><td>_inInterestToken</td><td>Specificy if stake in iToken (in this case cDAI) or Token (in this case DAI).</td></tr></tbody></table>
 
 Can be executed only when the contract is not paused.
 
@@ -129,10 +101,7 @@ function stake(
 
 Withdraws the sender staked Token (in this case DAI).
 
-| Parameter name    | Annotation                                                                                                               |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| \_amount          | Amount to withdraw in Token (in this case DAI) or iToken (in this case cDAI).                                            |
-| \_inInterestToken | If `true` `_amount` is in iToken (in this case cDAI) and also returned in iToken otherwise use Token (in this case DAI). |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_amount</td><td>Amount to withdraw in Token (in this case DAI) or iToken (in this case cDAI).</td></tr><tr><td>_inInterestToken</td><td>If <code>true</code> <code>_amount</code> is in iToken (in this case cDAI) and also returned in iToken otherwise use Token (in this case DAI).</td></tr></tbody></table>
 
 Can be executed only when the contract is not paused.
 
@@ -160,15 +129,9 @@ function claimReputation() public;
 
 Collects gained interest (in G$) by fundmanager.
 
-| Parameter name | Annotation                                         |
-| -------------- | -------------------------------------------------- |
-| \_recipient    | The recipient of iToken (in this case cDAI) gains. |
+<table><thead><tr><th width="150">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_recipient</td><td>The recipient of iToken (in this case cDAI) gains.</td></tr></tbody></table>
 
-| Return parameter name     | Annotation                                                                  |
-| ------------------------- | --------------------------------------------------------------------------- |
-| actualTokensRedeemed      | Collected interest from token.                                              |
-| actualRewardTokenRedeemed | Collected interest from reward token.                                       |
-| actualDai                 | Total Token (in this case DAI) received from swapping token + reward token. |
+<table><thead><tr><th width="278.57142857142856">Return parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>actualTokensRedeemed</td><td>Collected interest from token.</td></tr><tr><td>actualRewardTokenRedeemed</td><td>Collected interest from reward token.</td></tr><tr><td>actualDai</td><td>Total Token (in this case DAI) received from swapping token + reward token.</td></tr></tbody></table>
 
 ```
 function collectUBIInterest(address _recipient)
@@ -185,11 +148,7 @@ function collectUBIInterest(address _recipient)
 
 The function is to calculate Token (in this case DAI) price in USD.
 
-| Parameter name | Annotation                                |
-| -------------- | ----------------------------------------- |
-| \_oracle       | Chainlink oracle usd/token oralce.        |
-| \_amount       | Amount of Token to calculate worth of it. |
-| \_decimals     | Decimals of Token.                        |
+<table><thead><tr><th width="150">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_oracle</td><td>Chainlink oracle usd/token oralce.</td></tr><tr><td>_amount</td><td>Amount of Token to calculate worth of it.</td></tr><tr><td>_decimals</td><td>Decimals of Token.</td></tr></tbody></table>
 
 Returns: worth of Tokens in USD, the decimals are 8.
 
@@ -205,9 +164,7 @@ function getTokenValueInUSD(
 
 The function that can provide information about minted and pending rewards in G$ of the `_staker`.
 
-| Parameter name | Annotation                         |
-| -------------- | ---------------------------------- |
-| \_staker       | Account to get rewards status for. |
+<table><thead><tr><th width="150">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_staker</td><td>Account to get rewards status for.</td></tr></tbody></table>
 
 Returns: The first element of the tuple is Minted value and the second is Pending value in G$; 2 decimals.
 

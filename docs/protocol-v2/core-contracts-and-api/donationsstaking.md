@@ -14,12 +14,7 @@ The funds are periodically staked in the staking contract by calling the `stakeD
 
 Emitted when donation is staked.
 
-| Parameter name | Annotation                                          |
-| -------------- | --------------------------------------------------- |
-| caller         | The user who staked.                                |
-| stakedDAI      | The balance of the contract in DAI that was staked. |
-| ethDonated     | Amount of the donated native token.                 |
-| daiDonated     | Amount of the donated DAI.                          |
+<table><thead><tr><th width="271.38606540841545">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>caller</td><td>The user who staked.</td></tr><tr><td>stakedDAI</td><td>The balance of the contract in DAI that was staked.</td></tr><tr><td>ethDonated</td><td>Amount of the donated native token.</td></tr><tr><td>daiDonated</td><td>Amount of the donated DAI.</td></tr></tbody></table>
 
 ```
 event DonationStaked(
@@ -36,9 +31,7 @@ The funds are periodically staked in the GoodStaking contract by calling the `st
 
 Stake all available funds on the contract. It take balance in native token and buy DAI from Uniswap then stake outstanding DAI balance.
 
-| Parameter name | Annotation                                                                        |
-| -------------- | --------------------------------------------------------------------------------- |
-| \_minDAIAmount | Enforce expected return from Uniswap when converting native token balance to DAI. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_minDAIAmount</td><td>Enforce expected return from Uniswap when converting native token balance to DAI.</td></tr></tbody></table>
 
 ```
 function stakeDonations(uint256 _minDAIAmount) public payable;

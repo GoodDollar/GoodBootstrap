@@ -13,9 +13,7 @@ description: The Identity contract controls addresses that are whitelisted to "C
 
 Emitted when the address is added to blacklist.
 
-| Parameter name | Annotation                         |
-| -------------- | ---------------------------------- |
-| account        | The address of the account to add. |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>account</td><td>The address of the account to add.</td></tr></tbody></table>
 
 ```
 event BlacklistAdded(address indexed account);
@@ -25,9 +23,7 @@ event BlacklistAdded(address indexed account);
 
 Emitted when the address is removed from blacklist.
 
-| Parameter name | Annotation                            |
-| -------------- | ------------------------------------- |
-| account        | The address of the account to remove. |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>account</td><td>The address of the account to remove.</td></tr></tbody></table>
 
 ```
 event BlacklistRemoved(address indexed account);
@@ -37,9 +33,7 @@ event BlacklistRemoved(address indexed account);
 
 Emitted when the address is removed from whitelist.
 
-| Parameter name | Annotation                            |
-| -------------- | ------------------------------------- |
-| account        | The address of the account to remove. |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>account</td><td>The address of the account to remove.</td></tr></tbody></table>
 
 ```
 event WhitelistedRemoved(address indexed account);
@@ -49,9 +43,7 @@ event WhitelistedRemoved(address indexed account);
 
 Emitted when the address is added to whitelist.
 
-| Parameter name | Annotation                         |
-| -------------- | ---------------------------------- |
-| account        | The address of the account to add. |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>account</td><td>The address of the account to add.</td></tr></tbody></table>
 
 ```
 event WhitelistedAdded(address indexed account);
@@ -61,9 +53,7 @@ event WhitelistedAdded(address indexed account);
 
 Emitted when the contract address is added to whitelist.
 
-| Parameter name | Annotation                          |
-| -------------- | ----------------------------------- |
-| account        | The address of the contract to add. |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>account</td><td>The address of the contract to add.</td></tr></tbody></table>
 
 ```
 event ContractAdded(address indexed account);
@@ -73,9 +63,7 @@ event ContractAdded(address indexed account);
 
 Emitted when the contract address is removed from whitelist.
 
-| Parameter name | Annotation                          |
-| -------------- | ----------------------------------- |
-| account        | The address of the contract to add. |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>account</td><td>The address of the contract to add.</td></tr></tbody></table>
 
 ```
 event ContractRemoved(address indexed account);
@@ -85,9 +73,7 @@ event ContractRemoved(address indexed account);
 
 The function checks if given address has been added to whitelist.
 
-| Parameter name | Annotation            |
-| -------------- | --------------------- |
-| account        | The address to check. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>account</td><td>The address to check.</td></tr></tbody></table>
 
 Returns: a boolean indicating weather the address is present in whitelist.
 
@@ -99,9 +85,7 @@ function isWhitelisted(address account) public view returns (bool);
 
 Function that gives the date the given user was added.
 
-| Parameter name | Annotation            |
-| -------------- | --------------------- |
-| account        | The address to check. |
+<table><thead><tr><th width="150">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>account</td><td>The address to check.</td></tr></tbody></table>
 
 Returns: the date the address was added.
 
@@ -123,9 +107,7 @@ function authenticationPeriod() external view returns (uint256);
 
 Function that gives the DID representation for given address.
 
-| Parameter name | Annotation            |
-| -------------- | --------------------- |
-| account        | The address to check. |
+<table><thead><tr><th width="150">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>account</td><td>The address to check.</td></tr></tbody></table>
 
 Returns: the string representation of DID
 

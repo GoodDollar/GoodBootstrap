@@ -20,9 +20,7 @@ function start() public;
 
 Sets the whitelisted ubi scheme.
 
-| Parameter name | Annotation                            |
-| -------------- | ------------------------------------- |
-| \_ubi          | The new UBI scheme to be whitelisted. |
+<table><thead><tr><th width="225.57142857142856">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_ubi</td><td>The new UBI scheme to be whitelisted.</td></tr></tbody></table>
 
 Can be executed only by the Avatar.
 
@@ -34,9 +32,7 @@ function setUBIScheme(address _ubi) public;
 
 Sets the claim amount.
 
-| Parameter name | Annotation            |
-| -------------- | --------------------- |
-| \_claimAmount  | The new claim amount. |
+<table><thead><tr><th width="225.57142857142856">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_claimAmount</td><td>The new claim amount.</td></tr></tbody></table>
 
 Can be executed only by the Avatar.
 
@@ -48,9 +44,7 @@ function setClaimAmount(uint256 _claimAmount) public;
 
 Transfers claim amount to the given account address. Only the whitelisted UBI scheme can call this method.
 
-| Parameter name | Annotation                                   |
-| -------------- | -------------------------------------------- |
-| \_account      | The address which recieves the claim amount. |
+<table><thead><tr><th width="225.57142857142856">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_account</td><td>The address which recieves the claim amount.</td></tr></tbody></table>
 
 Returns: the amount that was transferred to the given `_account`.
 

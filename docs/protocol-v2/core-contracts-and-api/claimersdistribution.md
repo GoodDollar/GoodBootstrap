@@ -13,12 +13,7 @@ description: >-
 
 Emitted when user claims the reputation rewards.
 
-| Parameter name | Annotation                                                                    |
-| -------------- | ----------------------------------------------------------------------------- |
-| claimer        | The user who claimed the rewards.                                             |
-| month          | The number of months for which the `claimer` has acquired reputation rewards. |
-| claims         | The amount of claimers claims.                                                |
-| reputation     | The size of the reputation reward in wei.                                     |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>claimer</td><td>The user who claimed the rewards.</td></tr><tr><td>month</td><td>The number of months for which the <code>claimer</code> has acquired reputation rewards.</td></tr><tr><td>claims</td><td>The amount of claimers claims.</td></tr><tr><td>reputation</td><td>The size of the reputation reward in wei.</td></tr></tbody></table>
 
 ```
 event ReputationEarned(
@@ -33,9 +28,7 @@ event ReputationEarned(
 
 Emitted when the Avatar updates the monthly reputation distribution.
 
-| Parameter name   | Annotation                      |
-| ---------------- | ------------------------------- |
-| reputationAmount | The new value of the parameter. |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>reputationAmount</td><td>The new value of the parameter.</td></tr></tbody></table>
 
 ```
 event MonthlyDistributionSet(uint256 reputationAmount);
@@ -45,9 +38,7 @@ event MonthlyDistributionSet(uint256 reputationAmount);
 
 The function increases user count of claims if he claimed today. (This function is called automatically by latest version of the UBIScheme contract).
 
-| Parameter name | Annotation                  |
-| -------------- | --------------------------- |
-| \_claimer      | The user address to update. |
+<table><thead><tr><th width="150">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_claimer</td><td>The user address to update.</td></tr></tbody></table>
 
 ```
 function updateClaim(address _claimer) external;
@@ -57,9 +48,7 @@ function updateClaim(address _claimer) external;
 
 The function mints reputation to the user according to his share in last month claims.
 
-| Parameter name | Annotation                            |
-| -------------- | ------------------------------------- |
-| \_claimer      | The user to distribute reputation to. |
+<table><thead><tr><th width="150">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_claimer</td><td>The user to distribute reputation to.</td></tr></tbody></table>
 
 ```
 function claimReputation(address _claimer) public;

@@ -12,9 +12,7 @@ description: >-
 
 Emitted when new admins were added.
 
-| Parameter name | Annotation                                   |
-| -------------- | -------------------------------------------- |
-| admins         | The addresses of the admins that were added. |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>admins</td><td>The addresses of the admins that were added.</td></tr></tbody></table>
 
 ```
 event AdminsAdded(address payable[] indexed admins);
@@ -24,9 +22,7 @@ event AdminsAdded(address payable[] indexed admins);
 
 Emitted when old admins were removed.
 
-| Parameter name | Annotation                                     |
-| -------------- | ---------------------------------------------- |
-| admins         | The addresses of the admins that were removed. |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>admins</td><td>The addresses of the admins that were removed.</td></tr></tbody></table>
 
 ```
 event AdminsRemoved(address[] indexed admins);
@@ -36,10 +32,7 @@ event AdminsRemoved(address[] indexed admins);
 
 Emitted when the specific user address was topped.
 
-| Parameter name | Annotation                         |
-| -------------- | ---------------------------------- |
-| user           | The users address that was topped. |
-| amount         | The amount that was sent.          |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>user</td><td>The users address that was topped.</td></tr><tr><td>amount</td><td>The amount that was sent.</td></tr></tbody></table>
 
 ```
 event WalletTopped(address indexed user, uint256 amount);
@@ -49,12 +42,7 @@ event WalletTopped(address indexed user, uint256 amount);
 
 Emitted when the wallet is performing some tx.
 
-| Parameter name | Annotation                                    |
-| -------------- | --------------------------------------------- |
-| \_contract     | The contract that was called.                 |
-| \_data         | The data of the tx.                           |
-| \_value        | The amount of the native token that was sent. |
-| \_success      | The status of the performed tx.               |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_contract</td><td>The contract that was called.</td></tr><tr><td>_data</td><td>The data of the tx.</td></tr><tr><td>_value</td><td>The amount of the native token that was sent.</td></tr><tr><td>_success</td><td>The status of the performed tx.</td></tr></tbody></table>
 
 ```
 event GenericCall(
@@ -69,9 +57,7 @@ event GenericCall(
 
 Sets the SignUpBonus contract address.
 
-| Parameter name | Annotation                                   |
-| -------------- | -------------------------------------------- |
-| \_bonus        | The new address of the SignUpBonus contract. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_bonus</td><td>The new address of the SignUpBonus contract.</td></tr></tbody></table>
 
 Can only be called by the admin.
 
@@ -83,9 +69,7 @@ function setBonusContract(address _bonus) public;
 
 Function to add list of addresses to admins list.
 
-| Parameter name | Annotation                                   |
-| -------------- | -------------------------------------------- |
-| \_admins       | The list of addresses to add as admins list. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_admins</td><td>The list of addresses to add as admins list.</td></tr></tbody></table>
 
 Can only be called by the admin.
 
@@ -97,9 +81,7 @@ function addAdmins(address payable[] memory _admins) public;
 
 Function to remove list of addresses from admins list.
 
-| Parameter name | Annotation                                        |
-| -------------- | ------------------------------------------------- |
-| \_admins       | The list of addresses to remove from admins list. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_admins</td><td>The list of addresses to remove from admins list.</td></tr></tbody></table>
 
 Can only be called by the admin.
 
@@ -111,10 +93,7 @@ function removeAdmins(address[] memory _admins) public;
 
 Function to top group of admins by indicies with amount of G$ given in constructor. The amount of times per day specified in the constructor.
 
-| Parameter name | Annotation                         |
-| -------------- | ---------------------------------- |
-| startIndex     | Starting index in the admins list. |
-| endIndex       | Ending index in the admins list.   |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>startIndex</td><td>Starting index in the admins list.</td></tr><tr><td>endIndex</td><td>Ending index in the admins list.</td></tr></tbody></table>
 
 ```
 function topAdmins(uint256 startIndex, uint256 endIndex) public;
@@ -130,9 +109,7 @@ function topAdmins(uint256 startIndex) public;
 
 Function to check if given account is the admin.
 
-| Parameter name | Annotation                    |
-| -------------- | ----------------------------- |
-| \_user         | The account address to check. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_user</td><td>The account address to check.</td></tr></tbody></table>
 
 Returns: `true` if `_user` is the admin, `false` elsewise.
 
@@ -144,10 +121,7 @@ function isAdmin(address _user) public view returns (bool)
 
 Function to add given address to whitelist of identity contract.
 
-| Parameter name | Annotation                                    |
-| -------------- | --------------------------------------------- |
-| \_user         | The account address to be added to whitelist. |
-| \_did          | The DID of the `_user`.                       |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_user</td><td>The account address to be added to whitelist.</td></tr><tr><td>_did</td><td>The DID of the <code>_user</code>.</td></tr></tbody></table>
 
 Can only be called by admins of wallet and if wallet is an IdentityAdmin.
 
@@ -159,9 +133,7 @@ function whitelist(address _user, string memory _did) public;
 
 Function to remove given address from whitelist of identity contract.
 
-| Parameter name | Annotation                        |
-| -------------- | --------------------------------- |
-| \_user         | The account address to whitelist. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_user</td><td>The account address to whitelist.</td></tr></tbody></table>
 
 Can only be called by admins of wallet and if wallet is an IdentityAdmin.
 
@@ -173,9 +145,7 @@ function removeWhitelist(address _user) public;
 
 Function to add given address to blacklist of identity contract.
 
-| Parameter name | Annotation                                    |
-| -------------- | --------------------------------------------- |
-| \_user         | The account address to be added to blacklist. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_user</td><td>The account address to be added to blacklist.</td></tr></tbody></table>
 
 Can only be called by admins of wallet and if wallet is an IdentityAdmin.
 
@@ -187,9 +157,7 @@ function blacklist(address _user) public;
 
 Function to remove given address from blacklist of identity contract.
 
-| Parameter name | Annotation                                        |
-| -------------- | ------------------------------------------------- |
-| \_user         | The account address to be removed from blacklist. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_user</td><td>The account address to be removed from blacklist.</td></tr></tbody></table>
 
 Can only be called by admins of wallet and if wallet is an IdentityAdmin.
 
@@ -201,9 +169,7 @@ function removeBlacklist(address _user) public;
 
 Function to top given address with amount of G$ given in constructor.
 
-| Parameter name | Annotation                  |
-| -------------- | --------------------------- |
-| \_user         | The address to transfer to. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_user</td><td>The address to transfer to.</td></tr></tbody></table>
 
 Can only be done by admin. The amount of times per day specified in constructor.
 
@@ -215,11 +181,7 @@ function topWallet(address payable _user) public;
 
 Function to whitelist user and also award him pending bonuses, it can be used also later when the user is already whitelisted to just award pending bonuses.
 
-| Parameter name | Annotation                                         |
-| -------------- | -------------------------------------------------- |
-| \_user         | The address to transfer to and whitelist.          |
-| \_amount       | The bonus amount to give.                          |
-| \_did          | Decentralized ID of user, pointer to some profile. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_user</td><td>The address to transfer to and whitelist.</td></tr><tr><td>_amount</td><td>The bonus amount to give.</td></tr><tr><td>_did</td><td>Decentralized ID of user, pointer to some profile.</td></tr></tbody></table>
 
 Can only be done by admin.
 
@@ -235,10 +197,7 @@ function whitelistAndAwardUser(
 
 Function to award user with pending bonuses, can only be done by admin.
 
-| Parameter name | Annotation                                |
-| -------------- | ----------------------------------------- |
-| \_user         | The address to transfer to and whitelist. |
-| \_amount       | The bonus amount to give.                 |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_user</td><td>The address to transfer to and whitelist.</td></tr><tr><td>_amount</td><td>The bonus amount to give.</td></tr></tbody></table>
 
 ```
 function awardUser(address _user, uint256 _amount) public;
@@ -248,11 +207,7 @@ function awardUser(address _user, uint256 _amount) public;
 
 Perform a generic call to an arbitrary contract.
 
-| Parameter name | Annotation                                             |
-| -------------- | ------------------------------------------------------ |
-| \_contract     | The contract's address to call.                        |
-| \_data         | ABI-encoded contract call to call `_contract` address. |
-| \_value        | Value (native token) to transfer with the transaction. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_contract</td><td>The contract's address to call.</td></tr><tr><td>_data</td><td>ABI-encoded contract call to call <code>_contract</code> address.</td></tr><tr><td>_value</td><td>Value (native token) to transfer with the transaction.</td></tr></tbody></table>
 
 Returns: pair of bool and bytes - success or fail and bytes of the called contract's function.
 

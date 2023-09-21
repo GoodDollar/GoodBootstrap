@@ -12,10 +12,7 @@ description: >-
 
 Emitted when `staker` earns an `amount` of GOOD tokens.
 
-| Parameter name | Annotation                                |
-| -------------- | ----------------------------------------- |
-| staker         | The staker address who earned reputation. |
-| amount         | The amount of reputation.                 |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>staker</td><td>The staker address who earned reputation.</td></tr><tr><td>amount</td><td>The amount of reputation.</td></tr></tbody></table>
 
 ```
 event ReputationEarned(address indexed staker, uint256 amount);
@@ -25,10 +22,7 @@ event ReputationEarned(address indexed staker, uint256 amount);
 
 Emitted when `staker` stakes an `amount` of GoodDollars.
 
-| Parameter name | Annotation                                |
-| -------------- | ----------------------------------------- |
-| staker         | The staker address who earned reputation. |
-| amount         | The amount of stake.                      |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>staker</td><td>The staker address who earned reputation.</td></tr><tr><td>amount</td><td>The amount of stake.</td></tr></tbody></table>
 
 ```
 event Staked(address indexed staker, uint256 amount);
@@ -38,10 +32,7 @@ event Staked(address indexed staker, uint256 amount);
 
 Emitted when `staker` withdraws an `amount` of staked GoodDollars.
 
-| Parameter name | Annotation                                |
-| -------------- | ----------------------------------------- |
-| staker         | The staker address who earned reputation. |
-| amount         | The amount of stake.                      |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>staker</td><td>The staker address who earned reputation.</td></tr><tr><td>amount</td><td>The amount of stake.</td></tr></tbody></table>
 
 ```
 event StakeWithdraw(address indexed staker, uint256 amount);
@@ -51,9 +42,7 @@ event StakeWithdraw(address indexed staker, uint256 amount);
 
 The function allows a staker to deposit Tokens. Notice that `approve` is needed to be executed before the execution of this method.
 
-| Parameter name | Annotation                 |
-| -------------- | -------------------------- |
-| \_amount       | The amount of G$ to stake. |
+<table><thead><tr><th width="150">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_amount</td><td>The amount of G$ to stake.</td></tr></tbody></table>
 
 Can be executed only when the contract is not paused.
 
@@ -65,9 +54,7 @@ function stake(uint256 _amount) external;
 
 The function withdraws the senders staked G$.
 
-| Parameter name | Annotation                    |
-| -------------- | ----------------------------- |
-| \_amount       | The amount of G$ to withdraw. |
+<table><thead><tr><th width="150">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_amount</td><td>The amount of G$ to withdraw.</td></tr></tbody></table>
 
 Can be executed only when the contract is not paused.
 
@@ -89,9 +76,7 @@ function withdrawRewards() public returns (uint256);
 
 The function allows to acquire the number of G$ rewards for a specific `_user`.
 
-| Parameter name | Annotation                         |
-| -------------- | ---------------------------------- |
-| \_user         | User to check the pending rewards. |
+<table><thead><tr><th width="150">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_user</td><td>User to check the pending rewards.</td></tr></tbody></table>
 
 Returns: an amount of G$ rewards for the user.
 

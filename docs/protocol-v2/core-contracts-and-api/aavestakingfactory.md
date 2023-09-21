@@ -14,11 +14,7 @@ The producing contracts are buying Aave-wrapped tokens and can transfer the dail
 
 Emitted when new clone of the Aave staking contract was deployed.
 
-| Parameter name | Annotation                                                          |
-| -------------- | ------------------------------------------------------------------- |
-| proxy          | The ERC1167 clones factory.                                         |
-| token          | The token which is accepted in the deployed staking contract clone. |
-| impl           | The amount of claimers claims.                                      |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>proxy</td><td>The ERC1167 clones factory.</td></tr><tr><td>token</td><td>The token which is accepted in the deployed staking contract clone.</td></tr><tr><td>impl</td><td>The amount of claimers claims.</td></tr></tbody></table>
 
 ```
 event Deployed(address proxy, address cToken, address impl);
@@ -28,16 +24,7 @@ event Deployed(address proxy, address cToken, address impl);
 
 The function instantiates and initalizes an EIP 1167 proxy contract as minimal clone of the staking contract at public field `impl`.
 
-| Parameter name        | Annotation                                                                                                          |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| token                 | The token to be used for staking in this contract.                                                                  |
-| \_lendingPool         |                                                                                                                     |
-| \_ns                  | The NameService contract address which holds all the necessary addresses.                                           |
-| \_maxRewardThreshold  | The amount of blocks that need to pass in order to user would get their rewards with 1x multiplier instead of 0.5x. |
-| \_tokenUsdOracle      | The address of the TOKEN/USD oracle.                                                                                |
-| \_incentiveController | Incentive Controller of AAVE protocol. It is utilized to claim rewards from AAVE.                                   |
-| \_aaveUSDOracle       | The address of the AAVE token/USD oracle.                                                                           |
-| \_tokenToDaiSwapPath  | The UniswapV2 swap path from TOKEN to DAI. (TOKEN is the underlying token of `_cToken`.)                            |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>token</td><td>The token to be used for staking in this contract.</td></tr><tr><td>_lendingPool</td><td></td></tr><tr><td>_ns</td><td>The NameService contract address which holds all the necessary addresses.</td></tr><tr><td>_maxRewardThreshold</td><td>The amount of blocks that need to pass in order to user would get their rewards with 1x multiplier instead of 0.5x.</td></tr><tr><td>_tokenUsdOracle</td><td>The address of the TOKEN/USD oracle.</td></tr><tr><td>_incentiveController</td><td>Incentive Controller of AAVE protocol. It is utilized to claim rewards from AAVE.</td></tr><tr><td>_aaveUSDOracle</td><td>The address of the AAVE token/USD oracle.</td></tr><tr><td>_tokenToDaiSwapPath</td><td>The UniswapV2 swap path from TOKEN to DAI. (TOKEN is the underlying token of <code>_cToken</code>.)</td></tr></tbody></table>
 
 ```
 function cloneAndInit(
@@ -74,11 +61,7 @@ Here you can specify the `_impl` of the clone proxy.
 
 The function is to compute the address of the proxy clone of the staking contract to deploy.
 
-| Parameter name | Annotation                                                                 |
-| -------------- | -------------------------------------------------------------------------- |
-| \_impl         | The imlementation of the staking contract.                                 |
-| token          | First parameter of the constructor for `_impl`. (The token to stake.)      |
-| paramsHash     | The keccak256 hash of remaining parameters of the constructor for `_impl`. |
+<table><thead><tr><th width="150">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_impl</td><td>The imlementation of the staking contract.</td></tr><tr><td>token</td><td>First parameter of the constructor for <code>_impl</code>. (The token to stake.)</td></tr><tr><td>paramsHash</td><td>The keccak256 hash of remaining parameters of the constructor for <code>_impl</code>.</td></tr></tbody></table>
 
 Returns: an address of the clone to be deployed.
 

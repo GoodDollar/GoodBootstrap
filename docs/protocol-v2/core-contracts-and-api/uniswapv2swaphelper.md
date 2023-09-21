@@ -14,13 +14,7 @@ In that case it could be that Native token->tokenB can be attacked because we do
 
 In our use case it is always eth->dai so either it will be safe or very minimal.
 
-| Parameter name               | Annotation                                                                                                                                                              |
-| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \_iHasRouter                 | The contract address which instance has router address.                                                                                                                 |
-| \_inToken                    | The address of the token we are swapping.                                                                                                                               |
-| \_outToken                   | The address of swap result token.                                                                                                                                       |
-| \_inTokenAmount              | The amount of in token required to swap.                                                                                                                                |
-| \_maxLiquidityPercentageSwap | Max percentage of liquidity to swap to token. When swapping tokens and this value is out of 100000, so for example if you want to set it to 0.3 you need set it to 300. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_iHasRouter</td><td>The contract address which instance has router address.</td></tr><tr><td>_inToken</td><td>The address of the token we are swapping.</td></tr><tr><td>_outToken</td><td>The address of swap result token.</td></tr><tr><td>_inTokenAmount</td><td>The amount of in token required to swap.</td></tr><tr><td>_maxLiquidityPercentageSwap</td><td>Max percentage of liquidity to swap to token. When swapping tokens and this value is out of 100000, so for example if you want to set it to 0.3 you need set it to 300.</td></tr></tbody></table>
 
 Returns: safe amount of token that could be swapped.
 
@@ -38,13 +32,7 @@ function maxSafeTokenAmount(
 
 A helper function to perform swap tokens in the Uniswap V2.
 
-| Parameter name    | Annotation                                              |
-| ----------------- | ------------------------------------------------------- |
-| \_iHasRouter      | The contract address which instance has router address. |
-| \_path            | The path of the swap.                                   |
-| \_tokenAmount     | The token amount to swap.                               |
-| \_mintTokenReturn | Minimum token amount to get in swap transaction.        |
-| \_receiver        | The receiver of tokens after swap transaction.          |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_iHasRouter</td><td>The contract address which instance has router address.</td></tr><tr><td>_path</td><td>The path of the swap.</td></tr><tr><td>_tokenAmount</td><td>The token amount to swap.</td></tr><tr><td>_mintTokenReturn</td><td>Minimum token amount to get in swap transaction.</td></tr><tr><td>_receiver</td><td>The receiver of tokens after swap transaction.</td></tr></tbody></table>
 
 Can only be called by the Avatar.
 

@@ -17,17 +17,7 @@ The contract based on [GovernorAlpha](https://github.com/compound-finance/compou
 
 An event emitted when a new proposal is created.
 
-| Parameter name | Annotation                                                       |
-| -------------- | ---------------------------------------------------------------- |
-| id             | The ID of the proposal.                                          |
-| proposer       | The address of the proposer.                                     |
-| targets        | The targets list of contracts to be executed on.                 |
-| values         | The list of native token value to be used in each contract call. |
-| signatures     | The list of functions signatures to execute on `targets`.        |
-| calldatas      | The list of parameters to pass to each function in `signatures`. |
-| startBlock     | Starting block number of voting.                                 |
-| endBlock       | Ending block number of voting.                                   |
-| description    | Short description of the proposal.                               |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>id</td><td>The ID of the proposal.</td></tr><tr><td>proposer</td><td>The address of the proposer.</td></tr><tr><td>targets</td><td>The targets list of contracts to be executed on.</td></tr><tr><td>values</td><td>The list of native token value to be used in each contract call.</td></tr><tr><td>signatures</td><td>The list of functions signatures to execute on <code>targets</code>.</td></tr><tr><td>calldatas</td><td>The list of parameters to pass to each function in <code>signatures</code>.</td></tr><tr><td>startBlock</td><td>Starting block number of voting.</td></tr><tr><td>endBlock</td><td>Ending block number of voting.</td></tr><tr><td>description</td><td>Short description of the proposal.</td></tr></tbody></table>
 
 ```
 event ProposalCreated(
@@ -47,20 +37,7 @@ event ProposalCreated(
 
 An event emitted when using blockchain proposal bridge.
 
-| Parameter name | Annotation                                                       |
-| -------------- | ---------------------------------------------------------------- |
-| id             | The ID of the proposal.                                          |
-| proposer       | The address of the proposer.                                     |
-| targets        | The targets list of contracts to be executed on.                 |
-| values         | The list of native token value to be used in each contract call. |
-| signatures     | The list of functions signatures to execute on `targets`.        |
-| calldatas      | The list of parameters to pass to each function in `signatures`. |
-| startBlock     | Starting block number of voting.                                 |
-| endBlock       | Ending block number of voting.                                   |
-| forBlockchain  | The chain ID.                                                    |
-| eta            | An exact time of the proposal bridging.                          |
-| forVotes       | An amount of vote power "FOR".                                   |
-| againstVotes   | An amount of vote power "AGAINST".                               |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>id</td><td>The ID of the proposal.</td></tr><tr><td>proposer</td><td>The address of the proposer.</td></tr><tr><td>targets</td><td>The targets list of contracts to be executed on.</td></tr><tr><td>values</td><td>The list of native token value to be used in each contract call.</td></tr><tr><td>signatures</td><td>The list of functions signatures to execute on <code>targets</code>.</td></tr><tr><td>calldatas</td><td>The list of parameters to pass to each function in <code>signatures</code>.</td></tr><tr><td>startBlock</td><td>Starting block number of voting.</td></tr><tr><td>endBlock</td><td>Ending block number of voting.</td></tr><tr><td>forBlockchain</td><td>The chain ID.</td></tr><tr><td>eta</td><td>An exact time of the proposal bridging.</td></tr><tr><td>forVotes</td><td>An amount of vote power "FOR".</td></tr><tr><td>againstVotes</td><td>An amount of vote power "AGAINST".</td></tr></tbody></table>
 
 ```
 event ProposalSucceeded(
@@ -83,10 +60,7 @@ event ProposalSucceeded(
 
 Emitted when proposal made for a different blockchain.
 
-| Parameter name | Annotation                                        |
-| -------------- | ------------------------------------------------- |
-| id             | The ID of the proposal.                           |
-| forBlockchain  | The chain ID of the blockchain proposal made for. |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>id</td><td>The ID of the proposal.</td></tr><tr><td>forBlockchain</td><td>The chain ID of the blockchain proposal made for.</td></tr></tbody></table>
 
 ```
 event ProposalBridge(uint256 id, uint256 indexed forBlockchain);
@@ -96,12 +70,7 @@ event ProposalBridge(uint256 id, uint256 indexed forBlockchain);
 
 An event emitted when a vote has been cast on a proposal.
 
-| Parameter name | Annotation                                          |
-| -------------- | --------------------------------------------------- |
-| voter          | The voter address.                                  |
-| proposalId     | The proposal ID for which the vote was cast.        |
-| support        | Check whether the vote cast was "FOR" or "AGAINST". |
-| votes          | The amount of voting power for the vote cast.       |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>voter</td><td>The voter address.</td></tr><tr><td>proposalId</td><td>The proposal ID for which the vote was cast.</td></tr><tr><td>support</td><td>Check whether the vote cast was "FOR" or "AGAINST".</td></tr><tr><td>votes</td><td>The amount of voting power for the vote cast.</td></tr></tbody></table>
 
 ```
 event VoteCast(
@@ -116,9 +85,7 @@ event VoteCast(
 
 An event emitted when a proposal has been canceled.
 
-| Parameter name | Annotation              |
-| -------------- | ----------------------- |
-| id             | The ID of the proposal. |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>id</td><td>The ID of the proposal.</td></tr></tbody></table>
 
 ```
 event ProposalCanceled(uint256 id);
@@ -128,10 +95,7 @@ event ProposalCanceled(uint256 id);
 
 An event emitted when a proposal has been queued.
 
-| Parameter name | Annotation                     |
-| -------------- | ------------------------------ |
-| id             | The ID of the proposal.        |
-| eta            | The timestamp of the queueing. |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>id</td><td>The ID of the proposal.</td></tr><tr><td>eta</td><td>The timestamp of the queueing.</td></tr></tbody></table>
 
 ```
 event ProposalQueued(uint256 id, uint256 eta);
@@ -141,9 +105,7 @@ event ProposalQueued(uint256 id, uint256 eta);
 
 An event emitted when a proposal has been executed.
 
-| Parameter name | Annotation              |
-| -------------- | ----------------------- |
-| id             | The ID of the proposal. |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>id</td><td>The ID of the proposal.</td></tr></tbody></table>
 
 ```
 event ProposalExecuted(uint256 id);
@@ -153,12 +115,7 @@ event ProposalExecuted(uint256 id);
 
 An event emitted when a proposal call has been executed.
 
-| Parameter name | Annotation                                      |
-| -------------- | ----------------------------------------------- |
-| id             | The ID of the proposal.                         |
-| index          | The index of the target contract from proposal. |
-| ok             | The status of the proposal call.                |
-| result         | The result of the proposal call.                |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>id</td><td>The ID of the proposal.</td></tr><tr><td>index</td><td>The index of the target contract from proposal.</td></tr><tr><td>ok</td><td>The status of the proposal call.</td></tr><tr><td>result</td><td>The result of the proposal call.</td></tr></tbody></table>
 
 ```
 event ProposalExecutionResult(
@@ -173,9 +130,7 @@ event ProposalExecutionResult(
 
 An event emitted when a new guardian set.
 
-| Parameter name | Annotation                |
-| -------------- | ------------------------- |
-| newGuardian    | The new guardian address. |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>newGuardian</td><td>The new guardian address.</td></tr></tbody></table>
 
 ```
 event GuardianSet(address newGuardian);
@@ -185,23 +140,11 @@ event GuardianSet(address newGuardian);
 
 An event emitted when a new voting parameters set.
 
-| Parameter name | Annotation             |
-| -------------- | ---------------------- |
-| params         | The voting parameters. |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>params</td><td>The voting parameters.</td></tr></tbody></table>
 
 Here's the per index description of each parameter.
 
-| Index | Annotation                                                                                                                                                |
-| ----- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 0     | The default voting period.                                                                                                                                |
-| 1     | The default quorum percentage.                                                                                                                            |
-| 2     | The proposal percentage.                                                                                                                                  |
-| 3     | The proposal max operations.                                                                                                                              |
-| 4     | The delay in blocks before the newly created proposal would work.                                                                                         |
-| 5     | The duration of time (in seconds) after proposal passed thershold before it can be executed.                                                              |
-| 6     | The duration of time (in seconds) after proposal passed with absolute majority before it can be executed.                                                 |
-| 7     | During the queue period if vote decision has changed, the queue period time duration is extended so that at least this amount of time in seconds is left. |
-| 8     | The duration of time (in seconds) a succeeded proposal has to be executed on the blockchain.                                                              |
+<table><thead><tr><th width="150">Index</th><th>Annotation</th></tr></thead><tbody><tr><td>0</td><td>The default voting period.</td></tr><tr><td>1</td><td>The default quorum percentage.</td></tr><tr><td>2</td><td>The proposal percentage.</td></tr><tr><td>3</td><td>The proposal max operations.</td></tr><tr><td>4</td><td>The delay in blocks before the newly created proposal would work.</td></tr><tr><td>5</td><td>The duration of time (in seconds) after proposal passed thershold before it can be executed.</td></tr><tr><td>6</td><td>The duration of time (in seconds) after proposal passed with absolute majority before it can be executed.</td></tr><tr><td>7</td><td>During the queue period if vote decision has changed, the queue period time duration is extended so that at least this amount of time in seconds is left.</td></tr><tr><td>8</td><td>The duration of time (in seconds) a succeeded proposal has to be executed on the blockchain.</td></tr></tbody></table>
 
 ```
 event ParametersSet(uint256[9] params);
@@ -211,13 +154,7 @@ event ParametersSet(uint256[9] params);
 
 The function creates a proposal to be voted on.
 
-| Parameter name | Annotation                                                                                                |
-| -------------- | --------------------------------------------------------------------------------------------------------- |
-| targets        | The address of the contracts on which proposal actions should be executed.                                |
-| values         | The amounts of native tokens that should be sent to the `targets` addresses.                              |
-| signatures     | The function selectors (signatures) that should be called as proposals actions should a proposal succeed. |
-| calldatas      | The call arguments for the `signatures`.                                                                  |
-| description    | The short description of a proposal.                                                                      |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>targets</td><td>The address of the contracts on which proposal actions should be executed.</td></tr><tr><td>values</td><td>The amounts of native tokens that should be sent to the <code>targets</code> addresses.</td></tr><tr><td>signatures</td><td>The function selectors (signatures) that should be called as proposals actions should a proposal succeed.</td></tr><tr><td>calldatas</td><td>The call arguments for the <code>signatures</code>.</td></tr><tr><td>description</td><td>The short description of a proposal.</td></tr></tbody></table>
 
 Returns: the ID of a newly created proposal.
 
@@ -248,9 +185,7 @@ function propose(
 
 The function is to execute the proposal list of transactions.
 
-| Parameter name | Annotation                                      |
-| -------------- | ----------------------------------------------- |
-| proposalId     | The ID of the proposal that should be executed. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>proposalId</td><td>The ID of the proposal that should be executed.</td></tr></tbody></table>
 
 Anyone can call this once it's ETA has arrived.
 
@@ -262,9 +197,7 @@ function execute(uint256 proposalId) public payable;
 
 The function is to cancel a proposal. In case if a proposer are no longer hold the votes that were required to propose.
 
-| Parameter name | Annotation                                      |
-| -------------- | ----------------------------------------------- |
-| proposalId     | The ID of the proposal that should be canceled. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>proposalId</td><td>The ID of the proposal that should be canceled.</td></tr></tbody></table>
 
 ```
 function cancel(uint256 proposalId) public;
@@ -274,9 +207,7 @@ function cancel(uint256 proposalId) public;
 
 The function is to get the current status of a proposal.
 
-| Parameter name | Annotation                                      |
-| -------------- | ----------------------------------------------- |
-| proposalId     | The ID of the proposal that should be canceled. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>proposalId</td><td>The ID of the proposal that should be canceled.</td></tr></tbody></table>
 
 ```
 function state(uint256 proposalId) public view returns (ProposalState);
@@ -299,10 +230,7 @@ The `ProposalState` enum is:
 
 The function is to cast the users vote on a proposal.
 
-| Parameter name | Annotation                      |
-| -------------- | ------------------------------- |
-| proposalId     | The ID of the proposal.         |
-| support        | Is the vote "FOR" or "AGAINST". |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>proposalId</td><td>The ID of the proposal.</td></tr><tr><td>support</td><td>Is the vote "FOR" or "AGAINST".</td></tr></tbody></table>
 
 ```
 function castVote(uint256 proposalId, bool support) public;
@@ -320,9 +248,7 @@ function getChainId() public view returns (uint256);
 
 The function allows anyone to emit details about proposal that passed. Can be used for cross-chain proposals using blockheader proofs.
 
-| Parameter name | Annotation              |
-| -------------- | ----------------------- |
-| proposalId     | The ID of the proposal. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>proposalId</td><td>The ID of the proposal.</td></tr></tbody></table>
 
 ```
 function emitSucceeded(uint256 _proposalId) public;

@@ -12,10 +12,7 @@ description: >-
 
 Emitted when user is joined.
 
-| Parameter name | Annotation                                   |
-| -------------- | -------------------------------------------- |
-| inviter        | The address of the user who invited.         |
-| invitee        | he address of the user who is being invited. |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>inviter</td><td>The address of the user who invited.</td></tr><tr><td>invitee</td><td>he address of the user who is being invited.</td></tr></tbody></table>
 
 ```
 event InviteeJoined(address indexed inviter, address indexed invitee);
@@ -25,13 +22,7 @@ event InviteeJoined(address indexed inviter, address indexed invitee);
 
 Emitted when inviter bounty is paid.
 
-| Parameter name | Annotation                                    |
-| -------------- | --------------------------------------------- |
-| inviter        | The address of the user who invited.          |
-| invitee        | The address of the user who is being invited. |
-| bountyPaid     | The amount of bounty.                         |
-| inviterLevel   | The inviter level.                            |
-| earnedLevel    | The level which the inviter is earned.        |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>inviter</td><td>The address of the user who invited.</td></tr><tr><td>invitee</td><td>The address of the user who is being invited.</td></tr><tr><td>bountyPaid</td><td>The amount of bounty.</td></tr><tr><td>inviterLevel</td><td>The inviter level.</td></tr><tr><td>earnedLevel</td><td>The level which the inviter is earned.</td></tr></tbody></table>
 
 ```
 event InviterBounty(
@@ -47,10 +38,7 @@ event InviterBounty(
 
 The function is to be called by the user to join.
 
-| Parameter name | Annotation                    |
-| -------------- | ----------------------------- |
-| \_myCode       | The users invitation code.    |
-| \_inviterCode  | The inviters invitation code. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_myCode</td><td>The users invitation code.</td></tr><tr><td>_inviterCode</td><td>The inviters invitation code.</td></tr></tbody></table>
 
 ```
 function join(bytes32 _myCode, bytes32 _inviterCode) public;
@@ -60,9 +48,7 @@ function join(bytes32 _myCode, bytes32 _inviterCode) public;
 
 The function is to clarify for the user who invited someone if he can claim bounty for the user who was being invited.
 
-| Parameter name | Annotation                      |
-| -------------- | ------------------------------- |
-| \_invitee      | The user who was being invited. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_invitee</td><td>The user who was being invited.</td></tr></tbody></table>
 
 ```
 function canCollectBountyFor(address _invitee) public view returns (bool);
@@ -72,9 +58,7 @@ function canCollectBountyFor(address _invitee) public view returns (bool);
 
 The function is to be called to get the list of the invitees of the `_inviter`.
 
-| Parameter name | Annotation           |
-| -------------- | -------------------- |
-| \_inviter      | The inviter address. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_inviter</td><td>The inviter address.</td></tr></tbody></table>
 
 Returns: list of the invitees of the particular inviter.
 
@@ -86,9 +70,7 @@ function getInvitees(address _inviter) public view returns (address[] memory);
 
 The function is to be called to get the list of the pending invitees of the `_inviter`.
 
-| Parameter name | Annotation           |
-| -------------- | -------------------- |
-| \_inviter      | The inviter address. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_inviter</td><td>The inviter address.</td></tr></tbody></table>
 
 Returns: list of the pending invitees of the particular inviter.
 
@@ -100,9 +82,7 @@ function getPendingInvitees(address _inviter) public view returns (address[] mem
 
 The function is to be called to get the list of the pending bounties of the `_inviter`.
 
-| Parameter name | Annotation           |
-| -------------- | -------------------- |
-| \_inviter      | The inviter address. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_inviter</td><td>The inviter address.</td></tr></tbody></table>
 
 Returns: list of the pending bounties of the particular inviter.
 
@@ -114,9 +94,7 @@ function getPendingBounties(address _inviter) public view returns (uint256);
 
 The function is to be called to pay bounty for the inviter of `_invitee`.
 
-| Parameter name | Annotation           |
-| -------------- | -------------------- |
-| \_invitee      | The invitee address. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_invitee</td><td>The invitee address.</td></tr></tbody></table>
 
 ```
 function bountyFor(address _invitee) public;
@@ -134,9 +112,7 @@ function collectBounties() public;
 
 The function is to be called to pay bounty for the inviter of `_invitee`.
 
-| Parameter name | Annotation           |
-| -------------- | -------------------- |
-| \_invitee      | The invitee address. |
+<table><thead><tr><th width="301.8711599216471">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_invitee</td><td>The invitee address.</td></tr></tbody></table>
 
 ```
 function bountyFor(address _invitee) public;

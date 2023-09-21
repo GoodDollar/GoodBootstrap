@@ -12,13 +12,7 @@ description: >-
 
 Emitted when G$ tokens are purchased.
 
-| Parameter name  | Annotation                                                             |
-| --------------- | ---------------------------------------------------------------------- |
-| caller          | The address who initiated the action.                                  |
-| inputToken      | The convertible token address which the G$ tokens were purchased with. |
-| inputAmount     | Reserve tokens amount.                                                 |
-| actualReturn    | Actual return after the conversion.                                    |
-| receiverAddress | Address of the receiver of the tokens.                                 |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>caller</td><td>The address who initiated the action.</td></tr><tr><td>inputToken</td><td>The convertible token address which the G$ tokens were purchased with.</td></tr><tr><td>inputAmount</td><td>Reserve tokens amount.</td></tr><tr><td>actualReturn</td><td>Actual return after the conversion.</td></tr><tr><td>receiverAddress</td><td>Address of the receiver of the tokens.</td></tr></tbody></table>
 
 ```
 event TokenPurchased(
@@ -34,14 +28,7 @@ event TokenPurchased(
 
 Emitted when G$ tokens are sold.
 
-| Parameter name     | Annotation                                                          |
-| ------------------ | ------------------------------------------------------------------- |
-| caller             | The address who initiated the action.                               |
-| outputToken        | The convertible token address which the G$ tokens were sold to.     |
-| gdAmount           | The G$ tokens amount.                                               |
-| contributionAmount | The amount of G$ tokens that was contributed during the conversion. |
-| actualReturn       | Actual return after the conversion.                                 |
-| receiverAddress    | Address of the receiver of tokens.                                  |
+<table><thead><tr><th width="389.63805195347794">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>caller</td><td>The address who initiated the action.</td></tr><tr><td>outputToken</td><td>The convertible token address which the G$ tokens were sold to.</td></tr><tr><td>gdAmount</td><td>The G$ tokens amount.</td></tr><tr><td>contributionAmount</td><td>The amount of G$ tokens that was contributed during the conversion.</td></tr><tr><td>actualReturn</td><td>Actual return after the conversion.</td></tr><tr><td>receiverAddress</td><td>Address of the receiver of tokens.</td></tr></tbody></table>
 
 ```
 event TokenSold(
@@ -58,13 +45,7 @@ event TokenSold(
 
 The function converts any "buyWith" tokens to DAI. Then call to reserve's buy function is occured. It is to convert the tokens to G$ tokens.
 
-| Parameter name  | Annotation                                                                                                           |
-| --------------- | -------------------------------------------------------------------------------------------------------------------- |
-| \_buyPath       | The tokens swap path in order to buy G$ if initial token is not DAI or cDAI. The end of the path must be set to DAI. |
-| \_tokenAmount   | The amount of "buyWith" tokens that should be converted to G$ tokens.                                                |
-| \_minReturn     | The minimum allowed return in G$ tokens.                                                                             |
-| \_minDAIAmount  | The minimum DAI out amount from Exchange swap function.                                                              |
-| \_targetAddress | The address of G$ and GDX recipient if different than `msg.sender`.                                                  |
+<table><thead><tr><th width="150">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_buyPath</td><td>The tokens swap path in order to buy G$ if initial token is not DAI or cDAI. The end of the path must be set to DAI.</td></tr><tr><td>_tokenAmount</td><td>The amount of "buyWith" tokens that should be converted to G$ tokens.</td></tr><tr><td>_minReturn</td><td>The minimum allowed return in G$ tokens.</td></tr><tr><td>_minDAIAmount</td><td>The minimum DAI out amount from Exchange swap function.</td></tr><tr><td>_targetAddress</td><td>The address of G$ and GDX recipient if different than <code>msg.sender</code>.</td></tr></tbody></table>
 
 Returns: how much G$ tokens were transferred.
 
@@ -82,13 +63,7 @@ function buy(
 
 The function converts G$ tokens to cDAI through reserve then it makes further transactions according to desired `_sellTo` token. The user could either send cDAI or DAI directly or desired token through Uniswap V2.
 
-| Parameter name   | Annotation                                                                                                                               |
-| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| \_sellPath       | The tokens swap path in order to sell G$ to target token. If target token is not DAI or cDAI then first element of the path must be DAI. |
-| \_gdAmount       | The amount of G$ tokens that should be converted to "\_sellTo" tokens.                                                                   |
-| \_minReturn      | The minimum allowed "sellTo" tokens return.                                                                                              |
-| \_minTokenReturn | The mininmum DAI out amount from Exchange swap function.                                                                                 |
-| \_targetAddress  | The address of "\_sellTo" token recipient if different than `msg.sender`.                                                                |
+<table><thead><tr><th width="150">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_sellPath</td><td>The tokens swap path in order to sell G$ to target token. If target token is not DAI or cDAI then first element of the path must be DAI.</td></tr><tr><td>_gdAmount</td><td>The amount of G$ tokens that should be converted to "_sellTo" tokens.</td></tr><tr><td>_minReturn</td><td>The minimum allowed "sellTo" tokens return.</td></tr><tr><td>_minTokenReturn</td><td>The mininmum DAI out amount from Exchange swap function.</td></tr><tr><td>_targetAddress</td><td>The address of "_sellTo" token recipient if different than <code>msg.sender</code>.</td></tr></tbody></table>
 
 Returns: how much "sellTo" tokens were transferred.
 

@@ -12,10 +12,7 @@ The pool of G$s is divided equally by the amount of current active users, and di
 
 Emits when a withdraw has been succeded.
 
-| Parameter name | Annotation                       |
-| -------------- | -------------------------------- |
-| prevBalance    | The balance before the withdraw. |
-| newBalance     | The balance after the withdraw.  |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>prevBalance</td><td>The balance before the withdraw.</td></tr><tr><td>newBalance</td><td>The balance after the withdraw.</td></tr></tbody></table>
 
 ```
 event WithdrawFromDao(uint256 prevBalance, uint256 newBalance);
@@ -25,9 +22,7 @@ event WithdrawFromDao(uint256 prevBalance, uint256 newBalance);
 
 Emits when a user is activated.
 
-| Parameter name | Annotation                   |
-| -------------- | ---------------------------- |
-| account        | The user that was activated. |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>account</td><td>The user that was activated.</td></tr></tbody></table>
 
 ```
 event ActivatedUser(address indexed account);
@@ -37,11 +32,7 @@ event ActivatedUser(address indexed account);
 
 Emits when a `fish` call has been succeded.
 
-| Parameter name  | Annotation                                     |
-| --------------- | ---------------------------------------------- |
-| caller          | The user that doing "fishing".                 |
-| fished\_account | The user that has beed "fished".               |
-| claimAmount     | The amount of tokens caller got for "fishing". |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>caller</td><td>The user that doing "fishing".</td></tr><tr><td>fished_account</td><td>The user that has beed "fished".</td></tr><tr><td>claimAmount</td><td>The amount of tokens caller got for "fishing".</td></tr></tbody></table>
 
 ```
 event InactiveUserFished(
@@ -55,9 +46,7 @@ event InactiveUserFished(
 
 Emits when finishing a "multi fish" execution. Indicates the number of users from the given array who actually been fished. It might not be finished going over all the array if there no gas left.
 
-| Parameter name | Annotation                                   |
-| -------------- | -------------------------------------------- |
-| total          | The amount of total user that were "fished". |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>total</td><td>The amount of total user that were "fished".</td></tr></tbody></table>
 
 ```
 event TotalFished(uint256 total);
@@ -67,11 +56,7 @@ event TotalFished(uint256 total);
 
 Emits when daily UBI is calculated.
 
-| Parameter name | Annotation                                    |
-| -------------- | --------------------------------------------- |
-| day            | The timestamp when this event was emitted.    |
-| dailyUbi       | The amount of UBI per daily cycle.            |
-| blockNumber    | The block number when this event was emitted. |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>day</td><td>The timestamp when this event was emitted.</td></tr><tr><td>dailyUbi</td><td>The amount of UBI per daily cycle.</td></tr><tr><td>blockNumber</td><td>The block number when this event was emitted.</td></tr></tbody></table>
 
 ```
 event UBICalculated(uint256 day, uint256 dailyUbi, uint256 blockNumber);
@@ -81,12 +66,7 @@ event UBICalculated(uint256 day, uint256 dailyUbi, uint256 blockNumber);
 
 Emits whenever a new multi day cycle starts.
 
-| Parameter name | Annotation                                                                        |
-| -------------- | --------------------------------------------------------------------------------- |
-| day            | The amount of days from the start when the event was emitted.                     |
-| pool           | The balance of the UBI scheme in G$.                                              |
-| cycleLength    | The duration that used to calculate a frequency of daily cycle pool distribution. |
-| dailyUBIPool   | The amount of the pool.                                                           |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>day</td><td>The amount of days from the start when the event was emitted.</td></tr><tr><td>pool</td><td>The balance of the UBI scheme in G$.</td></tr><tr><td>cycleLength</td><td>The duration that used to calculate a frequency of daily cycle pool distribution.</td></tr><tr><td>dailyUBIPool</td><td>The amount of the pool.</td></tr></tbody></table>
 
 ```
 event UBICycleCalculated(
@@ -101,10 +81,7 @@ event UBICycleCalculated(
 
 Emits when someone claims the UBI.
 
-| Parameter name | Annotation                                                       |
-| -------------- | ---------------------------------------------------------------- |
-| claimer        | The claimer of the UBI user.                                     |
-| amount         | The amount of the UBI the user gathered after claim reward call. |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>claimer</td><td>The claimer of the UBI user.</td></tr><tr><td>amount</td><td>The amount of the UBI the user gathered after claim reward call.</td></tr></tbody></table>
 
 ```
 event UBIClaimed(address indexed claimer, uint256 amount);
@@ -114,9 +91,7 @@ event UBIClaimed(address indexed claimer, uint256 amount);
 
 Emits when the Avatar sets the cycle length.
 
-| Parameter name | Annotation                              |
-| -------------- | --------------------------------------- |
-| newCycleLength | The duration of the collect UBI cycle.. |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>newCycleLength</td><td>The duration of the collect UBI cycle..</td></tr></tbody></table>
 
 ```
 event CycleLengthSet(uint256 newCycleLength);
@@ -126,9 +101,7 @@ event CycleLengthSet(uint256 newCycleLength);
 
 Emits when the Avatar sets the cycle length.
 
-| Parameter name | Annotation                              |
-| -------------- | --------------------------------------- |
-| newCycleLength | The duration of the collect UBI cycle.. |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>newCycleLength</td><td>The duration of the collect UBI cycle..</td></tr></tbody></table>
 
 ```
 event CycleLengthSet(uint256 newCycleLength);
@@ -138,9 +111,7 @@ event CycleLengthSet(uint256 newCycleLength);
 
 Emits when the Avatar sets the day.
 
-| Parameter name | Annotation                                      |
-| -------------- | ----------------------------------------------- |
-| newDay         | New days amount from the start of the UBI work. |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>newDay</td><td>New days amount from the start of the UBI work.</td></tr></tbody></table>
 
 ```
 event DaySet(uint256 newDay);
@@ -150,9 +121,7 @@ event DaySet(uint256 newDay);
 
 Emits when the Avatar sets up he is not eligible for G$.
 
-| Parameter name        | Annotation                                                |
-| --------------------- | --------------------------------------------------------- |
-| ShouldWithdrawFromDAO | Accounts whether to also withdraw G$ from Avatar for UBI. |
+<table><thead><tr><th width="285.809320129277">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>ShouldWithdrawFromDAO</td><td>Accounts whether to also withdraw G$ from Avatar for UBI.</td></tr></tbody></table>
 
 ```
 event ShouldWithdrawFromDAOSet(bool ShouldWithdrawFromDAO);
@@ -162,9 +131,7 @@ event ShouldWithdrawFromDAOSet(bool ShouldWithdrawFromDAO);
 
 Checks the amount which the `_member` address is eligible to claim for, regardless if they have been whitelisted or not. In case the user is active, then the current day must be equal to the actual day, i.e. claim or fish has already been executed today.
 
-| Parameter name | Annotation                  |
-| -------------- | --------------------------- |
-| \_member       | Potential claimers address. |
+<table><thead><tr><th width="298.08152046943655">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_member</td><td>Potential claimers address.</td></tr></tbody></table>
 
 Returns: the amount of G$ tokens the address can claim.
 
@@ -186,9 +153,7 @@ function claim() public returns (bool);
 
 In order to update users from active to inactive, we give out incentive to people to update the status of inactive users, this action is called "Fishing". Anyone can send a tx to the contract to mark inactive users. The "fisherman" receives a reward equal to the daily UBI (i.e. instead of the “fished” user). User that “last claimed” > 14 can be "fished" and made inactive (reduces active users count by one). Requires contract to be active.
 
-| Parameter name | Annotation             |
-| -------------- | ---------------------- |
-| \_account      | The account to "fish". |
+<table><thead><tr><th width="298.08152046943655">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_account</td><td>The account to "fish".</td></tr></tbody></table>
 
 Returns: a bool indicating if UBI was fished.
 
@@ -200,9 +165,7 @@ function fish(address _account) public returns (bool);
 
 Executes `fish` with multiple addresses.
 
-| Parameter name | Annotation              |
-| -------------- | ----------------------- |
-| \_accounts     | The accounts to "fish". |
+<table><thead><tr><th width="298.08152046943655">Parameter name</th><th>Annotation</th></tr></thead><tbody><tr><td>_accounts</td><td>The accounts to "fish".</td></tr></tbody></table>
 
 Returns: a bool indicating if all the UBIs were fished.
 
