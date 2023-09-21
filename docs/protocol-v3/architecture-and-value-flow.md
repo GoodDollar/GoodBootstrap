@@ -1,12 +1,14 @@
 ---
-description: >-
-  This page provides an overview of the GoodDollar V3 smart contracts
-  architecture and value flow within the system.
+description: How does the protocol works?
 ---
 
 # Architecture & Value Flow
 
-### **GoodDollar Money Flow** <a href="#_d7389pq6vqpd" id="_d7389pq6vqpd"></a>
+A digital asset that operates within the emerging ecosystem of decentralized and open finance, G$  is backed by a monetary reserve of cryptocurrencies and thus has tangible value. G$ coins are liquid and convertible to other cryptocurrencies, and will be available to buy and sell directly via the GoodDollar GoodReserve smart contract.
+
+The value in the GoodDollar reserve comes from the interest that is generated from Supporters who stake cryptocurrencies in decentralized third-party protocols. Through the amassed reserve interest, G$ tokens are minted. They are used to pay Supporters market-rate interest payments, while a daily amount of G$ tokens is set aside to be distributed as basic income.
+
+### **GoodDollar Money Flow, in detail** <a href="#_d7389pq6vqpd" id="_d7389pq6vqpd"></a>
 
 GoodDollar is a new kind of digital economy with a UBI distribution model. The protocol is able to sustainably generate a crypto token (G$) for onward distribution in two ways:
 
