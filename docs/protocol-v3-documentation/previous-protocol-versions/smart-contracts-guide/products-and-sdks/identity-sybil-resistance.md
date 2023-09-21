@@ -76,7 +76,7 @@ The callbackUrl will be called with two params containing the result of the FV p
 
 ### Query the status of a wallet address
 
-Use the isAddressVerified method to query the status of a wallet directly from the [Identity](../protocol-v3/core-contracts-and-api/identity.md) smart contract.
+Use the isAddressVerified method to query the status of a wallet directly from the [Identity](../../../core-contracts-and-api/identity.md) smart contract.
 
 ```typescript
 const isVerified = await sdk.isAddressVerified("0x66582D24FEaD72555adaC681Cc621caCbB208324")

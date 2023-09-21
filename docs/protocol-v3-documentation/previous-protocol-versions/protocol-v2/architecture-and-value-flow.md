@@ -17,7 +17,7 @@ GoodDollar is a new kind of digital economy with a UBI distribution model. The p
 
 This is the money flow that underpins the generation of GoodDollar crypto UBI.
 
-![](../.gitbook/assets/GD\_v2\_arch.jpg)
+![](../../../.gitbook/assets/GD\_v2\_arch.jpg)
 
 1. Supporter stakes crypto to the GoodDollar Trust.
 2. The GoodDollar Trust stakes that money to a third-party DeFi protocol.

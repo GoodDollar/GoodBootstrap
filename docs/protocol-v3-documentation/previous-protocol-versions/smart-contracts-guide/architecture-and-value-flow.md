@@ -8,7 +8,7 @@ description: >-
 
 ## Smart Contract Architecture Diagram
 
-![](<../.gitbook/assets/GD\_v1\_arch (1).jpg>)
+![](<../../../.gitbook/assets/GD\_v1\_arch (1).jpg>)
 
 ## Money Flow in the GoodDollar Ecosystem
 
