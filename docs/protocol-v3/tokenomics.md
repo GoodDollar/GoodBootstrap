@@ -1,3 +1,7 @@
+---
+description: Learn how we utilize DeFi to fund wealth creation for all.
+---
+
 # Tokenomics
 
 In the realm of blockchain and cryptocurrency, GoodDollar stands out as a unique project with a mission that goes beyond financial gains. Rooted in a commitment to financial inclusion and wealth redistribution, the GoodDollar token (G$) is underpinned by a set of core design principles that make it both sustainable and impactful:

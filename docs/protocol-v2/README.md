@@ -1,5 +1,8 @@
 ---
-description: An introduction to the key components and users in the GoodDollar protocol.
+description: >-
+  GoodDollar V2 refers to GoodDollar protocol smart contracts deployed in
+  December 2021. PAY ATTENTION to confirm you are interacting with the correct
+  and most current version of the smart contracts.
 ---
 
 # Protocol V2
@@ -13,7 +16,7 @@ description: An introduction to the key components and users in the GoodDollar p
 {% endhint %}
 
 * GoodDollar leverages yield farming and liquidity mining rewards to encourage capital to flow towards the protocol, enabling the sustainable generation of UBI.
-* V2 is a smart contract upgrade to expand functionality and open-source launch of a [protocol user interface](../smart-contract-guides/deploy-your-own-gooddollar-ui.md), deployed by community members.
+* V2 is a smart contract upgrade to expand functionality and open-source launch of a [protocol user interface](../gooddapp-developer-guides/deploy-your-own-gooddapp-ui.md), deployed by community members.
 * V2 enables members to [stake](../smart-contract-guides/stake-v2.md) in Compound or Aave and earn #GoodRewards while at the same time funding [#CryptoUBI](https://twitter.com/search?q=%23cryptoubi\&src=typed\_query) for all.
 * Now, members can buy and sell G$ directly in the [GoodDollar Reserve](../smart-contract-guides/buy-and-sell-gusd.md), a key feature that enables the economy to scale.
 * V2 introduces a new governance model with the launch of the community-owned [GoodDAO](systems-elements/7.-governance-dao.md#\_x9v4kk8jp487), which will determine the protocol’s future direction.&#x20;
@@ -42,4 +45,4 @@ description: An introduction to the key components and users in the GoodDollar p
 
 * Contribute with GoodDollar repository and security and hunt some [bounties](https://github.com/GoodDollar/Bounties/issues).&#x20;
 * Integrate your Protocol with GoodDollar (coming soon!)&#x20;
-* [Deploy Your Own UI](../smart-contract-guides/deploy-your-own-gooddollar-ui.md)
+* [Deploy Your Own UI](../gooddapp-developer-guides/deploy-your-own-gooddapp-ui.md)

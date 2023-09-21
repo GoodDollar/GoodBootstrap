@@ -1,14 +1,14 @@
 ---
 description: >-
-  This is a step-by-step guide to deploy your own instance of the GoodDollar
-  Dapp to interact with the V2 smart contracts on Mainnet.
+  This is a step-by-step guide to deploy your own instance of the GoodDapp to
+  interact with the V2 smart contracts on Mainnet.
 ---
 
-# Deploy your own GoodDollar UI
+# Deploy your own GoodDapp UI
 
 GoodDollar currently is not running its own frontend — making the system more decentralized and censorship-resistant.&#x20;
 
-Besides choosing to interact with the Gooddollar contract with Etherscan as facilitated in the previous User Guides, users can also choose to deploy their own Gooddollar Protocol V2 User Interface (UI) by forking the ProtocolUI code from the Open-Sourced [GoodDollar Github repository](https://github.com/GoodDollar) in the case they can't make use of any Community Deployed front-end.
+Besides choosing to interact with the GoodDollar contract with Etherscan as facilitated in the previous User Guides, users can also choose to deploy their own Gooddollar Protocol V2 User Interface (UI) by forking the ProtocolUI code from the Open-Sourced [GoodDollar Github repository](https://github.com/GoodDollar) in the case they can't make use of any Community Deployed front-end.
 
 ### Deploy your own GoodDollar UI Tutorial
 

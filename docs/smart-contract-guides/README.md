@@ -1,4 +1,4 @@
-# Buy, Stake, Claim and more Guides
+# Smart Contract Guides
 
 GoodDollar protocol does not operate its own interface. Community members are able to deploy their own dapp interface to further decentralize the protocol. Users can choose to either interact directly with the GoodDollar smart contracts via Etherscan or through using one of the community deployed interfaces.&#x20;
 
@@ -14,6 +14,6 @@ A guide for staking DAI/cDAI with Gooddollar Trust through Etherscan.
 
 A guide for claiming GOOD & GDX.
 
-## [Deploy your own Protocol UI](./#deploy-your-own-gooddollar-ui)
+## [Bridge G$](bridge-gusd.md)
 
-A guide for running your own protocol Dapp UI.
+A guide for interacting with the Bridge through the explorer.

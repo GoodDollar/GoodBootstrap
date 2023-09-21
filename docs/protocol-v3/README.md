@@ -1,5 +1,7 @@
 ---
-description: An introduction to the key components and users in the GoodDollar protocol V3.
+description: >-
+  An introduction to the key components and users in the GoodDollar protocol V3.
+  This is the current version of the GoodDollar smart contracts.
 ---
 
 # Protocol V3
@@ -48,4 +50,4 @@ All proposed changes are designed to:
 ### Developer Tools&#x20;
 
 * Contribute with GoodDollar repository and security and hunt some [bounties](https://github.com/GoodDollar/Bounties/issues).&#x20;
-* [Deploy Your Own UI](../smart-contract-guides/deploy-your-own-gooddollar-ui.md)
+* [Deploy Your Own UI](../gooddapp-developer-guides/deploy-your-own-gooddapp-ui.md)

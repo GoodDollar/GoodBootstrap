@@ -37,7 +37,7 @@ GoodDollar operates on [Ethereum](https://ethereum.org/en/) using smart contract
 
 * GoodDollar offers a new standard for creating and distributing basic income via G$ token.
 * [GoodDollar V3](protocol-v3/) is a smart contract upgrade that enables core functions for the GoodDollar protocol to scale.
-* [GoodDollar V2](protocol-v2/) is a smart contract upgrade to expand functionality and open-source launch of a [protocol user interface](smart-contract-guides/deploy-your-own-gooddollar-ui.md), deployed by community members.
+* [GoodDollar V2](protocol-v2/) is a smart contract upgrade to expand functionality and open-source launch of a [protocol user interface](gooddapp-developer-guides/deploy-your-own-gooddapp-ui.md), deployed by community members.
 * [GoodDollar V1](smart-contracts-guide/) was initially deployed in August 2020.&#x20;
 * Some Guides have been documented by the community. Feel free to contribute.
 * Everything is open-sourced and free to use on [Github](https://github.com/GoodDollar/GoodProtocol).
