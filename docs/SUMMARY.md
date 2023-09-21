@@ -15,6 +15,7 @@
   * [Get latest G$ Price](products-and-sdks/get-latest-gusd-price.md)
   * [React Hooks Setup](products-and-sdks/react-hooks-setup.md)
 * [Protocol V3](protocol-v3/README.md)
+  * [Tokenomics](protocol-v3/tokenomics.md)
   * [Architecture & Value Flow](protocol-v3/architecture-and-value-flow.md)
   * [System's Elements](protocol-v3/systems-elements.md)
   * [Core Contracts & API](protocol-v3/core-contracts-and-api/README.md)
