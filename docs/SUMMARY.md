@@ -2,7 +2,6 @@
 
 * [Welcome to GoodDocs!](README.md)
 * [Contributing to GoodDollar](contributing.md)
-* [Statistics Dashboard](https://dashboard.gooddollar.org)
 * [User Guides](https://community.gooddollar.org/User-Guides-24dd615eb7804792a44057b96b40147d)
 * [Buy, Stake, Claim and more Guides](technical-guides/README.md)
   * [Buy & Sell G$](technical-guides/buy-and-sell-gusd.md)
@@ -94,6 +93,7 @@
   * [Building Blocks](developer-guides/building-blocks.md)
   * [Blockchain Events](developer-guides/blockchain-events.md)
   * [Create Font With Icons](developer-guides/create-font-with-icons.md)
+  * [Statistics Dashboard](https://dashboard.gooddollar.org)
 * [GoodDollar Litepaper](https://litepaper.gooddollar.org)
 * [GoodDollar Whitepaper](https://whitepaper.gooddollar.org)
 * [GoodDollar Litepaper - Español](https://litepaper-es.gooddollar.org/)
