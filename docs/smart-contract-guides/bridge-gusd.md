@@ -1,28 +1,24 @@
 ---
-description: The bridge enables bridging G$s between fuse<>celo<>ethereum
+description: >-
+  This is a smart contract guide for those who want to bridge between
+  Ethereum<>Celo<>Fuse using the explorer
 ---
 
 # Bridge G$
 
-Currently there's no UI for bridging to/from Celo, this guide will explain how you can bridge using blockchain explorers and metamask.
-
-### Fuse Bridge
-
-Fuse runs a bridge that enables bridging between Ethereum and Fuse. It has an easy to use UI here: [https://app.voltage.finance/#/bridge](https://app.voltage.finance/#/bridge)
-
-
+Currently, there's no UI for bridging to/from Celo. This guide will teach how you can bridge using blockchain explorers and Metamask:
 
 ### Bridging Instructions
 
 {% hint style="info" %}
-In celoscan and etherscan make sure you press `connect to web3` button
+In celoscan and etherscan, make sure you press`connect to web3` button
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Conect to Web3 Button</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Connect to Web3 Button</p></figcaption></figure>
 
 {% hint style="info" %}
 The current maximum amount you can bridge is 300M G$s.\
-If you plan to bridge amounts in that order it is recommended you first verify that your request is within limits. See the Verifying bridge limits section.
+If you plan to bridge amounts in that order, you must first verify that your request is within limits. See the Verifying bridge limits section.
 {% endhint %}
 
 1. **Approve the bridge to spend G$ tokens**
@@ -47,7 +43,7 @@ If you plan to bridge amounts in that order it is recommended you first verify t
       press the \`write\` button
 
 {% hint style="info" %}
-When bridging from ethereum it can take 15 minutes for the transfer to be executed.
+When bridging from Ethereum, it can take 15 minutes for the transfer to be executed.
 {% endhint %}
 
 ###
@@ -74,3 +70,7 @@ The bridge enforces some transfer limits for security. To make sure your request
 
 
 {% embed url="https://gooddollar.typeform.com/to/J47K2R26" %}
+
+### Fuse Bridge
+
+Fuse runs a bridge that enables bridging between Ethereum and Fuse. It has an easy-to-use UI here: [https://app.voltage.finance/#/bridge](https://app.voltage.finance/#/bridge)
