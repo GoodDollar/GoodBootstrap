@@ -14,6 +14,6 @@ A guide for staking DAI/cDAI with Gooddollar Trust through Etherscan.
 
 A guide for claiming GOOD & GDX.
 
-## [Bridge G$](bridge-gusd.md)
+## [Bridge G$](bridge-gooddollars.md)
 
 A guide for interacting with the Bridge through the explorer.

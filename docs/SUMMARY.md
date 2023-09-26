@@ -83,7 +83,7 @@
   * [Buy & Sell G$](smart-contract-guides/buy-and-sell-gusd.md)
   * [Stake to create UBI](smart-contract-guides/stake-v2.md)
   * [Claim GOOD and G$X](smart-contract-guides/claim-good-and-gdx.md)
-  * [Bridge G$](smart-contract-guides/bridge-gusd.md)
+  * [Bridge GoodDollars](smart-contract-guides/bridge-gooddollars.md)
 * [GoodDapp Developer Guides](gooddapp-developer-guides/README.md)
   * [Deploy your own GoodDapp UI](gooddapp-developer-guides/deploy-your-own-gooddapp-ui.md)
 * [GoodWallet Developer Guides](developer-guides/README.md)
