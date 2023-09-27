@@ -4,6 +4,8 @@
 * [Contributing to GoodDollar](contributing.md)
 * [Protocol V3 Documentation](protocol-v3-documentation/README.md)
   * [Tokenomics](protocol-v3-documentation/tokenomics.md)
+  * [Sybil-Resistance](protocol-v3-documentation/sybil-resistance.md)
+  * [Usage](protocol-v3-documentation/usage.md)
   * [Architecture & Value Flow](protocol-v3-documentation/architecture-and-value-flow.md)
   * [System's Elements](protocol-v3-documentation/systems-elements.md)
   * [Core Contracts & API](protocol-v3-documentation/core-contracts-and-api/README.md)
