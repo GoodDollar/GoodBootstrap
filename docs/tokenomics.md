@@ -1,7 +1,7 @@
 ---
 description: >-
-  Learn hoHow does the GoodDollar protocol and G$ tokenomics work?w we utilize
-  DeFi to fund wealth creation for all.
+  How does the GoodDollar protocol and G$ tokenomics work?w we utilize DeFi to
+  fund wealth creation for all.
 ---
 
 # Tokenomics
@@ -30,8 +30,6 @@ Now, let's delve into the core mechanics of GoodDollar's tokenomics:
 
 The G$ token operates on an Augmented Bonding Curve, which is backed by a monetary reserve. The token's price is automatically calculated using a modified version of the BancorV1 formula. This innovative approach to token economics ensures a dynamic pricing mechanism. The formula has the properties of raising the G$ price when G$ is bought from the Reserve, and lowering it when G$ is being sold back to the reserve. Its rate of leverage is managed according to the reserve ratio, the current Reserve Ratio is 55.39%. All information regarding the token settings can be found on the dashboard ([https://dashboard.gooddollar.org](https://dashboard.gooddollar.org), token tab).
 
-![Screen Shot 2023-09-26 at 4.31.17 PM.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a8694d8a-82e2-4ee6-a11a-5eefdefdfb72/8718c3f8-1b96-43e8-8098-1279b87fc770/Screen\_Shot\_2023-09-26\_at\_4.31.17\_PM.png)
-
 **On-Demand Issuance: Balancing Supply and Demand ⚖️**
 
 G$ issuance is not arbitrary but rather responds to demand. New G$ are minted as new cDAI deposits flow into the GoodDollar Reserve, and they are burned when they are returned, meticulously maintaining equilibrium between the token's supply and demand dynamics.
@@ -59,7 +57,9 @@ GoodWallet, a simple dapp that enables members to verify themselves, claim, send
 
 Core GoodDollar features are supported through any Web3 wallet on [GoodDapp.org](https://gooddapp.org/). Web3 wallets such as Valora and others are currently working to integrate G$ features such as sign-up and claim capabilities.
 
-![spaces\_-LfsEjhezedCgGFXCkms\_uploads\_jwBrQfJgvFtl70WHEfLd\_Smart contract Architecture V3 18\_01\_23 (1).webp](https://prod-files-secure.s3.us-west-2.amazonaws.com/a8694d8a-82e2-4ee6-a11a-5eefdefdfb72/dbaca0bc-0fc0-4b01-a57f-15d2bbfe4adb/spaces\_-LfsEjhezedCgGFXCkms\_uploads\_jwBrQfJgvFtl70WHEfLd\_Smart\_contract\_Architecture\_V3\_18\_01\_23\_\(1\).webp)
+
+
+<figure><img src=".gitbook/assets/spaces_-LfsEjhezedCgGFXCkms_uploads_jwBrQfJgvFtl70WHEfLd_Smart contract Architecture V3 18_01_23 (1).webp" alt=""><figcaption></figcaption></figure>
 
 **Multi-Asset Reserve: Expanding Horizons 🎨**
 
