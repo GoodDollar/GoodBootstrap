@@ -1,7 +1,7 @@
 ---
 description: >-
-  How does the GoodDollar protocol and G$ tokenomics work?w we utilize DeFi to
-  fund wealth creation for all.
+  How does the GoodDollar protocol and G$ tokenomics work? Learn how we utilize
+  DeFi to fund wealth creation for all.
 ---
 
 # Tokenomics
