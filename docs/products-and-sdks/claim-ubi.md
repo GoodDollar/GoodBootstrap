@@ -48,3 +48,11 @@ You can also use our react hooks to manage claim.
 See the Claim/Identity react hooks code [here](https://github.com/GoodDollar/GoodWeb3-Mono/blob/master/packages/sdk-v2/src/sdk/claim/react.ts).\
 Storybook examples [here](https://github.com/GoodDollar/GoodWeb3-Mono/tree/master/packages/sdk-v2/src/stories/claim).\
 You will need to first setup our context provider as explained [here](react-hooks-setup.md).
+
+
+
+#### Need a hand?
+
+Fill out this form to request support:
+
+{% embed url="http://gooddollar.typeform.com/builders" %}

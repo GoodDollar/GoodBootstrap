@@ -1,10 +1,11 @@
 ---
 description: >-
-  G$ wallet works using payment links. Any vendor can create a simple payment
-  request link that can be used on its website to start the payment process.
+  The GoodWallet works using payment links. Any vendor can create a simple
+  payment request link that can be used on its website to start the payment
+  process.
 ---
 
-# G$ Payments
+# GoodDollar Payments
 
 G$ wallet works using payment links. Any vendor can create a simple payment request link that can be used on its website to start the payment process.
 
@@ -113,3 +114,9 @@ The last `data` field will contain the data supplied in the extra data field, if
 {% hint style="info" %}
 Verify that the fields _to_, _value_ and _data_ match what you expect for the payment to prevent fraud.
 {% endhint %}
+
+#### Need a hand?
+
+Fill out this form to request support:
+
+{% embed url="https://gooddollar.typeform.com/builders" fullWidth="false" %}

@@ -24,4 +24,12 @@ In general, [GoodDollar](https://github.com/GoodDollar) project [follows the Git
 
 ## A big Thank You!
 
-Your contributions to this project, regardless being large or smaller ones, take this initiative a step closer to the ultimate purpose of reducing wealth inequality through blockchain technology. Thank you for taking the time to contribute.
+Your contributions to this project, whether large or smaller, take this initiative a step closer to reducing wealth inequality through blockchain technology. Thank you for taking the time to contribute.
+
+
+
+#### Need a hand?
+
+Fill out this form to reach us:
+
+{% embed url="http://gooddollar.typeform.com/builders" %}

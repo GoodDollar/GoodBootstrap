@@ -78,7 +78,7 @@
 * [Products & SDKs](products-and-sdks/README.md)
   * [Identity - Sybil Resistance](products-and-sdks/identity-sybil-resistance.md)
   * [Claim UBI](products-and-sdks/claim-ubi.md)
-  * [G$ Payments](products-and-sdks/gusd-payments.md)
+  * [GoodDollar Payments](products-and-sdks/gooddollar-payments.md)
   * [Get latest G$ Price](products-and-sdks/get-latest-gusd-price.md)
   * [React Hooks Setup](products-and-sdks/react-hooks-setup.md)
 * [User Guides](user-guides/README.md)

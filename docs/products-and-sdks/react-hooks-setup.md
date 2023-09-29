@@ -46,3 +46,9 @@ return (<Web3Provider
                 {children}
 </Web3Provider>)
 ```
+
+#### Need a hand?
+
+Fill out this form to request support:
+
+{% embed url="http://gooddollar.typeform.com/builders" %}

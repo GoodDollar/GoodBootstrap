@@ -1,4 +1,4 @@
-# Wallet Developer Guides
+# GoodWallet Developer Guides
 
 The Wallet Developer Guides provide an overview of the architecture of our wallet application and our approach to decentralized storage and identity.
 
@@ -29,3 +29,11 @@ Discuss common components meant to be used across the app.
 ## [Blockchain Events ](blockchain-events.md)
 
 Lists events being logged by GoodDAPP.
+
+
+
+#### Need a hand?
+
+Fill out this form to request support:
+
+{% embed url="http://gooddollar.typeform.com/builders" %}

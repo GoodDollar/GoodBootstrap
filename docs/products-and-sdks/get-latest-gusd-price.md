@@ -17,3 +17,8 @@ Use the following query to get the latest price:
   }
 ```
 
+#### Need a hand?
+
+Fill out this form to request support:
+
+{% embed url="http://gooddollar.typeform.com/builders" %}
