@@ -81,6 +81,7 @@
   * [GoodDollar Payments](products-and-sdks/gooddollar-payments.md)
   * [Get latest G$ Price](products-and-sdks/get-latest-gusd-price.md)
   * [React Hooks Setup](products-and-sdks/react-hooks-setup.md)
+  * [Login With GoodDollar](products-and-sdks/login-with-gooddollar.md)
 * [User Guides](user-guides/README.md)
   * [Buy & Sell G$](user-guides/buy-and-sell-gusd.md)
   * [Stake to create UBI](user-guides/stake-v2.md)
