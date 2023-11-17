@@ -22,14 +22,16 @@ In general, [GoodDollar](https://github.com/GoodDollar) project [follows the Git
 6. Create a new pull request.
 7. Work with maintainers on code review feedback.
 
-## A big Thank You!
+## Wishlist
+
+The community is always coming up with ideas on what to build on GoodDollar.&#x20;
+
+Here you can find some [recent ideas ](https://superfluidhq.notion.site/GoodDollar-x-Superfluid-Hack-Ideas-4f2a05437bea4eaea2f4dead90ff1100)from a Hackathon in partnership with Superfluid.
+
+## A Big Thank You!
 
 Your contributions to this project, whether large or smaller, take this initiative a step closer to reducing wealth inequality through blockchain technology. Thank you for taking the time to contribute.
 
+#### Got an idea? Need a hand?
 
-
-#### Need a hand?
-
-Fill out this form to reach us:
-
-{% embed url="http://gooddollar.typeform.com/builders" %}
+Join the [GoodDollar Discord Development](https://discord.gg/B4bj9eXuWU) channel.&#x20;

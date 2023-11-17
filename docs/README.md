@@ -16,7 +16,7 @@ Let's get started:
 
 ## What is Gooddollar?
 
-[GoodDollar](http://www.gooddollar.org/) is a people-powered framework to generate, finance, and distribute global basic income via the GoodDollar token (“G$ coin”). Its goal is to provide a baseline standard of living and reduce wealth inequality through the creation of a universal basic income (UBI).&#x20;
+[GoodDollar](http://www.gooddollar.org/) is a people-powered framework to generate, finance, and distribute global basic income in an open model via the GoodDollar token (“G$ coin”). Its goal is to provide a baseline standard of living and reduce wealth inequality through the creation of a universal basic income (UBI).&#x20;
 
 GoodDollar leverages new protocols and smart contracts to deliver a “trickle-up” value structure, which places money in the hands of those who need it most. This is the reverse of the conventional trickle-down approach to capital, credit, and interest-bearing money.
 
