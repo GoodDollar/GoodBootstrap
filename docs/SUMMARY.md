@@ -5,6 +5,7 @@
 * [Tokenomics](tokenomics.md)
 * [Sybil-Resistance](sybil-resistance.md)
 * [Usage](usage.md)
+* [Liquidity](liquidity.md)
 * [Protocol V3 Documentation](protocol-v3-documentation/README.md)
   * [Architecture & Value Flow](protocol-v3-documentation/architecture-and-value-flow.md)
   * [System's Elements](protocol-v3-documentation/systems-elements.md)
