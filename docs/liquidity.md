@@ -4,13 +4,11 @@ description: How can you become a GoodDollar liquidity provider?
 
 # Liquidity
 
-Providing liquidity to the GoodDollar ecosystem and participating as a G$ liquidity provider is a great way to support the GoodDollar ecosystem and the mission to let money flow to where it is needed most. [G$ token](https://docs.gooddollar.org/tokenomics) is a reserve-backed ERC20 token deployed on three different networks: Ethereum, Celo and Fuse. It is designed to maintain a level of [price](https://dashboard.gooddollar.org/) stability that is "stable enough” to encourage circulation and usage of G$ tokens for payments. It is fully liquid, providing seamless exchangeability through the GoodDollar Reserve, which effectively serves as the primary market maker on the Ethereum Network. Most importantly, new G$ are only issued as new funds are added to the GoodDollar Reserve according to a price curve modified by the Bancor formula, ensuring a transparent and predictable view into the protocol’s token supply. \
+Providing liquidity to the GoodDollar ecosystem and participating as a G$ liquidity provider is a great way to support the [GoodDollar ecosystem and the mission to let money flow to where it is needed most](https://whitepaper.gooddollar.org). [G$ token](https://docs.gooddollar.org/tokenomics) is a reserve-backed ERC20 token deployed on three different networks: Ethereum, Celo and Fuse. It is designed to maintain a level of [price](https://dashboard.gooddollar.org/) stability that is "stable enough” to encourage circulation and usage of G$ tokens for payments. It is fully liquid, providing seamless exchangeability through the GoodDollar Reserve, which effectively serves as the primary market maker on the Ethereum Network. Most importantly, new G$ are only issued as new funds are added to the GoodDollar Reserve according to a price curve modified by the Bancor formula, ensuring a transparent and predictable view into the protocol’s token supply. \
 \
-GoodDollar liquidity on side-chains (Celo and Fuse) is facilitated through decentralized exchanges (DEXes), which also facilitate G$ liquidity to other tokens. This enables users to cash out into various forms, including other currencies, fiat, mobile money, or airtime as needed. Liquidity providers play a critical role in the GoodDollar ecosystem through supporting G$ liquidity on side-chains, which is where the members seek to cash-in, cash-out, or conduct all other “real money” functions.\
+GoodDollar liquidity on side-chains ([Celo](liquidity.md#provide-liquidity-on-celo) and [Fuse](liquidity.md#provide-liquidity-on-fuse)) is facilitated through decentralized exchanges (DEXes), which also facilitate G$ liquidity to other tokens. This enables users to cash out into various forms, including other currencies, fiat, mobile money, or airtime as needed. Liquidity providers play a critical role in the GoodDollar ecosystem through supporting G$ liquidity on side-chains, which is where the members seek to cash-in, cash-out, or conduct all other “real money” functions.\
 \
 Contributing to G$ liquidity not only results in earning fees for each pool trade but also plays a vital role in fortifying the GoodDollar economy and network for hundreds of thousands of individuals worldwide. This support reaches UBI claimers, community members, and ambassadors who utilize their G$ to convert into various crypto assets and currencies, promoting the development of a more robust ecosystem.
-
-
 
 ### Liquidity on Ethereum
 
@@ -25,9 +23,10 @@ The GoodDollar Reserve functions as the principal market maker. For tracking the
 {% hint style="info" %}
 **Contracts:**
 
-**GoodDollarReserveCDAI** The contracts acts as the GoodDollar liquidity pool and AMM (Automatic Market Maker) and enables methods to buy and sell G$s. It aslo mints G$. More information [here](https://docs.gooddollar.org/protocol-v3-documentation/previous-protocol-versions/protocol-v2/core-contracts-and-api/goodreservecdai).[**0xa150a825d425B36329D8294eeF8bD0fE68f8F6E0**](https://etherscan.io/address/0xa150a825d425B36329D8294eeF8bD0fE68f8F6E0)
+[**GoodDollarReserveCDAI**](https://docs.gooddollar.org/protocol-v3-documentation/previous-protocol-versions/protocol-v2/core-contracts-and-api/goodreservecdai) The contracts acts as the GoodDollar liquidity pool and AMM (Automatic Market Maker) and enables methods to buy and sell G$s. It aslo mints G$. \
+[**0xa150a825d425B36329D8294eeF8bD0fE68f8F6E0**](https://etherscan.io/address/0xa150a825d425B36329D8294eeF8bD0fE68f8F6E0)
 
-**GoodMarketMaker** Helper contract for the GoodReserveCDai. It serves ad a dynamic reserve ratio market maker. More information [here](https://docs.gooddollar.org/protocol-v3-documentation/previous-protocol-versions/protocol-v2/core-contracts-and-api/goodmarketmaker) [**0xDAC6A0c973Ba7cF3526dE456aFfA43AB421f659F**](https://etherscan.io/address/0xDAC6A0c973Ba7cF3526dE456aFfA43AB421f659F)
+[**GoodMarketMaker**](https://docs.gooddollar.org/protocol-v3-documentation/previous-protocol-versions/protocol-v2/core-contracts-and-api/goodmarketmaker) Helper contract for the GoodReserveCDai. It serves ad a dynamic reserve ratio market maker. [**0xDAC6A0c973Ba7cF3526dE456aFfA43AB421f659F**](https://etherscan.io/address/0xDAC6A0c973Ba7cF3526dE456aFfA43AB421f659F)
 {% endhint %}
 
 To interact with the GoodDollar Reserve contracts for buying and selling G$, check out this [guide](https://docs.gooddollar.org/user-guides/buy-and-sell-gusd).
@@ -67,8 +66,6 @@ G$ Token Address on Celo: [0x62B8B11039FcfE5aB0C56E502b1C372A3d2a9c7A](https://e
 {% hint style="info" %}
 G$ Token address on Fuse: [0x495d133B938596C9984d462F007B676bDc57eCEC](https://explorer.fuse.io/address/0x495d133B938596C9984d462F007B676bDc57eCEC/transactions)
 {% endhint %}
-
-
 
 | DEX              | Pool Pair                                                                                                                                     | Contract                                                                                                                 |
 | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
