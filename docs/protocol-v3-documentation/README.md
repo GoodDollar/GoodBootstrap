@@ -6,6 +6,12 @@ description: >-
 
 # Protocol V3 Documentation
 
+{% hint style="warning" %}
+**Notice of Potential Information Variability**
+
+As of December 21, 2023, the information in GoodDocs may not reflect the most current updates. The team is diligently working to review and revise the documentation to ensure accuracy. Please check back at a later date for the most up-to-date information.
+{% endhint %}
+
 ## **Intro**
 
 **GoodDollar V3 is a smart contract upgrade that enables core functions for the GoodDollar protocol to scale.**

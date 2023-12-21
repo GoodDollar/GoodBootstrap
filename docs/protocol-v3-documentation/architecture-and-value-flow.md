@@ -4,6 +4,12 @@ description: How does the protocol works?
 
 # Architecture & Value Flow
 
+{% hint style="warning" %}
+**Notice of Potential Information Variability**
+
+As of December 21, 2023, the information in GoodDocs may not reflect the most current updates. The team is diligently working to review and revise the documentation to ensure accuracy. Please check back at a later date for the most up-to-date information.
+{% endhint %}
+
 Summary: A digital asset that operates within the emerging ecosystem of decentralized and open finance, G$ is backed by a monetary reserve of cryptocurrencies and thus has tangible value. G$ tokens are liquid and convertible to other cryptocurrencies, and are available to buy and sell directly via the GoodDollar GoodReserve smart contract.
 
 The value in the GoodDollar reserve comes from the interest that is generated from Supporters who stake cryptocurrencies in decentralized third-party protocols. Through the amassed reserve interest, G$ tokens are minted. They are used to pay Supporters market-rate interest payments, while a daily amount of G$ tokens is set aside to be distributed as basic income.

@@ -6,6 +6,14 @@ description: >-
 
 # Tokenomics
 
+{% hint style="warning" %}
+**Notice of Potential Information Variability**
+
+As of December 21, 2023, the information in GoodDocs may not reflect the most current updates. The team is diligently working to review and revise the documentation to ensure accuracy. Please check back at a later date for the most up-to-date information.
+{% endhint %}
+
+
+
 The GoodDollar protocol presents a sustainable and scalable framework for the distribution of Universal Basic Income (UBI), as a means to improve financial access and empowerment. Built on blockchain technology, GoodDollar leverages the power of decentralized finance (DeFI) and token engineering to sustainably mint and distribute basic income tokens (G$) to a worldwide community of users. GoodDollar stands out as a unique project with a mission that goes beyond financial gains. Rooted in a commitment to financial inclusion and wealth redistribution, the GoodDollar token (G$) is underpinned by a set of core design principles that make it both sustainable and a practical approach to delivering a useful universal basic income.
 
 **Sustainability: A Natural Equilibrium 🌳**

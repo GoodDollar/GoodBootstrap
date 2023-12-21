@@ -1,5 +1,11 @@
 # System's Elements
 
+{% hint style="warning" %}
+**Notice of Potential Information Variability**
+
+As of December 21, 2023, the information in GoodDocs may not reflect the most current updates. The team is diligently working to review and revise the documentation to ensure accuracy. Please check back at a later date for the most up-to-date information.
+{% endhint %}
+
 ## 1. **The token (G$)**
 
 The _**GoodDollar token (G$)**_ is an ERC-20 crypto token with a max supply of 2.2 trillion. It is native to Ethereum and also operates on Fuse and Celo.

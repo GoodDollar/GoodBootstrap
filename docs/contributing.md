@@ -1,7 +1,5 @@
 # Contributing to GoodDollar
 
-Thank you for your interest in contributing to the [GoodDollar](https://www.gooddollar.org). Everyone is welcome: Developers, designers and entrepreneurs with a passion for decentralized technologies and a vision to build a new world that has equality, security, inclusivity and innovation as its cornerstones.
-
 When contributing to this project, please do first discuss the change you wish to make via any communication channel with the [community](https://community.gooddollar.org/16d0219177ce44139c3a68b3b7c9850c#67775b39a4c445a1b1dbd99752fa0ada).
 
 The GoodDollar project is distributed across [multiple repositories](https://github.com/GoodDollar). Please file the issue against the correct repository.

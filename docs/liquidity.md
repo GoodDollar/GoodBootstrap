@@ -4,6 +4,12 @@ description: How can you become a GoodDollar liquidity provider?
 
 # Liquidity
 
+{% hint style="warning" %}
+**Notice of Potential Information Variability**
+
+As of December 21, 2023, the information in GoodDocs may not reflect the most current updates. The team is diligently working to review and revise the documentation to ensure accuracy. Please check back at a later date for the most up-to-date information.
+{% endhint %}
+
 Providing liquidity to the GoodDollar ecosystem and participating as a G$ liquidity provider is a great way to support the [GoodDollar ecosystem and the mission to let money flow to where it is needed most](https://whitepaper.gooddollar.org). [G$ token](https://docs.gooddollar.org/tokenomics) is a reserve-backed ERC20 token deployed on three different networks: Ethereum, Celo and Fuse. It is designed to maintain a level of [price](https://dashboard.gooddollar.org/) stability that is "stable enough” to encourage circulation and usage of G$ tokens for payments. It is fully liquid, providing seamless exchangeability through the GoodDollar Reserve, which effectively serves as the primary market maker on the Ethereum Network. Most importantly, new G$ are only issued as new funds are added to the GoodDollar Reserve according to a price curve modified by the Bancor formula, ensuring a transparent and predictable view into the protocol’s token supply. \
 \
 GoodDollar liquidity on side-chains ([Celo](liquidity.md#provide-liquidity-on-celo) and [Fuse](liquidity.md#provide-liquidity-on-fuse)) is facilitated through decentralized exchanges (DEXes), which also facilitate G$ liquidity to other tokens. This enables users to cash out into various forms, including other currencies, fiat, mobile money, or airtime as needed. Liquidity providers play a critical role in the GoodDollar ecosystem through supporting G$ liquidity on side-chains, which is where the members seek to cash-in, cash-out, or conduct all other “real money” functions.\
