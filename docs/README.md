@@ -6,6 +6,12 @@ description: >-
 
 # Welcome to GoodDocs!
 
+{% hint style="warning" %}
+**Notice of Potential Information Variability**
+
+As of December 21, 2023, the information in GoodDocs may not reflect the most current updates. The team is diligently working to review and revise the documentation to ensure accuracy. Please check back at a later date for the most up-to-date information.
+{% endhint %}
+
 Welcome! [GoodDollar](https://gooddollar.org/) is a decentralized universal basic income initiative. Here you can find all the open-source documentation for the smart contracts and interfaces!
 
 {% hint style="info" %}
