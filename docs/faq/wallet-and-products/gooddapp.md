@@ -1,0 +1,29 @@
+# GoodDapp
+
+<details>
+
+<summary>What is GoodDapp?</summary>
+
+GoodDapp offers tools and features for any EVM-compliant wallet to interact with the GoodDollar protocol.
+
+GoodDapp is a dApp (decentralized application) interface that supports interacting with the GoodDollar protocol, including its core protocol Ethereum contracts. Key features include interacting with the GoodReserve on Ethereum, staking of G$ to access bonus G$ and GOOD rewards, and stake stablecoins in 3rd party protocols to support the issuance of G$. Also claim G$ through connecting their GoodDollar Verified Address to GoodDapp.
+
+</details>
+
+<details>
+
+<summary>How can I stake for GOOD governance tokens on GoodDapp?</summary>
+
+You can stake your G$ for [GOOD tokens](../gooddollar-protocol-and-gusd-token.md#what-is-the-good-token) (GoodDollar governance token) on the '[Stake' tab of GoodDapp](https://gooddapp.org/#/stakes) within the GoodDAO staking platform. Currently, the option to stake your G$ is only available on the Fuse Network.
+
+You can use your GOOD tokens to [vote on GoodDAO elections](https://snapshot.org/#/thegooddao.eth).
+
+</details>
+
+<details>
+
+<summary>How can I swap G$ tokens on GoodDapp?</summary>
+
+You can swap your [G$ tokens ](../gooddollar-protocol-and-gusd-token.md#what-is-gusd-token)on Fuse and Celo for other assets on the [Swap tab of GoodDapp](https://gooddapp.org/#/swap). The swap on this page happens through decentralized exchanges ([DEXs](../web3-basic-knowledge-and-security-tips-by-consensys.md#what-is-a-dex)). When you swap, your funds are sent directly to the DEX service (Voltage on Fuse Network or Uniswap on Celo Network).&#x20;
+
+</details>
