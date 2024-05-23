@@ -94,6 +94,7 @@
     * [3rd Party Partners and Integrations](frequently-asked-questions/wallet-and-products/3rd-party-partners-and-integrations.md)
   * [Using GoodDollar](frequently-asked-questions/using-gooddollar.md)
   * [GoodDollar Community](frequently-asked-questions/gooddollar-community.md)
+  * [Troubleshooting](frequently-asked-questions/troubleshooting.md)
 * [User Guides](user-guides/README.md)
   * [Buy & Sell G$](user-guides/buy-and-sell-gusd.md)
   * [Stake to create UBI](user-guides/stake-v2.md)
