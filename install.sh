@@ -23,6 +23,11 @@ npm run linkcontracts
 npx pm2 start ecosystem.config.js --only good-gun
 npx pm2 start ecosystem.config.js --only good-server
 npx pm2 start ecosystem.config.js --only good-dapp
+npx pm2 start ecosystem.config.js --only good-blockchain-test
+sleep 30
+npx pm2 start ecosystem.config.js --only good-dapp-test-watch
+npx pm2 start ecosystem.config.js --only good-server-test-watch
+
 pm2 logs
 
 # please wait contract deploying and after that please run
