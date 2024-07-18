@@ -16,12 +16,12 @@ description: >-
 {% endhint %}
 
 * GoodDollar leverages yield farming and liquidity mining rewards to encourage capital to flow towards the protocol, enabling the sustainable generation of UBI.
-* V2 is a smart contract upgrade to expand functionality and open-source launch of a [protocol user interface](../../../gooddapp-developer-guides/deploy-your-own-gooddapp-ui.md), deployed by community members.
+* V2 is a smart contract upgrade to expand functionality and open-source launch of a [protocol user interface](../../../../for-developers/gooddapp-developer-guides/deploy-your-own-gooddapp-ui.md), deployed by community members.
 * V2 enables members to [stake](../../../user-guides/stake-v2.md) in Compound or Aave and earn #GoodRewards while at the same time funding [#CryptoUBI](https://twitter.com/search?q=%23cryptoubi\&src=typed\_query) for all.
 * Now, members can buy and sell G$ directly in the [GoodDollar Reserve](../../../user-guides/buy-and-sell-gusd.md), a key feature that enables the economy to scale.
 * V2 introduces a new governance model with the launch of the community-owned [GoodDAO](systems-elements/7.-governance-dao.md#\_x9v4kk8jp487), which will determine the protocol’s future direction.&#x20;
 
-![V1 (POC) vs. V2](<../../../.gitbook/assets/protocolv2 (1).png>)
+![V1 (POC) vs. V2](<../../../../.gitbook/assets/protocolv2 (1).png>)
 
 ## What you can do in V2:
 
@@ -45,4 +45,4 @@ description: >-
 
 * Contribute with GoodDollar repository and security and hunt some [bounties](https://github.com/GoodDollar/Bounties/issues).&#x20;
 * Integrate your Protocol with GoodDollar (coming soon!)&#x20;
-* [Deploy Your Own UI](../../../gooddapp-developer-guides/deploy-your-own-gooddapp-ui.md)
+* [Deploy Your Own UI](../../../../for-developers/gooddapp-developer-guides/deploy-your-own-gooddapp-ui.md)

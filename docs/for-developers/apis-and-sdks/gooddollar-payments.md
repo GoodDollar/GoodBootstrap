@@ -103,7 +103,7 @@ It is recommended to verify that the transactionId reported by the wallet did ha
 
 Use any web3 library to read the events from the transaction.&#x20;
 
-The contract event ABI is: (See [Smart Contracts ](../protocol-v3-documentation/previous-protocol-versions/smart-contracts-guide/#gooddollar-token-gusd)to get the G$ token contract address)
+The contract event ABI is: (See [Smart Contracts ](../../about-the-protocol/protocol-v3-documentation/previous-protocol-versions/smart-contracts-guide/#gooddollar-token-gusd)to get the G$ token contract address)
 
 ```
 ["Transfer(indexed address from,indexed address to,uint256 value,bytes data)"]

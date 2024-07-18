@@ -67,7 +67,7 @@ Core GoodDollar features are supported through any Web3 wallet on [GoodDapp.org]
 
 
 
-<figure><img src=".gitbook/assets/spaces_-LfsEjhezedCgGFXCkms_uploads_jwBrQfJgvFtl70WHEfLd_Smart contract Architecture V3 18_01_23 (1).webp" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/spaces_-LfsEjhezedCgGFXCkms_uploads_jwBrQfJgvFtl70WHEfLd_Smart contract Architecture V3 18_01_23 (1).webp" alt=""><figcaption></figcaption></figure>
 
 **Multi-Asset Reserve: Expanding Horizons 🎨**
 

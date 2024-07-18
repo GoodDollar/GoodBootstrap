@@ -28,7 +28,7 @@
 
 <details>
 
-<summary>MiniPay Wallet</summary>
+<summary>Opera MiniPay Wallet</summary>
 
 [https://www.opera.com/es/products/minipay\
 \

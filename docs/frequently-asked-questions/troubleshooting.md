@@ -61,7 +61,7 @@ To delete an account in the GoodWallet, follow these steps:
 
 <summary>Lost access to my GoodDollar wallet</summary>
 
-If you lose access to your account entirely, you can still access and claim from GoodDapp if you have exported your G$ wallet or possess the [private key required for exporting your G$ wallet](wallet-and-products/goodwallet.md#where-can-i-find-my-private-key).
+If you lose access to your account entirely, you can still access and claim from GoodDapp if you have exported your G$ wallet or possess the [private key required for exporting your G$ wallet](../wallet-and-products/goodwallet.md#where-can-i-find-my-private-key).
 
 </details>
 

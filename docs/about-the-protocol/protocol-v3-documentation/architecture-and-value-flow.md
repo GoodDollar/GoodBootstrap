@@ -14,18 +14,18 @@ Summary: A digital asset that operates within the emerging ecosystem of decentra
 
 The value in the GoodDollar reserve comes from the interest that is generated from Supporters who stake cryptocurrencies in decentralized third-party protocols. Through the amassed reserve interest, G$ tokens are minted. They are used to pay Supporters market-rate interest payments, while a daily amount of G$ tokens is set aside to be distributed as basic income.
 
-### **GoodDollar Money Flow, in detail** <a href="#_d7389pq6vqpd" id="_d7389pq6vqpd"></a>
+### **GoodDollar Money Flow, in detail** <a href="#d7389pq6vqpd" id="d7389pq6vqpd"></a>
 
 GoodDollar is a new kind of digital economy with a UBI distribution model. The protocol is able to sustainably generate a crypto token (G$) for onward distribution in two ways:
 
 1. Through the addition of funds to the GoodDollar Reserve via interest earned on capital staked with third-party protocols, or the purchase of G$ from the GoodDollar Reserve.
 2. Through reductions in the reserve ratio.
 
-### **How the GoodDollar system works** <a href="#_cbghnzkzyo0f" id="_cbghnzkzyo0f"></a>
+### **How the GoodDollar system works** <a href="#cbghnzkzyo0f" id="cbghnzkzyo0f"></a>
 
 This is the money flow that underpins the generation of GoodDollar crypto UBI.
 
-<figure><img src="../.gitbook/assets/Smart contract Architecture V3 18_01_23 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Smart contract Architecture V3 18_01_23 (1).png" alt=""><figcaption></figcaption></figure>
 
 1. Supporter stakes crypto to the GoodDollar Trust.
 2. The GoodDollar Trust stakes that money to a third-party DeFi protocol.

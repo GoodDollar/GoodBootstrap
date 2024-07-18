@@ -50,7 +50,7 @@ G$ is deployed on Ethereum, Fuse and Celo. To Tranfer G$ from one chain to anoth
 
 <summary>How do I use my G$ in dApps?</summary>
 
-The [G$ token](gooddollar-protocol-and-gusd-token.md#what-is-gusd-token) is a standard ERC-20 token that, to date, has been deployed on Ethereum, Fuse, and Celo Networks. You can use your G$ in different dApps within these ecosystems. You can find a list of dApps [here](wallet-and-products/3rd-party-partners-and-integrations.md).
+The [G$ token](gooddollar-protocol-and-gusd-token.md#what-is-gusd-token) is a standard ERC-20 token that, to date, has been deployed on Ethereum, Fuse, and Celo Networks. You can use your G$ in different dApps within these ecosystems. You can find a list of dApps [here](../wallet-and-products/3rd-party-partners-and-integrations.md).
 
 Remember that if you want to use G$ from one chain in another, you will need to [bridge](web3-basic-knowledge-and-security-tips-by-consensys.md#what-is-a-bridge) them.
 

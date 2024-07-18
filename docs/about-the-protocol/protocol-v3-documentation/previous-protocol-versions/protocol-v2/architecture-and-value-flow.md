@@ -6,18 +6,18 @@ description: >-
 
 # Architecture & Value Flow
 
-### **GoodDollar Money Flow** <a href="#_d7389pq6vqpd" id="_d7389pq6vqpd"></a>
+### **GoodDollar Money Flow** <a href="#d7389pq6vqpd" id="d7389pq6vqpd"></a>
 
 GoodDollar is a new kind of digital economy with a UBI distribution model. The protocol is able to sustainably generate a crypto token (G$) for onward distribution in two ways:
 
 1. Through the addition of funds to the GoodDollar Reserve via interest earned on capital staked with third-party protocols, or the purchase of G$ from the GoodDollar Reserve.
 2. Through reductions in the reserve ratio.
 
-### **How the GoodDollar system works** <a href="#_cbghnzkzyo0f" id="_cbghnzkzyo0f"></a>
+### **How the GoodDollar system works** <a href="#cbghnzkzyo0f" id="cbghnzkzyo0f"></a>
 
 This is the money flow that underpins the generation of GoodDollar crypto UBI.
 
-![](../../../.gitbook/assets/GD\_v2\_arch.jpg)
+![](../../../../.gitbook/assets/GD\_v2\_arch.jpg)
 
 1. Supporter stakes crypto to the GoodDollar Trust.
 2. The GoodDollar Trust stakes that money to a third-party DeFi protocol.

@@ -27,23 +27,23 @@ You are able to buy and sell G$ directly to, and from, the GoodDollar Reserve co
 4. You should approve to exchangeHelper enough allowance to use your balance in order to buy/sell G$.
    1. Go to the contract page of the currency you are willing to buy/sell with, for example [cDAI contract page](https://www.google.com/url?q=https://kovan.etherscan.io/address/0xf0d0eb522cfa50b716b3b1604c4f0fa6f04376ad\&sa=D\&source=editors\&ust=1634809220729000\&usg=AOvVaw2MhLThHQa8nApkfA9sj2vh) and click on “Contract”:
 
-![](../.gitbook/assets/image14)
+![](../../.gitbook/assets/image14)
 
 2\. Now click on “Write as Proxy”:&#x20;
 
-![](../.gitbook/assets/image9)
+![](../../.gitbook/assets/image9)
 
 3\. Connect to your wallet by clicking on “Connect to Web3”:&#x20;
 
-![](../.gitbook/assets/image16)
+![](../../.gitbook/assets/image16)
 
 4\. Now scroll down and click on “11. approve”:&#x20;
 
-![](../.gitbook/assets/image4)
+![](../../.gitbook/assets/image4)
 
 5\. You will have to enter two parameters: Spender and Amount. The spender is the contract address of the ExchangeHelper (find the relevant exchangeHelper address in the references section on the bottom of the page), the amount is the amount you would like to approve in the currency you are buying with, click Write.
 
-![](../.gitbook/assets/image5)
+![](../../.gitbook/assets/image5)
 
 ### Buy G$ with DAI / cDAI <a href="#h.5xmwue139rg6" id="h.5xmwue139rg6"></a>
 
@@ -52,23 +52,23 @@ You are able to buy and sell G$ directly to, and from, the GoodDollar Reserve co
    1. Go to GoodMarketMaker (either Mainnet, Kovan or Ropsten, link in the references below).
    2. Click on “Contract”:
 
-![](../.gitbook/assets/image15)
+![](../../.gitbook/assets/image15)
 
 3\. Click on “Read as Proxy”:&#x20;
 
-![](../.gitbook/assets/image2)
+![](../../.gitbook/assets/image2)
 
 4\. Click on “2. buyReturn”:&#x20;
 
-![](../.gitbook/assets/image13)
+![](../../.gitbook/assets/image13)
 
 5\. At “\_token (address) insert the address of the token you are planning to buy with and at the “\_tokenAmount (uint256)” insert the amount that you would like to pay with (don’t forget to add the relevant amount of decimals.&#x20;
 
-![](../.gitbook/assets/image6)
+![](../../.gitbook/assets/image6)
 
 6\. For example, let’s check how much G$ you will get for 10 cDAI, so you will put cDAI contract address (in this case it’s Kovan network) at the first field and 1000000000 (which is 10 cDAI because cDAi has 8 decimals):
 
-![](../.gitbook/assets/image12)
+![](../../.gitbook/assets/image12)
 
 And you got a result of 9080104 which is 90801.04 G$ because G$ has 2 decimals.
 
@@ -76,23 +76,23 @@ And you got a result of 9080104 which is 90801.04 G$ because G$ has 2 decimals.
 
 4\. Click on “Contract”:&#x20;
 
-![](../.gitbook/assets/image1)
+![](../../.gitbook/assets/image1)
 
 5\. Click on “Write as Proxy”:&#x20;
 
-![](../.gitbook/assets/image11)
+![](../../.gitbook/assets/image11)
 
 6\. Connect your wallet by clicking on “Connect to Web3” button:&#x20;
 
-![](../.gitbook/assets/image7)
+![](../../.gitbook/assets/image7)
 
 7\. Click on “1. buy”:&#x20;
 
-![](../.gitbook/assets/image3)
+![](../../.gitbook/assets/image3)
 
 8\. Finally, we are about to purchase G$, your screen should look like that now:&#x20;
 
-![](../.gitbook/assets/image10)
+![](../../.gitbook/assets/image10)
 
 9\. Now let’s explain those 6 parameters, followed by an example:
 
@@ -105,7 +105,7 @@ And you got a result of 9080104 which is 90801.04 G$ because G$ has 2 decimals.
 
 Example with cDAI:
 
-![](../.gitbook/assets/image8)
+![](../../.gitbook/assets/image8)
 
 ### Sell G$ to the reserve <a href="#h.hp4socu3xt98" id="h.hp4socu3xt98"></a>
 

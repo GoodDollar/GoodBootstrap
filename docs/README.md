@@ -42,12 +42,12 @@ The value in the GoodDollar reserve comes from the interest that is generated fr
 GoodDollar operates on [Ethereum](https://ethereum.org/en/) using smart contracts that are written in [Solidity](https://solidity.readthedocs.io/en/v0.7.0/) with G$ designated as an ERC20 token.  As a means to an end, transactions using G$ are run on an Ethereum sidechain, [Fuse](https://fuse.io/), which enables low-cost, high-volume transactions. As we anticipate that the scalability and efficiency of blockchain infrastructure will continuously improve.
 
 * GoodDollar offers a new standard for creating and distributing basic income via G$ token.
-* [GoodDollar V3](protocol-v3-documentation/) is a smart contract upgrade that enables core functions for the GoodDollar protocol to scale.
-* [GoodDollar V2](protocol-v3-documentation/previous-protocol-versions/protocol-v2/) is a smart contract upgrade to expand functionality and open-source launch of a [protocol user interface](gooddapp-developer-guides/deploy-your-own-gooddapp-ui.md), deployed by community members.
-* [GoodDollar V1](protocol-v3-documentation/previous-protocol-versions/smart-contracts-guide/) was initially deployed in August 2020.&#x20;
+* [GoodDollar V3](about-the-protocol/protocol-v3-documentation/) is a smart contract upgrade that enables core functions for the GoodDollar protocol to scale.
+* [GoodDollar V2](about-the-protocol/protocol-v3-documentation/previous-protocol-versions/protocol-v2/) is a smart contract upgrade to expand functionality and open-source launch of a [protocol user interface](for-developers/gooddapp-developer-guides/deploy-your-own-gooddapp-ui.md), deployed by community members.
+* [GoodDollar V1](about-the-protocol/protocol-v3-documentation/previous-protocol-versions/smart-contracts-guide/) was initially deployed in August 2020.&#x20;
 * Some Guides have been documented by the community. Feel free to contribute.
 * Everything is open-sourced and free to use on [Github](https://github.com/GoodDollar/GoodProtocol).
-* [V2 Staking Good Rewards Scheme](protocol-v3-documentation/previous-protocol-versions/protocol-v2/systems-elements/#4.-staking-rewards-annual-percentage-returns)
+* [V2 Staking Good Rewards Scheme](about-the-protocol/protocol-v3-documentation/previous-protocol-versions/protocol-v2/systems-elements/#4.-staking-rewards-annual-percentage-returns)
 
 ### GoodDollar Dapp
 
@@ -69,10 +69,10 @@ Resources:
 
 1. Frontend Wallet [repo](https://github.com/GoodDollar/GoodDAPP)
 2. Backend Wallet [repo](https://github.com/GoodDollar/GoodServer)
-3. [Wallet Development Guides](developer-guides/)
+3. [Wallet Development Guides](for-developers/developer-guides/)
 
 {% hint style="info" %}
-If you wish to contribute please read [this](contributing.md).
+If you wish to contribute please read [this](for-developers/contributing.md).
 {% endhint %}
 
 Thanks for your interest!

@@ -56,4 +56,4 @@ All proposed changes are designed to:
 ### Developer Tools&#x20;
 
 * Contribute with GoodDollar repository and security and hunt some [bounties](https://github.com/GoodDollar/Bounties/issues).&#x20;
-* [Deploy Your Own UI](../gooddapp-developer-guides/deploy-your-own-gooddapp-ui.md)
+* [Deploy Your Own UI](../../for-developers/gooddapp-developer-guides/deploy-your-own-gooddapp-ui.md)

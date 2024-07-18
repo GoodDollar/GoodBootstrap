@@ -64,7 +64,7 @@ Easily invite your friends to join GoodDollar by sharing your referral link. You
 
 <summary>How to use the GoodWallet bridge?</summary>
 
-A [bridge](../web3-basic-knowledge-and-security-tips-by-consensys.md#what-is-a-bridge) is a tool built to move assets from one network to another.
+A [bridge](../frequently-asked-questions/web3-basic-knowledge-and-security-tips-by-consensys.md#what-is-a-bridge) is a tool built to move assets from one network to another.
 
 One of GoodWallet’s features is an embedded bridge to move (”bridge”) G$ tokens seamlessly to and from Celo <> Fuse.
 
