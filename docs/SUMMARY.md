@@ -1,6 +1,11 @@
 # Table of contents
 
 * [Welcome to GoodDocs!](README.md)
+* [User Guides](user-guides/README.md)
+  * [Buy & Sell G$](user-guides/buy-and-sell-gusd.md)
+  * [Stake to create UBI](user-guides/stake-v2.md)
+  * [Claim GOOD and G$X](user-guides/claim-good-and-gdx.md)
+  * [Bridge GoodDollars](user-guides/bridge-gooddollars.md)
 * [About the Protocol](about-the-protocol/README.md)
   * [Usage](about-the-protocol/usage.md)
   * [Tokenomics](about-the-protocol/tokenomics.md)
@@ -75,11 +80,6 @@
           * [AaveStakingFactory](about-the-protocol/protocol-v3-documentation/previous-protocol-versions/protocol-v2/core-contracts-and-api/aavestakingfactory.md)
           * [ExchangeHelper](about-the-protocol/protocol-v3-documentation/previous-protocol-versions/protocol-v2/core-contracts-and-api/exchangehelper.md)
           * [FuseFaucet](about-the-protocol/protocol-v3-documentation/previous-protocol-versions/protocol-v2/core-contracts-and-api/fusefaucet.md)
-  * [User Guides](about-the-protocol/user-guides/README.md)
-    * [Buy & Sell G$](about-the-protocol/user-guides/buy-and-sell-gusd.md)
-    * [Stake to create UBI](about-the-protocol/user-guides/stake-v2.md)
-    * [Claim GOOD and G$X](about-the-protocol/user-guides/claim-good-and-gdx.md)
-    * [Bridge GoodDollars](about-the-protocol/user-guides/bridge-gooddollars.md)
 * [Liquidity](liquidity.md)
 * [Wallet and Products](wallet-and-products/README.md)
   * [GoodWallet](wallet-and-products/goodwallet.md)

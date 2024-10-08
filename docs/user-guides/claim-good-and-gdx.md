@@ -22,11 +22,11 @@ Please go to GoodReserveCDai contract interface on [etherscan.io](https://ethers
 
 Now, please click on the Contract tab and then click "Write as Proxy" and connect your Web3 wallet.
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1).png>)
 
 Fill up the fields according to the description in the picture below while "\_user (address)" is your wallet's public address.
 
-![](<../../.gitbook/assets/Screenshot 2021-09-30 at 12.31.15.png>)
+![](<../.gitbook/assets/Screenshot 2021-09-30 at 12.31.15.png>)
 
 Click the 'Write' button.
 
@@ -40,11 +40,11 @@ Then, please go to GReputation contract interface on [etherscan.io](https://ethe
 
 Now, please click on the Contract tab and then click "Write as Proxy" and connect your Web3 wallet.
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1).png>)
 
 Please go to "8. proofBalanceOfBlockchain" and fill up the fields according to the description in the picture below while "\_id (string)" should be set to the string "fuse" (for mainnet/kovan/ropsten) and "\_user (address)" is your wallet public address.
 
-![](<../../.gitbook/assets/Screenshot 2021-10-04 at 15.43.32.png>)
+![](<../.gitbook/assets/Screenshot 2021-10-04 at 15.43.32.png>)
 
 ### Claiming on the Fuse
 
@@ -54,7 +54,7 @@ Then, please go to [https://www.myetherwallet.com/wallet/access](https://www.mye
 
 After connecting your wallet, click Contract (on the left) and Interact with Contract.
 
-![](<../../.gitbook/assets/Screenshot 2021-10-04 at 15.28.16.png>)
+![](<../.gitbook/assets/Screenshot 2021-10-04 at 15.28.16.png>)
 
 Copy the address of the GReputation and ABI (Contract Interface) and paste it there.
 
@@ -106,11 +106,11 @@ Click the "Interact" button.
     }]
 ```
 
-![](<../../.gitbook/assets/Screenshot 2021-10-04 at 15.29.30.png>)
+![](<../.gitbook/assets/Screenshot 2021-10-04 at 15.29.30.png>)
 
 Then click Interact and fill in the inputs: (Don't forget to write the balance in 18 decimals)
 
-![](<../../.gitbook/assets/Screenshot 2021-10-04 at 15.32.32.png>)
+![](<../.gitbook/assets/Screenshot 2021-10-04 at 15.32.32.png>)
 
 Click "Write" button, you are done!
 

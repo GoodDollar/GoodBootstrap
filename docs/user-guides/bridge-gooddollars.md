@@ -14,7 +14,7 @@ Currently, there's no UI for bridging to/from Celo. This guide will teach how yo
 In celoscan and etherscan, make sure you press`connect to web3` button
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Connect to Web3 Button</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Connect to Web3 Button</p></figcaption></figure>
 
 {% hint style="info" %}
 The current maximum amount you can bridge is 300M G$s.\

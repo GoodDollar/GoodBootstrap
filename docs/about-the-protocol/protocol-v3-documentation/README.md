@@ -44,7 +44,7 @@ All proposed changes are designed to:
 
 ### Stake GoodDollars through Savings for rewards
 
-* Swap any ERC-20 token in [exchange for G$ ](../user-guides/buy-and-sell-gusd.md)
+* Swap any ERC-20 token in [exchange for G$ ](../../user-guides/buy-and-sell-gusd.md)
 * Earn G$ by staking in the Savings contract
 
 ### Submit proposals and get them funded via GoodDAO&#x20;
