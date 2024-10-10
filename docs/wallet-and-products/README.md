@@ -5,3 +5,7 @@
 {% hint style="info" %}
 If you have more questions about GoodDollar, check out our [Frequenty Asked Questions.](../frequently-asked-questions/)&#x20;
 {% endhint %}
+
+{% hint style="info" %}
+Need help? Please explore the [Wallet and Product sections](./), as well as our [Frequently Asked Questions](../frequently-asked-questions/). If you still need assistance, feel free to contact our [community support group](https://t.me/+jay3UR6\_rEwxNjY0).
+{% endhint %}
