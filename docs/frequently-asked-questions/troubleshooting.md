@@ -95,3 +95,7 @@ If your invitee is labeled as "Pending," it indicates that they have not yet mad
 If you do not see your invitee listed, it means they haven't utilized your invite link or input your invite code during account creation. In such instances, kindly resend your link to your invitee and request them to navigate to their Referral screen, where they can paste your code into the designated field labeled "Use Invite Code”
 
 </details>
+
+{% hint style="info" %}
+Need help? Please explore the [Wallet and Product sections](../wallet-and-products/), as well as our [Frequently Asked Questions](./). If you still need assistance, feel free to contact our [community support group](https://t.me/+jay3UR6\_rEwxNjY0).
+{% endhint %}
