@@ -9,6 +9,8 @@ To claim free G$’s, you’ll need to go through a short Face Verification (FV)
 Here are some tips to successfully complete the face verification so you can access your GoodDollar wallet. That’s where the fun begins.
 
 * The face verification has strong requirements for image quality (e.g. image detail and color balance). Make sure your selfie is high-resolution (check your camera settings), not blurry, and has lots of light.
+* If you face issues, try using another browser. Face Verification works best on your phone's native browser, so Chrome for Android and Safari for iOS.\
+
 
 If you get the error message that your image “won't pass liveness check,” try these tricks:
 
