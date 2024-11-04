@@ -91,3 +91,21 @@ G$ is available on [decentralized exchanges](web3-basic-knowledge-and-security-t
 No, not at this time. Your GoodDollar registered account is linked to your proof of unique humanity, and is non-transferrable at this time.
 
 </details>
+
+<details>
+
+<summary>How do transactions work in Web3?</summary>
+
+Web3 transactions are a type of digital transaction that occur on the Ethereum blockchain. They are used to transfer Ether or other tokens between accounts, execute smart contracts, or interact with decentralized applications (dApps).
+
+When a user initiates a transaction, they create a message that includes the recipient's address, the amount to be sent, and any additional data required for the transaction to be executed. This message is then signed with the user's private key and broadcasted to the Ethereum network.
+
+Miners on the network then validate the transaction by checking that the sender has enough funds to complete the transaction and that the transaction meets all the requirements specified in the message. Once validated, the transaction is added to a block and the block is added to the blockchain. This process is known as mining.
+
+Once the transaction is confirmed, the recipient's account balance is updated and the transaction is recorded on the blockchain, making it a permanent and immutable record of the transaction.
+
+The cost of executing a transaction on the Ethereum network is determined by the gas price, which is a fee paid in Ether to compensate miners for processing the transaction. The gas price is set by the user and the higher the gas price, the quicker the transaction is likely to be processed.
+
+In summary, Web3 transactions involve creating a message, validating the transaction, and adding it to the blockchain. The cost of executing the transaction is determined by the gas price paid by the user, and once confirmed, the transaction is a permanent and immutable record on the blockchain.
+
+</details>
