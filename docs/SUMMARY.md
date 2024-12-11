@@ -86,6 +86,7 @@
   * [GoodDapp](wallet-and-products/gooddapp.md)
   * [New GoodWallet](wallet-and-products/new-goodwallet.md)
   * [GoodCollective](wallet-and-products/goodcollective.md)
+  * [GoodID & GoodOffers](wallet-and-products/goodid-and-goodoffers.md)
   * [3rd Party Partners and Integrations](wallet-and-products/3rd-party-partners-and-integrations.md)
 * [Frequently Asked Questions](frequently-asked-questions/README.md)
   * [Web3 basic knowledge and security tips - by Consensys](frequently-asked-questions/web3-basic-knowledge-and-security-tips-by-consensys.md)
