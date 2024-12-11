@@ -84,6 +84,7 @@
 * [Wallet and Products](wallet-and-products/README.md)
   * [GoodWallet](wallet-and-products/goodwallet.md)
   * [GoodDapp](wallet-and-products/gooddapp.md)
+  * [New GoodWallet](wallet-and-products/new-goodwallet.md)
   * [GoodCollective](wallet-and-products/goodcollective.md)
   * [3rd Party Partners and Integrations](wallet-and-products/3rd-party-partners-and-integrations.md)
 * [Frequently Asked Questions](frequently-asked-questions/README.md)
