@@ -69,7 +69,7 @@ There are two different ways that we determine location:
 
 There are a few reasons your location may show as Unverified:
 
-* You did not give device permissions
+* You did not grant device permissions. Sometimes, to enable location, you need to adjust your phone settings. Please check your device to learn how to enable location permissions for the browser or app version you are using.
 * You are using a VPN
 * Due to another error, for example if we could not match your location with a country
 
