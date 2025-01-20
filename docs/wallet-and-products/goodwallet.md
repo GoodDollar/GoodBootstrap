@@ -91,3 +91,20 @@ There are limits to the Microbridge: you may bridge up to 5M G$ per transaction,
 6. Follow the prompts to link your wallet. Remember, after connecting to a Dapp, return to your GoodWallet to authorize transactions.
 
 </details>
+
+<details>
+
+<summary>How can I delate my account?</summary>
+
+To delete your wallet account, follow these steps:
+
+1. Open your GoodWallet and click on the menu icon located at the top right corner.
+2. Select “Settings” from the menu.
+3. Tap on “Delete Account” at the bottom of your screen.
+4. Confirm by tapping the red “Delete” button.
+
+Before deleting your wallet account, ensure you've transferred your funds to another wallet to prevent loss.
+
+After deleting your account, you may opt to open a new one. However, please refrain from attempting to claim or undergo face verification for at least 6 months after deleting your previous account.
+
+</details>
