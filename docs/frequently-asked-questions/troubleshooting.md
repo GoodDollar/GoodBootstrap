@@ -80,7 +80,7 @@ To delete your wallet account, follow these steps:
 
 Before deleting your wallet account, ensure you've transferred your funds to another wallet to prevent loss.
 
-After deleting your account, you may opt to open a new one. However, please refrain from attempting to claim or undergo face verification for at least 24 hours after deleting your previous account.
+After deleting your account, you may opt to open a new one. However, please refrain from attempting to claim or undergo face verification for at least 6 months after deleting your previous account.
 
 </details>
 
@@ -97,5 +97,5 @@ If you do not see your invitee listed, it means they haven't utilized your invit
 </details>
 
 {% hint style="info" %}
-Need help? Please explore the [Wallet and Product sections](../wallet-and-products/), as well as our [Frequently Asked Questions](./). If you still need assistance, feel free to contact our [community support group](https://t.me/+jay3UR6\_rEwxNjY0).
+Need help? Please explore the [Wallet and Product sections](../wallet-and-products/), as well as our [Frequently Asked Questions](./). If you still need assistance, feel free to contact our [community support group](https://t.me/+jay3UR6_rEwxNjY0).
 {% endhint %}
