@@ -94,7 +94,7 @@ There are limits to the Microbridge: you may bridge up to 5M G$ per transaction,
 
 <details>
 
-<summary>How can I delate my account?</summary>
+<summary>How can I delete my account?</summary>
 
 To delete your wallet account, follow these steps:
 
