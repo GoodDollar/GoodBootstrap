@@ -54,7 +54,43 @@ module.exports = {
       out_file: "logs/gun.out.log",
       error_file: "logs/gun.err.log",
       pid_file: "logs/gun.pid"
-    }
+    },
+    {
+      name: 'good-dapp-test-watch',
+      script: 'npm',
+      args: 'run start:dapp-test-watch',
+      env: {
+        ...readEnv('packages/dapp/.env.test'),
+      },
+      merge_logs: true,
+      out_file: 'logs/dapp-test.out.log',
+      error_file: 'logs/dapp-test.err.log',
+      pid_file: 'logs/dapp-test.pid'
+    },
+    {
+      name: 'good-server-test-watch',
+      script: 'npm',
+      args: 'run start:server-test-watch',
+      env: {
+        ...readEnv('packages/server/.env.test'),
+      },
+      merge_logs: true,
+      out_file: 'logs/server-test.out.log',
+      error_file: 'logs/server-test.err.log',
+      pid_file: 'logs/server-test.pid'
+    },
+    {
+      name: "good-blockchain-test",
+      script: "npm",
+      args: "run start:blockchain-test",
+      env: {
+        ...readEnv("packages/contracts/.env.test"),
+      },
+      merge_logs: true,
+      out_file: "logs/blockchain-test.out.log",
+      error_file: "logs/blockchain-test.err.log",
+      pid_file: "logs/blockchain-test.pid"
+    },
   ]
 };
 
